@@ -4,4 +4,4 @@
 ### How it works
 
 #### Excel
- - the program takes input from the form and exports it to a excel spreadsheet
+ - The program takes input from the form and exports it to a excel spreadsheet

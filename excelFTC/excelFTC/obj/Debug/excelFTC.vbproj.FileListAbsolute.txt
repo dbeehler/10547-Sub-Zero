@@ -18,3 +18,7 @@ C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\exce
 C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\obj\Debug\excelFTC.exe
 C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\obj\Debug\excelFTC.xml
 C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\obj\Debug\excelFTC.pdb
+C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\bin\Debug\excelFTC.exe.config
+C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\bin\Debug\excelFTC.exe
+C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\bin\Debug\excelFTC.pdb
+C:\Users\dbeeh\Desktop\githubRepositories\mortalCombotsFTC-10547ScoutingApp\excelFTC\excelFTC\bin\Debug\excelFTC.xml

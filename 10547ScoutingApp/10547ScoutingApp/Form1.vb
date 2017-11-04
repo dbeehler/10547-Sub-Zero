@@ -1,7 +1,7 @@
 ﻿Imports Microsoft.Office.Interop
 
 Public Class Form1
-
+    'global variables
     Dim oXL As Excel.Application
     Dim oWB As Excel.Workbook
     Dim oSheet As Excel.Worksheet
@@ -35,25 +35,10 @@ Public Class Form1
         formSetup()
         zoneRed1Setup()
         finalMath()
-
-        ' Fill C2:C6 with a relative formula (=A2 & " " & B2).
-        ' oRng = oSheet.Range("C2", "C6")
-        ' oRng.Formula = "=A2 & "" "" & B2"
-
-        ' Fill D2:D6 with a formula(=RAND()*100000) and apply format.
-        ' oRng = oSheet.Range("D2", "D6")
-        ' oRng.Formula = "=RAND()*100000"
-        ' oRng.NumberFormat = "$0.00"
-
-        ' AutoFit columns A:D.
-        ' oRng = oSheet.Range("A1", "D1")
-        ' oRng.EntireColumn.AutoFit()
-
-        ' Make sure Excel is visible and give the user control
-        ' of Microsoft Excel's lifetime.
+        'makes coloums look nicer
         oSheet.Columns("A:I").AutoFit
-        ' oXL.Visible = True
-        ' oXL.UserControl = True
+
+        'auto saves the excel file after writing it
         matchNumber = txtMatchNumber.Text
         If My.Computer.FileSystem.FileExists("C:\Users\dbeeh\Desktop\Match" + matchNumber + ".xls") Then
             oSheet.SaveAs("C:\Users\dbeeh\Desktop\Match" + (matchNumber + "1") + ".xls")
@@ -70,6 +55,8 @@ Public Class Form1
     End Sub
 
     Private Sub formSetup()
+        'sets up cells
+        'probably could be better. Dont know how though
         oSheet.Cells(1, 1).Value = "Team Number"
         oSheet.Cells(2, 1).Value = "--Autonomous--"
         oSheet.Cells(3, 1).Value = "Knock Jewel"
@@ -96,6 +83,9 @@ Public Class Form1
     End Sub
 
     Private Sub zoneRed1Setup()
+        'sets up Red1 variables
+        'these if statements make sure if there is no input then the numbers become zero
+        'for the excel sheet
         If txtGlyphAutoRed1.Text = "" Then
             txtGlyphAutoRed1.Text = "0"
         End If
@@ -116,13 +106,17 @@ Public Class Form1
             txtRelicRed1.Text = "0"
         End If
 
+        'grabs numbers from the strings
         glyphAutoRed1Value = Integer.Parse(txtGlyphAutoRed1.Text)
         glyphTeleOpRed1Value = Integer.Parse(txtGlyphRed1.Text)
         rowRed1Value = Integer.Parse(TxtRowRed1.Text)
         columnRed1Value = Integer.Parse(txtColumnsRed1.Text)
         relicRed1Value = Integer.Parse(txtRelicRed1.Text)
+
         lstPatternRed1.SelectedItem = "None"
         oSheet.Cells(1, 2).value = txtTeamRed1.Text
+
+        'if statements for math at the end
         If chkJewelRed1.Checked Then
             oSheet.Cells(3, 2).value = "Yes"
             jewelRed1Value = 1
@@ -153,6 +147,7 @@ Public Class Form1
             balanceRed1Value = 0
         End If
 
+        'creates cells dealing with the glyphs.
         oSheet.Cells(8, 2).value = glyphTeleOpRed1Value
         oSheet.Cells(9, 2).value = rowRed1Value
         oSheet.Cells(10, 2).value = columnRed1Value
@@ -180,6 +175,8 @@ Public Class Form1
     End Sub
 
     Private Sub finalMath()
+        'This is all the math for the scores
+        'again, probably could be better, but it works!
         '**AUTONOMOUS**
         '30 point for jewel
         '15 points for glyph in cryptobox
@@ -239,11 +236,13 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'changes window size and places it in center of screen
         Me.Size = New Size(1280, 720)
         Me.CenterToScreen()
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        'closes application
         Me.Close()
     End Sub
 End Class

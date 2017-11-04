@@ -1,2 +1,7 @@
 # mortalCombotsFTC-10547ScoutingApp
-scouting app made in Visual Basic for the Mortal Combots FTC team #10547
+## scouting app made in Visual Basic for the Mortal Combots FTC team _#10547_
+
+### How it works
+
+#### Excel
+ - the program takes input from the form and exports it to a excel spreadsheet

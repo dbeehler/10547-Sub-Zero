@@ -123,6 +123,7 @@ Partial Class Form1
         Me.lblAutonomousBlue2 = New System.Windows.Forms.Label()
         Me.lblPatternReference = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.lblVersionText = New System.Windows.Forms.Label()
         Me.grpTeamRed1.SuspendLayout()
         Me.grpTeamRed2.SuspendLayout()
         Me.grpTeamBlue1.SuspendLayout()
@@ -1104,15 +1105,26 @@ Partial Class Form1
         Me.PictureBox1.Image = Global._10547ScoutingApp.My.Resources.Resources.patternReference
         Me.PictureBox1.Location = New System.Drawing.Point(623, 228)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(274, 605)
+        Me.PictureBox1.Size = New System.Drawing.Size(274, 589)
         Me.PictureBox1.TabIndex = 29
         Me.PictureBox1.TabStop = False
+        '
+        'lblVersionText
+        '
+        Me.lblVersionText.AutoSize = True
+        Me.lblVersionText.Location = New System.Drawing.Point(837, 819)
+        Me.lblVersionText.Name = "lblVersionText"
+        Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
+        Me.lblVersionText.TabIndex = 30
+        Me.lblVersionText.Text = "Version 0.9"
+        Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(905, 834)
+        Me.Controls.Add(Me.lblVersionText)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblPatternReference)
         Me.Controls.Add(Me.grpTeamBlue2)
@@ -1242,4 +1254,5 @@ Partial Class Form1
     Friend WithEvents lblAutonomousBlue2 As Label
     Friend WithEvents lblPatternReference As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents lblVersionText As Label
 End Class

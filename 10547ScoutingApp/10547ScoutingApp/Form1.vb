@@ -237,7 +237,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'changes window size and places it in center of screen
-        Me.Size = New Size(1280, 720)
+        Me.Size = New Size(900, 900)
         Me.CenterToScreen()
     End Sub
 

@@ -133,6 +133,7 @@ Partial Class Form1
         Me.lblNotesBlue1 = New System.Windows.Forms.Label()
         Me.txtNoteBlue2 = New System.Windows.Forms.TextBox()
         Me.lblNotesBlue2 = New System.Windows.Forms.Label()
+        Me.btnTextDocumentExport = New System.Windows.Forms.Button()
         Me.grpTeamRed1.SuspendLayout()
         CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -163,11 +164,11 @@ Partial Class Form1
         'btnFinalSpreadSheet
         '
         Me.btnFinalSpreadSheet.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(718, 107)
+        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(638, 107)
         Me.btnFinalSpreadSheet.Name = "btnFinalSpreadSheet"
         Me.btnFinalSpreadSheet.Size = New System.Drawing.Size(99, 42)
         Me.btnFinalSpreadSheet.TabIndex = 0
-        Me.btnFinalSpreadSheet.Text = "Submit"
+        Me.btnFinalSpreadSheet.Text = "Create Spreadsheet"
         Me.btnFinalSpreadSheet.UseVisualStyleBackColor = True
         '
         'grpTeamRed1
@@ -961,7 +962,7 @@ Partial Class Form1
         'txtColumnsBlue2
         '
         Me.txtColumnsBlue2.Location = New System.Drawing.Point(117, 239)
-        Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
         Me.txtColumnsBlue2.Size = New System.Drawing.Size(120, 18)
         Me.txtColumnsBlue2.TabIndex = 38
@@ -979,7 +980,7 @@ Partial Class Form1
         'txtRowBlue2
         '
         Me.txtRowBlue2.Location = New System.Drawing.Point(117, 213)
-        Me.txtRowBlue2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtRowBlue2.Name = "txtRowBlue2"
         Me.txtRowBlue2.Size = New System.Drawing.Size(120, 18)
         Me.txtRowBlue2.TabIndex = 37
@@ -1142,7 +1143,7 @@ Partial Class Form1
         '
         Me.lblPatternReference.AutoSize = True
         Me.lblPatternReference.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPatternReference.Location = New System.Drawing.Point(656, 201)
+        Me.lblPatternReference.Location = New System.Drawing.Point(653, 216)
         Me.lblPatternReference.Name = "lblPatternReference"
         Me.lblPatternReference.Size = New System.Drawing.Size(166, 24)
         Me.lblPatternReference.TabIndex = 28
@@ -1152,7 +1153,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global._10547ScoutingApp.My.Resources.Resources.patternReference
-        Me.PictureBox1.Location = New System.Drawing.Point(623, 228)
+        Me.PictureBox1.Location = New System.Drawing.Point(620, 243)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(274, 589)
         Me.PictureBox1.TabIndex = 29
@@ -1161,11 +1162,11 @@ Partial Class Form1
         'lblVersionText
         '
         Me.lblVersionText.AutoSize = True
-        Me.lblVersionText.Location = New System.Drawing.Point(837, 819)
+        Me.lblVersionText.Location = New System.Drawing.Point(833, 992)
         Me.lblVersionText.Name = "lblVersionText"
         Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
         Me.lblVersionText.TabIndex = 30
-        Me.lblVersionText.Text = "Version 1.0"
+        Me.lblVersionText.Text = "Version 1.5"
         Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblNotes
@@ -1250,11 +1251,22 @@ Partial Class Form1
         Me.lblNotesBlue2.TabIndex = 38
         Me.lblNotesBlue2.Text = "Blue Team 2"
         '
+        'btnTextDocumentExport
+        '
+        Me.btnTextDocumentExport.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTextDocumentExport.Location = New System.Drawing.Point(795, 107)
+        Me.btnTextDocumentExport.Name = "btnTextDocumentExport"
+        Me.btnTextDocumentExport.Size = New System.Drawing.Size(99, 42)
+        Me.btnTextDocumentExport.TabIndex = 40
+        Me.btnTextDocumentExport.Text = "Create Text Document"
+        Me.btnTextDocumentExport.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(905, 1014)
+        Me.Controls.Add(Me.btnTextDocumentExport)
         Me.Controls.Add(Me.txtNoteBlue2)
         Me.Controls.Add(Me.lblNotesBlue2)
         Me.Controls.Add(Me.txtNoteBlue1)
@@ -1424,4 +1436,5 @@ Partial Class Form1
     Friend WithEvents lblNotesBlue1 As Label
     Friend WithEvents txtNoteBlue2 As TextBox
     Friend WithEvents lblNotesBlue2 As Label
+    Friend WithEvents btnTextDocumentExport As Button
 End Class

@@ -1,4 +1,9 @@
 ﻿Imports Microsoft.Office.Interop
+'Made my Dusty Beehler
+'November 4, 2017
+'Mortal Combots FTC #10547 2017 - 2018 Season
+'Version 1.0
+'Excel Exporter
 
 Public Class Form1
     'global variables
@@ -79,7 +84,7 @@ Public Class Form1
         finalMath()
         moreThingsforbetterness()
         'makes coloums look nicer
-        oSheet.Columns("A:Z").AutoFit
+        oSheet.Columns("A:P").AutoFit
 
         'auto saves the excel file after writing it
         matchNumber = txtMatchNumber.Text
@@ -670,7 +675,7 @@ Public Class Form1
 
         'red 1 auto and tele score
         redTeam1AutoScore = (jewelRed1Value * 30) + (safeZoneRed1value * 10) + (cryptoKeyRed1Value * 30) + (glyphAutoRed1Value * 15)
-        oSheet.Cells(2, 4).value = redteam1AutoScore
+        oSheet.Cells(2, 4).value = redTeam1AutoScore
         redTeam1TeleScore = (glyphTeleOpRed1Value * 2) + (rowRed1Value * 10) + (columnRed1Value * 20) + (cypherRed1Value * 30)
         oSheet.Cells(3, 4).value = redTeam1TeleScore
         If relicRed1Value = 1 Then
@@ -684,8 +689,8 @@ Public Class Form1
         End If
 
         'red 2 auto and tele score
-        redteam2AutoScore = (jewelRed2Value * 30) + (safeZoneRed2value * 10) + (cryptoKeyRed2Value * 30) + (glyphAutoRed2Value * 15)
-        oSheet.Cells(2, 9).value = redteam2AutoScore
+        redTeam2AutoScore = (jewelRed2Value * 30) + (safeZoneRed2value * 10) + (cryptoKeyRed2Value * 30) + (glyphAutoRed2Value * 15)
+        oSheet.Cells(2, 9).value = redTeam2AutoScore
         redTeam2TeleScore = (glyphTeleOpRed2Value * 2) + (rowRed2Value * 10) + (columnRed2Value * 20) + (cypherRed2Value * 30)
         oSheet.Cells(3, 9).value = redTeam2TeleScore
         If relicRed2Value = 1 Then
@@ -731,13 +736,13 @@ Public Class Form1
         'red 1 final scores
         redTeam1EndScore = relicScoreRed1 + (balanceRed1Value * 20) + (relicRed1Value * 15)
         oSheet.Cells(4, 4).value = redTeam1EndScore
-        redTeam1FinalScore = redteam1AutoScore + redTeam1TeleScore + redTeam1EndScore
+        redTeam1FinalScore = redTeam1AutoScore + redTeam1TeleScore + redTeam1EndScore
         oSheet.Cells(5, 4).value = redTeam1FinalScore
 
         'red 2 final scores
         redTeam2EndScore = relicScoreRed2 + (balanceRed2Value * 20) + (relicRed2Value * 15)
         oSheet.Cells(4, 9).value = redTeam2EndScore
-        redTeam2FinalScore = redteam2AutoScore + redTeam2TeleScore + redTeam2EndScore
+        redTeam2FinalScore = redTeam2AutoScore + redTeam2TeleScore + redTeam2EndScore
         oSheet.Cells(5, 9).value = redTeam2FinalScore
 
         'blue 1 final scores
@@ -763,11 +768,31 @@ Public Class Form1
         oSheet.Cells(2, 12).value = redAllianceScore
         oSheet.Cells(3, 11).value = "Blue Alliance Score"
         oSheet.Cells(3, 12).value = blueAllianceScore
+        oSheet.Cells(2, 14).value = "Notes"
+        oSheet.Cells(3, 14).value = "Red Team 1"
+        oSheet.Cells(4, 14).value = "Red Team 2"
+        oSheet.Cells(5, 14).value = "Blue Team 1"
+        oSheet.Cells(6, 14).value = "Blue Team 2"
+        If txtNoteRed1.Text = "" Then
+            txtNoteRed1.Text = "Nothing"
+        End If
+        If txtNoteRed2.Text = "" Then
+            txtNoteRed2.Text = "Nothing"
+        End If
+        If txtNoteBlue1.Text = "" Then
+            txtNoteBlue1.Text = "Nothing"
+        End If
+        If txtNoteBlue2.Text = "" Then
+            txtNoteBlue2.Text = "Nothing"
+        End If
+        oSheet.Cells(3, 15).value = "#" + txtTeamRed1.Text + ": " + txtNoteRed1.Text
+        oSheet.Cells(4, 15).value = "#" + txtTeamRed2.Text + ": " + txtNoteRed2.Text
+        oSheet.Cells(5, 15).value = "#" + txtTeamBlue1.Text + ": " + txtNoteBlue1.Text
+        oSheet.Cells(6, 15).value = "#" + txtTeamBlue2.Text + ": " + txtNoteBlue2.Text
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         'clears all typeable input
-        txtTeamRed1.Text = ""
         chkJewelRed1.Checked = False
         txtGlyphAutoRed1.Text = ""
         chkCryptoKeyRed1.Checked = False
@@ -811,11 +836,15 @@ Public Class Form1
         lstPatternBlue2.SelectedItem = "None"
         txtRelicBlue2.Text = ""
         chkBalanceBlue2.Checked = False
+        txtNoteRed1.Text = ""
+        txtNoteRed2.Text = ""
+        txtNoteBlue1.Text = ""
+        txtNoteBlue2.Text = ""
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'changes window size and places it in center of screen
-        Me.Size = New Size(925, 885)
+        Me.Size = New Size(960, 1080)
         Me.CenterToScreen()
 
         'makes default choice in list None
@@ -828,5 +857,9 @@ Public Class Form1
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         'closes application
         Me.Close()
+    End Sub
+
+    Private Sub grpTeamRed1_Enter(sender As Object, e As EventArgs) Handles grpTeamRed1.Enter
+
     End Sub
 End Class

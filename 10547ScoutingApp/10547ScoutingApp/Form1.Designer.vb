@@ -28,20 +28,15 @@ Partial Class Form1
         Me.lblTeamNumberRed1 = New System.Windows.Forms.Label()
         Me.chkRelicUprightRed1 = New System.Windows.Forms.CheckBox()
         Me.lblPatternRed1 = New System.Windows.Forms.Label()
-        Me.txtRelicRed1 = New System.Windows.Forms.TextBox()
         Me.chkBalanceRed1 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndRed1 = New System.Windows.Forms.Label()
         Me.lblEndGameRed1 = New System.Windows.Forms.Label()
         Me.lstPatternRed1 = New System.Windows.Forms.ListBox()
         Me.lblColumnsRed1 = New System.Windows.Forms.Label()
-        Me.txtColumnsRed1 = New System.Windows.Forms.TextBox()
         Me.lblRowsRed1 = New System.Windows.Forms.Label()
-        Me.txtRowRed1 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpGlyphsRed1 = New System.Windows.Forms.Label()
-        Me.txtGlyphRed1 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpRed1 = New System.Windows.Forms.Label()
         Me.txtTeamRed1 = New System.Windows.Forms.TextBox()
-        Me.txtGlyphAutoRed1 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoRed1 = New System.Windows.Forms.Label()
         Me.chkSafeZoneRed1 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyRed1 = New System.Windows.Forms.CheckBox()
@@ -52,20 +47,15 @@ Partial Class Form1
         Me.lblTeamNumberRed2 = New System.Windows.Forms.Label()
         Me.chkRelicUprightRed2 = New System.Windows.Forms.CheckBox()
         Me.lblPatternRed2 = New System.Windows.Forms.Label()
-        Me.txtRelicRed2 = New System.Windows.Forms.TextBox()
         Me.chkBalanceRed2 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndRed2 = New System.Windows.Forms.Label()
         Me.lblEndGameRed2 = New System.Windows.Forms.Label()
         Me.lstPatternRed2 = New System.Windows.Forms.ListBox()
         Me.lblColumnsRed2 = New System.Windows.Forms.Label()
-        Me.txtColumnsRed2 = New System.Windows.Forms.TextBox()
         Me.lblRowsRed2 = New System.Windows.Forms.Label()
-        Me.txtRowRed2 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpGlyphsRed2 = New System.Windows.Forms.Label()
-        Me.txtGlyphRed2 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpRed2 = New System.Windows.Forms.Label()
         Me.txtTeamRed2 = New System.Windows.Forms.TextBox()
-        Me.txtGlyphAutoRed2 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoRed2 = New System.Windows.Forms.Label()
         Me.chkSafeZoneRed2 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyRed2 = New System.Windows.Forms.CheckBox()
@@ -78,20 +68,15 @@ Partial Class Form1
         Me.lblTeamNumberBlue1 = New System.Windows.Forms.Label()
         Me.chkRelicUprightBlue1 = New System.Windows.Forms.CheckBox()
         Me.lblPatternBlue1 = New System.Windows.Forms.Label()
-        Me.txtRelicBlue1 = New System.Windows.Forms.TextBox()
         Me.chkBalanceBlue1 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndBlue1 = New System.Windows.Forms.Label()
         Me.lblEndGameBlue1 = New System.Windows.Forms.Label()
         Me.lstPatternBlue1 = New System.Windows.Forms.ListBox()
         Me.lblColumnsBlue1 = New System.Windows.Forms.Label()
-        Me.txtColumnsBlue1 = New System.Windows.Forms.TextBox()
         Me.lblRowsBlue1 = New System.Windows.Forms.Label()
-        Me.txtRowBlue1 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpGlyphsBlue1 = New System.Windows.Forms.Label()
-        Me.txtGlyphBlue1 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpBlue1 = New System.Windows.Forms.Label()
         Me.txtTeamBlue1 = New System.Windows.Forms.TextBox()
-        Me.txtGlyphAutoBlue1 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoBlue1 = New System.Windows.Forms.Label()
         Me.chkSafeZoneBlue1 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyBlue1 = New System.Windows.Forms.CheckBox()
@@ -102,20 +87,15 @@ Partial Class Form1
         Me.lblTeamNumberBlue2 = New System.Windows.Forms.Label()
         Me.chkRelicUprightBlue2 = New System.Windows.Forms.CheckBox()
         Me.lblPatternBlue2 = New System.Windows.Forms.Label()
-        Me.txtRelicBlue2 = New System.Windows.Forms.TextBox()
         Me.chkBalanceBlue2 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndBlue2 = New System.Windows.Forms.Label()
         Me.lblEndGameBlue2 = New System.Windows.Forms.Label()
         Me.lstPatternBlue2 = New System.Windows.Forms.ListBox()
         Me.lblColumnsBlue2 = New System.Windows.Forms.Label()
-        Me.txtColumnsBlue2 = New System.Windows.Forms.TextBox()
         Me.lblRowsBlue2 = New System.Windows.Forms.Label()
-        Me.txtRowBlue2 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpGlyphsBlue2 = New System.Windows.Forms.Label()
-        Me.txtGlyphBlue2 = New System.Windows.Forms.TextBox()
         Me.lblTeleOpBlue2 = New System.Windows.Forms.Label()
         Me.txtTeamBlue2 = New System.Windows.Forms.TextBox()
-        Me.txtGlyphAutoBlue2 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoBlue2 = New System.Windows.Forms.Label()
         Me.chkSafeZoneBlue2 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyBlue2 = New System.Windows.Forms.CheckBox()
@@ -124,11 +104,60 @@ Partial Class Form1
         Me.lblPatternReference = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblVersionText = New System.Windows.Forms.Label()
+        Me.txtGlyphAutoRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRowRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtColumnsRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRelicRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRelicRed2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtColumnsRed2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRowRed2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphRed2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoRed2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRelicBlue1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtColumnsBlue1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRowBlue1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphblue1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoBlue1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRelicBlue2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtColumnsBlue2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRowBlue2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphblue2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoBlue2 = New System.Windows.Forms.NumericUpDown()
+        Me.lblNotes = New System.Windows.Forms.Label()
+        Me.lblNotesRed2 = New System.Windows.Forms.Label()
+        Me.txtNoteRed2 = New System.Windows.Forms.TextBox()
+        Me.txtNoteRed1 = New System.Windows.Forms.TextBox()
+        Me.lblNotesRed1 = New System.Windows.Forms.Label()
+        Me.txtNoteBlue1 = New System.Windows.Forms.TextBox()
+        Me.lblNotesBlue1 = New System.Windows.Forms.Label()
+        Me.txtNoteBlue2 = New System.Windows.Forms.TextBox()
+        Me.lblNotesBlue2 = New System.Windows.Forms.Label()
         Me.grpTeamRed1.SuspendLayout()
         Me.grpTeamRed2.SuspendLayout()
         Me.grpTeamBlue1.SuspendLayout()
         Me.grpTeamBlue2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRowRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRelicRed2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtColumnsRed2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRowRed2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphRed2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphAutoRed2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRelicBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtColumnsBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRowBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphblue1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphAutoBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRelicBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtColumnsBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRowBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphblue2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphAutoBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnFinalSpreadSheet
@@ -144,23 +173,23 @@ Partial Class Form1
         'grpTeamRed1
         '
         Me.grpTeamRed1.BackColor = System.Drawing.Color.IndianRed
+        Me.grpTeamRed1.Controls.Add(Me.txtRelicRed1)
+        Me.grpTeamRed1.Controls.Add(Me.txtColumnsRed1)
+        Me.grpTeamRed1.Controls.Add(Me.txtRowRed1)
+        Me.grpTeamRed1.Controls.Add(Me.txtGlyphRed1)
+        Me.grpTeamRed1.Controls.Add(Me.txtGlyphAutoRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblTeamNumberRed1)
         Me.grpTeamRed1.Controls.Add(Me.chkRelicUprightRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblPatternRed1)
-        Me.grpTeamRed1.Controls.Add(Me.txtRelicRed1)
         Me.grpTeamRed1.Controls.Add(Me.chkBalanceRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblRelicEndRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblEndGameRed1)
         Me.grpTeamRed1.Controls.Add(Me.lstPatternRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblColumnsRed1)
-        Me.grpTeamRed1.Controls.Add(Me.txtColumnsRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblRowsRed1)
-        Me.grpTeamRed1.Controls.Add(Me.txtRowRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblTeleOpGlyphsRed1)
-        Me.grpTeamRed1.Controls.Add(Me.txtGlyphRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblTeleOpRed1)
         Me.grpTeamRed1.Controls.Add(Me.txtTeamRed1)
-        Me.grpTeamRed1.Controls.Add(Me.txtGlyphAutoRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblGlyphsAutoRed1)
         Me.grpTeamRed1.Controls.Add(Me.chkSafeZoneRed1)
         Me.grpTeamRed1.Controls.Add(Me.chkCryptoKeyRed1)
@@ -202,13 +231,6 @@ Partial Class Form1
         Me.lblPatternRed1.TabIndex = 20
         Me.lblPatternRed1.Text = "Pattern -"
         '
-        'txtRelicRed1
-        '
-        Me.txtRelicRed1.Location = New System.Drawing.Point(78, 335)
-        Me.txtRelicRed1.Name = "txtRelicRed1"
-        Me.txtRelicRed1.Size = New System.Drawing.Size(100, 18)
-        Me.txtRelicRed1.TabIndex = 19
-        '
         'chkBalanceRed1
         '
         Me.chkBalanceRed1.AutoSize = True
@@ -231,7 +253,7 @@ Partial Class Form1
         'lblEndGameRed1
         '
         Me.lblEndGameRed1.AutoSize = True
-        Me.lblEndGameRed1.Location = New System.Drawing.Point(7, 310)
+        Me.lblEndGameRed1.Location = New System.Drawing.Point(7, 326)
         Me.lblEndGameRed1.Name = "lblEndGameRed1"
         Me.lblEndGameRed1.Size = New System.Drawing.Size(60, 12)
         Me.lblEndGameRed1.TabIndex = 16
@@ -256,13 +278,6 @@ Partial Class Form1
         Me.lblColumnsRed1.TabIndex = 14
         Me.lblColumnsRed1.Text = "Number of columns -"
         '
-        'txtColumnsRed1
-        '
-        Me.txtColumnsRed1.Location = New System.Drawing.Point(117, 238)
-        Me.txtColumnsRed1.Name = "txtColumnsRed1"
-        Me.txtColumnsRed1.Size = New System.Drawing.Size(100, 18)
-        Me.txtColumnsRed1.TabIndex = 8
-        '
         'lblRowsRed1
         '
         Me.lblRowsRed1.AutoSize = True
@@ -272,13 +287,6 @@ Partial Class Form1
         Me.lblRowsRed1.TabIndex = 12
         Me.lblRowsRed1.Text = "Number of rows -"
         '
-        'txtRowRed1
-        '
-        Me.txtRowRed1.Location = New System.Drawing.Point(117, 212)
-        Me.txtRowRed1.Name = "txtRowRed1"
-        Me.txtRowRed1.Size = New System.Drawing.Size(100, 18)
-        Me.txtRowRed1.TabIndex = 7
-        '
         'lblTeleOpGlyphsRed1
         '
         Me.lblTeleOpGlyphsRed1.AutoSize = True
@@ -287,13 +295,6 @@ Partial Class Form1
         Me.lblTeleOpGlyphsRed1.Size = New System.Drawing.Size(100, 12)
         Me.lblTeleOpGlyphsRed1.TabIndex = 10
         Me.lblTeleOpGlyphsRed1.Text = "Number of glyphs -"
-        '
-        'txtGlyphRed1
-        '
-        Me.txtGlyphRed1.Location = New System.Drawing.Point(117, 186)
-        Me.txtGlyphRed1.Name = "txtGlyphRed1"
-        Me.txtGlyphRed1.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphRed1.TabIndex = 6
         '
         'lblTeleOpRed1
         '
@@ -310,13 +311,6 @@ Partial Class Form1
         Me.txtTeamRed1.Name = "txtTeamRed1"
         Me.txtTeamRed1.Size = New System.Drawing.Size(100, 18)
         Me.txtTeamRed1.TabIndex = 1
-        '
-        'txtGlyphAutoRed1
-        '
-        Me.txtGlyphAutoRed1.Location = New System.Drawing.Point(108, 83)
-        Me.txtGlyphAutoRed1.Name = "txtGlyphAutoRed1"
-        Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphAutoRed1.TabIndex = 3
         '
         'lblGlyphsAutoRed1
         '
@@ -379,23 +373,23 @@ Partial Class Form1
         'grpTeamRed2
         '
         Me.grpTeamRed2.BackColor = System.Drawing.Color.IndianRed
-        Me.grpTeamRed2.Controls.Add(Me.lblTeamNumberRed2)
-        Me.grpTeamRed2.Controls.Add(Me.chkRelicUprightRed2)
-        Me.grpTeamRed2.Controls.Add(Me.lblPatternRed2)
         Me.grpTeamRed2.Controls.Add(Me.txtRelicRed2)
+        Me.grpTeamRed2.Controls.Add(Me.lblTeamNumberRed2)
+        Me.grpTeamRed2.Controls.Add(Me.txtColumnsRed2)
+        Me.grpTeamRed2.Controls.Add(Me.chkRelicUprightRed2)
+        Me.grpTeamRed2.Controls.Add(Me.txtRowRed2)
+        Me.grpTeamRed2.Controls.Add(Me.lblPatternRed2)
+        Me.grpTeamRed2.Controls.Add(Me.txtGlyphRed2)
+        Me.grpTeamRed2.Controls.Add(Me.txtGlyphAutoRed2)
         Me.grpTeamRed2.Controls.Add(Me.chkBalanceRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblRelicEndRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblEndGameRed2)
         Me.grpTeamRed2.Controls.Add(Me.lstPatternRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblColumnsRed2)
-        Me.grpTeamRed2.Controls.Add(Me.txtColumnsRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblRowsRed2)
-        Me.grpTeamRed2.Controls.Add(Me.txtRowRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblTeleOpGlyphsRed2)
-        Me.grpTeamRed2.Controls.Add(Me.txtGlyphRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblTeleOpRed2)
         Me.grpTeamRed2.Controls.Add(Me.txtTeamRed2)
-        Me.grpTeamRed2.Controls.Add(Me.txtGlyphAutoRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblGlyphsAutoRed2)
         Me.grpTeamRed2.Controls.Add(Me.chkSafeZoneRed2)
         Me.grpTeamRed2.Controls.Add(Me.chkCryptoKeyRed2)
@@ -437,13 +431,6 @@ Partial Class Form1
         Me.lblPatternRed2.TabIndex = 20
         Me.lblPatternRed2.Text = "Pattern -"
         '
-        'txtRelicRed2
-        '
-        Me.txtRelicRed2.Location = New System.Drawing.Point(78, 335)
-        Me.txtRelicRed2.Name = "txtRelicRed2"
-        Me.txtRelicRed2.Size = New System.Drawing.Size(100, 18)
-        Me.txtRelicRed2.TabIndex = 19
-        '
         'chkBalanceRed2
         '
         Me.chkBalanceRed2.AutoSize = True
@@ -466,7 +453,7 @@ Partial Class Form1
         'lblEndGameRed2
         '
         Me.lblEndGameRed2.AutoSize = True
-        Me.lblEndGameRed2.Location = New System.Drawing.Point(7, 310)
+        Me.lblEndGameRed2.Location = New System.Drawing.Point(6, 326)
         Me.lblEndGameRed2.Name = "lblEndGameRed2"
         Me.lblEndGameRed2.Size = New System.Drawing.Size(60, 12)
         Me.lblEndGameRed2.TabIndex = 16
@@ -491,13 +478,6 @@ Partial Class Form1
         Me.lblColumnsRed2.TabIndex = 14
         Me.lblColumnsRed2.Text = "Number of columns -"
         '
-        'txtColumnsRed2
-        '
-        Me.txtColumnsRed2.Location = New System.Drawing.Point(117, 238)
-        Me.txtColumnsRed2.Name = "txtColumnsRed2"
-        Me.txtColumnsRed2.Size = New System.Drawing.Size(100, 18)
-        Me.txtColumnsRed2.TabIndex = 8
-        '
         'lblRowsRed2
         '
         Me.lblRowsRed2.AutoSize = True
@@ -507,13 +487,6 @@ Partial Class Form1
         Me.lblRowsRed2.TabIndex = 12
         Me.lblRowsRed2.Text = "Number of rows -"
         '
-        'txtRowRed2
-        '
-        Me.txtRowRed2.Location = New System.Drawing.Point(117, 212)
-        Me.txtRowRed2.Name = "txtRowRed2"
-        Me.txtRowRed2.Size = New System.Drawing.Size(100, 18)
-        Me.txtRowRed2.TabIndex = 7
-        '
         'lblTeleOpGlyphsRed2
         '
         Me.lblTeleOpGlyphsRed2.AutoSize = True
@@ -522,13 +495,6 @@ Partial Class Form1
         Me.lblTeleOpGlyphsRed2.Size = New System.Drawing.Size(100, 12)
         Me.lblTeleOpGlyphsRed2.TabIndex = 10
         Me.lblTeleOpGlyphsRed2.Text = "Number of glyphs -"
-        '
-        'txtGlyphRed2
-        '
-        Me.txtGlyphRed2.Location = New System.Drawing.Point(117, 186)
-        Me.txtGlyphRed2.Name = "txtGlyphRed2"
-        Me.txtGlyphRed2.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphRed2.TabIndex = 6
         '
         'lblTeleOpRed2
         '
@@ -545,13 +511,6 @@ Partial Class Form1
         Me.txtTeamRed2.Name = "txtTeamRed2"
         Me.txtTeamRed2.Size = New System.Drawing.Size(87, 18)
         Me.txtTeamRed2.TabIndex = 1
-        '
-        'txtGlyphAutoRed2
-        '
-        Me.txtGlyphAutoRed2.Location = New System.Drawing.Point(108, 83)
-        Me.txtGlyphAutoRed2.Name = "txtGlyphAutoRed2"
-        Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphAutoRed2.TabIndex = 3
         '
         'lblGlyphsAutoRed2
         '
@@ -632,23 +591,23 @@ Partial Class Form1
         'grpTeamBlue1
         '
         Me.grpTeamBlue1.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.grpTeamBlue1.Controls.Add(Me.lblTeamNumberBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.chkRelicUprightBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.lblPatternBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.txtRelicBlue1)
+        Me.grpTeamBlue1.Controls.Add(Me.lblTeamNumberBlue1)
+        Me.grpTeamBlue1.Controls.Add(Me.txtColumnsBlue1)
+        Me.grpTeamBlue1.Controls.Add(Me.chkRelicUprightBlue1)
+        Me.grpTeamBlue1.Controls.Add(Me.txtRowBlue1)
+        Me.grpTeamBlue1.Controls.Add(Me.lblPatternBlue1)
+        Me.grpTeamBlue1.Controls.Add(Me.txtGlyphblue1)
+        Me.grpTeamBlue1.Controls.Add(Me.txtGlyphAutoBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.chkBalanceBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblRelicEndBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblEndGameBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lstPatternBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblColumnsBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.txtColumnsBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblRowsBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.txtRowBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblTeleOpGlyphsBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.txtGlyphBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblTeleOpBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.txtTeamBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.txtGlyphAutoBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblGlyphsAutoBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.chkSafeZoneBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.chkCryptoKeyBlue1)
@@ -690,13 +649,6 @@ Partial Class Form1
         Me.lblPatternBlue1.TabIndex = 20
         Me.lblPatternBlue1.Text = "Pattern -"
         '
-        'txtRelicBlue1
-        '
-        Me.txtRelicBlue1.Location = New System.Drawing.Point(78, 335)
-        Me.txtRelicBlue1.Name = "txtRelicBlue1"
-        Me.txtRelicBlue1.Size = New System.Drawing.Size(100, 18)
-        Me.txtRelicBlue1.TabIndex = 19
-        '
         'chkBalanceBlue1
         '
         Me.chkBalanceBlue1.AutoSize = True
@@ -719,7 +671,7 @@ Partial Class Form1
         'lblEndGameBlue1
         '
         Me.lblEndGameBlue1.AutoSize = True
-        Me.lblEndGameBlue1.Location = New System.Drawing.Point(7, 310)
+        Me.lblEndGameBlue1.Location = New System.Drawing.Point(7, 326)
         Me.lblEndGameBlue1.Name = "lblEndGameBlue1"
         Me.lblEndGameBlue1.Size = New System.Drawing.Size(60, 12)
         Me.lblEndGameBlue1.TabIndex = 16
@@ -744,13 +696,6 @@ Partial Class Form1
         Me.lblColumnsBlue1.TabIndex = 14
         Me.lblColumnsBlue1.Text = "Number of columns -"
         '
-        'txtColumnsBlue1
-        '
-        Me.txtColumnsBlue1.Location = New System.Drawing.Point(117, 238)
-        Me.txtColumnsBlue1.Name = "txtColumnsBlue1"
-        Me.txtColumnsBlue1.Size = New System.Drawing.Size(100, 18)
-        Me.txtColumnsBlue1.TabIndex = 8
-        '
         'lblRowsBlue1
         '
         Me.lblRowsBlue1.AutoSize = True
@@ -760,13 +705,6 @@ Partial Class Form1
         Me.lblRowsBlue1.TabIndex = 12
         Me.lblRowsBlue1.Text = "Number of rows -"
         '
-        'txtRowBlue1
-        '
-        Me.txtRowBlue1.Location = New System.Drawing.Point(117, 212)
-        Me.txtRowBlue1.Name = "txtRowBlue1"
-        Me.txtRowBlue1.Size = New System.Drawing.Size(100, 18)
-        Me.txtRowBlue1.TabIndex = 7
-        '
         'lblTeleOpGlyphsBlue1
         '
         Me.lblTeleOpGlyphsBlue1.AutoSize = True
@@ -775,13 +713,6 @@ Partial Class Form1
         Me.lblTeleOpGlyphsBlue1.Size = New System.Drawing.Size(100, 12)
         Me.lblTeleOpGlyphsBlue1.TabIndex = 10
         Me.lblTeleOpGlyphsBlue1.Text = "Number of glyphs -"
-        '
-        'txtGlyphBlue1
-        '
-        Me.txtGlyphBlue1.Location = New System.Drawing.Point(117, 186)
-        Me.txtGlyphBlue1.Name = "txtGlyphBlue1"
-        Me.txtGlyphBlue1.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphBlue1.TabIndex = 6
         '
         'lblTeleOpBlue1
         '
@@ -798,13 +729,6 @@ Partial Class Form1
         Me.txtTeamBlue1.Name = "txtTeamBlue1"
         Me.txtTeamBlue1.Size = New System.Drawing.Size(87, 18)
         Me.txtTeamBlue1.TabIndex = 1
-        '
-        'txtGlyphAutoBlue1
-        '
-        Me.txtGlyphAutoBlue1.Location = New System.Drawing.Point(108, 83)
-        Me.txtGlyphAutoBlue1.Name = "txtGlyphAutoBlue1"
-        Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphAutoBlue1.TabIndex = 3
         '
         'lblGlyphsAutoBlue1
         '
@@ -867,23 +791,23 @@ Partial Class Form1
         'grpTeamBlue2
         '
         Me.grpTeamBlue2.BackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.grpTeamBlue2.Controls.Add(Me.lblTeamNumberBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.chkRelicUprightBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.lblPatternBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.txtRelicBlue2)
+        Me.grpTeamBlue2.Controls.Add(Me.lblTeamNumberBlue2)
+        Me.grpTeamBlue2.Controls.Add(Me.txtColumnsBlue2)
+        Me.grpTeamBlue2.Controls.Add(Me.chkRelicUprightBlue2)
+        Me.grpTeamBlue2.Controls.Add(Me.txtRowBlue2)
+        Me.grpTeamBlue2.Controls.Add(Me.lblPatternBlue2)
+        Me.grpTeamBlue2.Controls.Add(Me.txtGlyphblue2)
+        Me.grpTeamBlue2.Controls.Add(Me.txtGlyphAutoBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.chkBalanceBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblRelicEndBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblEndGameBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lstPatternBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblColumnsBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.txtColumnsBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblRowsBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.txtRowBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblTeleOpGlyphsBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.txtGlyphBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblTeleOpBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.txtTeamBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.txtGlyphAutoBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblGlyphsAutoBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.chkSafeZoneBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.chkCryptoKeyBlue2)
@@ -925,13 +849,6 @@ Partial Class Form1
         Me.lblPatternBlue2.TabIndex = 20
         Me.lblPatternBlue2.Text = "Pattern -"
         '
-        'txtRelicBlue2
-        '
-        Me.txtRelicBlue2.Location = New System.Drawing.Point(78, 335)
-        Me.txtRelicBlue2.Name = "txtRelicBlue2"
-        Me.txtRelicBlue2.Size = New System.Drawing.Size(100, 18)
-        Me.txtRelicBlue2.TabIndex = 19
-        '
         'chkBalanceBlue2
         '
         Me.chkBalanceBlue2.AutoSize = True
@@ -954,7 +871,7 @@ Partial Class Form1
         'lblEndGameBlue2
         '
         Me.lblEndGameBlue2.AutoSize = True
-        Me.lblEndGameBlue2.Location = New System.Drawing.Point(7, 310)
+        Me.lblEndGameBlue2.Location = New System.Drawing.Point(6, 326)
         Me.lblEndGameBlue2.Name = "lblEndGameBlue2"
         Me.lblEndGameBlue2.Size = New System.Drawing.Size(60, 12)
         Me.lblEndGameBlue2.TabIndex = 16
@@ -979,13 +896,6 @@ Partial Class Form1
         Me.lblColumnsBlue2.TabIndex = 14
         Me.lblColumnsBlue2.Text = "Number of columns -"
         '
-        'txtColumnsBlue2
-        '
-        Me.txtColumnsBlue2.Location = New System.Drawing.Point(117, 238)
-        Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
-        Me.txtColumnsBlue2.Size = New System.Drawing.Size(100, 18)
-        Me.txtColumnsBlue2.TabIndex = 8
-        '
         'lblRowsBlue2
         '
         Me.lblRowsBlue2.AutoSize = True
@@ -995,13 +905,6 @@ Partial Class Form1
         Me.lblRowsBlue2.TabIndex = 12
         Me.lblRowsBlue2.Text = "Number of rows -"
         '
-        'txtRowBlue2
-        '
-        Me.txtRowBlue2.Location = New System.Drawing.Point(117, 212)
-        Me.txtRowBlue2.Name = "txtRowBlue2"
-        Me.txtRowBlue2.Size = New System.Drawing.Size(100, 18)
-        Me.txtRowBlue2.TabIndex = 7
-        '
         'lblTeleOpGlyphsBlue2
         '
         Me.lblTeleOpGlyphsBlue2.AutoSize = True
@@ -1010,13 +913,6 @@ Partial Class Form1
         Me.lblTeleOpGlyphsBlue2.Size = New System.Drawing.Size(100, 12)
         Me.lblTeleOpGlyphsBlue2.TabIndex = 10
         Me.lblTeleOpGlyphsBlue2.Text = "Number of glyphs -"
-        '
-        'txtGlyphBlue2
-        '
-        Me.txtGlyphBlue2.Location = New System.Drawing.Point(117, 186)
-        Me.txtGlyphBlue2.Name = "txtGlyphBlue2"
-        Me.txtGlyphBlue2.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphBlue2.TabIndex = 6
         '
         'lblTeleOpBlue2
         '
@@ -1033,13 +929,6 @@ Partial Class Form1
         Me.txtTeamBlue2.Name = "txtTeamBlue2"
         Me.txtTeamBlue2.Size = New System.Drawing.Size(87, 18)
         Me.txtTeamBlue2.TabIndex = 1
-        '
-        'txtGlyphAutoBlue2
-        '
-        Me.txtGlyphAutoBlue2.Location = New System.Drawing.Point(108, 83)
-        Me.txtGlyphAutoBlue2.Name = "txtGlyphAutoBlue2"
-        Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(100, 18)
-        Me.txtGlyphAutoBlue2.TabIndex = 3
         '
         'lblGlyphsAutoBlue2
         '
@@ -1095,9 +984,9 @@ Partial Class Form1
         Me.lblPatternReference.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPatternReference.Location = New System.Drawing.Point(656, 201)
         Me.lblPatternReference.Name = "lblPatternReference"
-        Me.lblPatternReference.Size = New System.Drawing.Size(161, 24)
+        Me.lblPatternReference.Size = New System.Drawing.Size(166, 24)
         Me.lblPatternReference.TabIndex = 28
-        Me.lblPatternReference.Text = "Patern Refrence"
+        Me.lblPatternReference.Text = "Pattern Refrence"
         Me.lblPatternReference.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
@@ -1119,11 +1008,262 @@ Partial Class Form1
         Me.lblVersionText.Text = "Version 0.9"
         Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'txtGlyphAutoRed1
+        '
+        Me.txtGlyphAutoRed1.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoRed1.Name = "txtGlyphAutoRed1"
+        Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoRed1.TabIndex = 25
+        '
+        'txtGlyphRed1
+        '
+        Me.txtGlyphRed1.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphRed1.Name = "txtGlyphRed1"
+        Me.txtGlyphRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphRed1.TabIndex = 26
+        '
+        'txtRowRed1
+        '
+        Me.txtRowRed1.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowRed1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowRed1.Name = "txtRowRed1"
+        Me.txtRowRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowRed1.TabIndex = 27
+        '
+        'txtColumnsRed1
+        '
+        Me.txtColumnsRed1.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsRed1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsRed1.Name = "txtColumnsRed1"
+        Me.txtColumnsRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsRed1.TabIndex = 28
+        '
+        'txtRelicRed1
+        '
+        Me.txtRelicRed1.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicRed1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicRed1.Name = "txtRelicRed1"
+        Me.txtRelicRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicRed1.TabIndex = 29
+        '
+        'txtRelicRed2
+        '
+        Me.txtRelicRed2.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicRed2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicRed2.Name = "txtRelicRed2"
+        Me.txtRelicRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicRed2.TabIndex = 34
+        '
+        'txtColumnsRed2
+        '
+        Me.txtColumnsRed2.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsRed2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsRed2.Name = "txtColumnsRed2"
+        Me.txtColumnsRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsRed2.TabIndex = 33
+        '
+        'txtRowRed2
+        '
+        Me.txtRowRed2.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowRed2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowRed2.Name = "txtRowRed2"
+        Me.txtRowRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowRed2.TabIndex = 32
+        '
+        'txtGlyphRed2
+        '
+        Me.txtGlyphRed2.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphRed2.Name = "txtGlyphRed2"
+        Me.txtGlyphRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphRed2.TabIndex = 31
+        '
+        'txtGlyphAutoRed2
+        '
+        Me.txtGlyphAutoRed2.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoRed2.Name = "txtGlyphAutoRed2"
+        Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoRed2.TabIndex = 30
+        '
+        'txtRelicBlue1
+        '
+        Me.txtRelicBlue1.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicBlue1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicBlue1.Name = "txtRelicBlue1"
+        Me.txtRelicBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicBlue1.TabIndex = 34
+        '
+        'txtColumnsBlue1
+        '
+        Me.txtColumnsBlue1.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsBlue1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsBlue1.Name = "txtColumnsBlue1"
+        Me.txtColumnsBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsBlue1.TabIndex = 33
+        '
+        'txtRowBlue1
+        '
+        Me.txtRowBlue1.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowBlue1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowBlue1.Name = "txtRowBlue1"
+        Me.txtRowBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowBlue1.TabIndex = 32
+        '
+        'txtGlyphblue1
+        '
+        Me.txtGlyphblue1.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphblue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphblue1.Name = "txtGlyphblue1"
+        Me.txtGlyphblue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphblue1.TabIndex = 31
+        '
+        'txtGlyphAutoBlue1
+        '
+        Me.txtGlyphAutoBlue1.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoBlue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoBlue1.Name = "txtGlyphAutoBlue1"
+        Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoBlue1.TabIndex = 30
+        '
+        'txtRelicBlue2
+        '
+        Me.txtRelicBlue2.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicBlue2.Name = "txtRelicBlue2"
+        Me.txtRelicBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicBlue2.TabIndex = 39
+        '
+        'txtColumnsBlue2
+        '
+        Me.txtColumnsBlue2.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
+        Me.txtColumnsBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsBlue2.TabIndex = 38
+        '
+        'txtRowBlue2
+        '
+        Me.txtRowBlue2.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowBlue2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowBlue2.Name = "txtRowBlue2"
+        Me.txtRowBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowBlue2.TabIndex = 37
+        '
+        'txtGlyphblue2
+        '
+        Me.txtGlyphblue2.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphblue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphblue2.Name = "txtGlyphblue2"
+        Me.txtGlyphblue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphblue2.TabIndex = 36
+        '
+        'txtGlyphAutoBlue2
+        '
+        Me.txtGlyphAutoBlue2.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoBlue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoBlue2.Name = "txtGlyphAutoBlue2"
+        Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoBlue2.TabIndex = 35
+        '
+        'lblNotes
+        '
+        Me.lblNotes.AutoSize = True
+        Me.lblNotes.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNotes.Location = New System.Drawing.Point(282, 835)
+        Me.lblNotes.Name = "lblNotes"
+        Me.lblNotes.Size = New System.Drawing.Size(70, 24)
+        Me.lblNotes.TabIndex = 31
+        Me.lblNotes.Text = "Notes:"
+        '
+        'lblNotesRed2
+        '
+        Me.lblNotesRed2.AutoSize = True
+        Me.lblNotesRed2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNotesRed2.Location = New System.Drawing.Point(411, 859)
+        Me.lblNotesRed2.Name = "lblNotesRed2"
+        Me.lblNotesRed2.Size = New System.Drawing.Size(76, 13)
+        Me.lblNotesRed2.TabIndex = 32
+        Me.lblNotesRed2.Text = "Red Team 2"
+        '
+        'txtNoteRed2
+        '
+        Me.txtNoteRed2.Location = New System.Drawing.Point(414, 875)
+        Me.txtNoteRed2.Multiline = True
+        Me.txtNoteRed2.Name = "txtNoteRed2"
+        Me.txtNoteRed2.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteRed2.TabIndex = 33
+        '
+        'txtNoteRed1
+        '
+        Me.txtNoteRed1.Location = New System.Drawing.Point(12, 875)
+        Me.txtNoteRed1.Multiline = True
+        Me.txtNoteRed1.Name = "txtNoteRed1"
+        Me.txtNoteRed1.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteRed1.TabIndex = 35
+        '
+        'lblNotesRed1
+        '
+        Me.lblNotesRed1.AutoSize = True
+        Me.lblNotesRed1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNotesRed1.Location = New System.Drawing.Point(9, 859)
+        Me.lblNotesRed1.Name = "lblNotesRed1"
+        Me.lblNotesRed1.Size = New System.Drawing.Size(76, 13)
+        Me.lblNotesRed1.TabIndex = 34
+        Me.lblNotesRed1.Text = "Red Team 1"
+        '
+        'txtNoteBlue1
+        '
+        Me.txtNoteBlue1.Location = New System.Drawing.Point(12, 962)
+        Me.txtNoteBlue1.Multiline = True
+        Me.txtNoteBlue1.Name = "txtNoteBlue1"
+        Me.txtNoteBlue1.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteBlue1.TabIndex = 37
+        '
+        'lblNotesBlue1
+        '
+        Me.lblNotesBlue1.AutoSize = True
+        Me.lblNotesBlue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNotesBlue1.Location = New System.Drawing.Point(9, 946)
+        Me.lblNotesBlue1.Name = "lblNotesBlue1"
+        Me.lblNotesBlue1.Size = New System.Drawing.Size(78, 13)
+        Me.lblNotesBlue1.TabIndex = 36
+        Me.lblNotesBlue1.Text = "Blue Team 1"
+        '
+        'txtNoteBlue2
+        '
+        Me.txtNoteBlue2.Location = New System.Drawing.Point(414, 962)
+        Me.txtNoteBlue2.Multiline = True
+        Me.txtNoteBlue2.Name = "txtNoteBlue2"
+        Me.txtNoteBlue2.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteBlue2.TabIndex = 39
+        '
+        'lblNotesBlue2
+        '
+        Me.lblNotesBlue2.AutoSize = True
+        Me.lblNotesBlue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNotesBlue2.Location = New System.Drawing.Point(411, 946)
+        Me.lblNotesBlue2.Name = "lblNotesBlue2"
+        Me.lblNotesBlue2.Size = New System.Drawing.Size(78, 13)
+        Me.lblNotesBlue2.TabIndex = 38
+        Me.lblNotesBlue2.Text = "Blue Team 2"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(905, 834)
+        Me.ClientSize = New System.Drawing.Size(905, 1014)
+        Me.Controls.Add(Me.txtNoteBlue2)
+        Me.Controls.Add(Me.lblNotesBlue2)
+        Me.Controls.Add(Me.txtNoteBlue1)
+        Me.Controls.Add(Me.lblNotesBlue1)
+        Me.Controls.Add(Me.txtNoteRed1)
+        Me.Controls.Add(Me.lblNotesRed1)
+        Me.Controls.Add(Me.txtNoteRed2)
+        Me.Controls.Add(Me.lblNotesRed2)
+        Me.Controls.Add(Me.lblNotes)
         Me.Controls.Add(Me.lblVersionText)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblPatternReference)
@@ -1150,13 +1290,32 @@ Partial Class Form1
         Me.grpTeamBlue2.ResumeLayout(False)
         Me.grpTeamBlue2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRowRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRelicRed2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtColumnsRed2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRowRed2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphRed2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphAutoRed2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRelicBlue1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtColumnsBlue1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRowBlue1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphblue1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphAutoBlue1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRelicBlue2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtColumnsBlue2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRowBlue2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphblue2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphAutoBlue2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnFinalSpreadSheet As System.Windows.Forms.Button
     Friend WithEvents grpTeamRed1 As GroupBox
-    Friend WithEvents txtGlyphAutoRed1 As TextBox
     Friend WithEvents lblGlyphsAutoRed1 As Label
     Friend WithEvents chkSafeZoneRed1 As CheckBox
     Friend WithEvents chkCryptoKeyRed1 As CheckBox
@@ -1166,33 +1325,24 @@ Partial Class Form1
     Friend WithEvents lblTeleOpRed1 As Label
     Friend WithEvents btnExit As Button
     Friend WithEvents lblColumnsRed1 As Label
-    Friend WithEvents txtColumnsRed1 As TextBox
     Friend WithEvents lblRowsRed1 As Label
-    Friend WithEvents txtRowRed1 As TextBox
     Friend WithEvents lblTeleOpGlyphsRed1 As Label
-    Friend WithEvents txtGlyphRed1 As TextBox
     Friend WithEvents lstPatternRed1 As ListBox
     Friend WithEvents lblEndGameRed1 As Label
     Friend WithEvents chkBalanceRed1 As CheckBox
     Friend WithEvents lblRelicEndRed1 As Label
     Friend WithEvents lblPatternRed1 As Label
-    Friend WithEvents txtRelicRed1 As TextBox
     Friend WithEvents grpTeamRed2 As GroupBox
     Friend WithEvents lblPatternRed2 As Label
-    Friend WithEvents txtRelicRed2 As TextBox
     Friend WithEvents chkBalanceRed2 As CheckBox
     Friend WithEvents lblRelicEndRed2 As Label
     Friend WithEvents lblEndGameRed2 As Label
     Friend WithEvents lstPatternRed2 As ListBox
     Friend WithEvents lblColumnsRed2 As Label
-    Friend WithEvents txtColumnsRed2 As TextBox
     Friend WithEvents lblRowsRed2 As Label
-    Friend WithEvents txtRowRed2 As TextBox
     Friend WithEvents lblTeleOpGlyphsRed2 As Label
-    Friend WithEvents txtGlyphRed2 As TextBox
     Friend WithEvents lblTeleOpRed2 As Label
     Friend WithEvents txtTeamRed2 As TextBox
-    Friend WithEvents txtGlyphAutoRed2 As TextBox
     Friend WithEvents lblGlyphsAutoRed2 As Label
     Friend WithEvents chkSafeZoneRed2 As CheckBox
     Friend WithEvents chkCryptoKeyRed2 As CheckBox
@@ -1209,20 +1359,15 @@ Partial Class Form1
     Friend WithEvents lblTeamNumberBlue1 As Label
     Friend WithEvents chkRelicUprightBlue1 As CheckBox
     Friend WithEvents lblPatternBlue1 As Label
-    Friend WithEvents txtRelicBlue1 As TextBox
     Friend WithEvents chkBalanceBlue1 As CheckBox
     Friend WithEvents lblRelicEndBlue1 As Label
     Friend WithEvents lblEndGameBlue1 As Label
     Friend WithEvents lstPatternBlue1 As ListBox
     Friend WithEvents lblColumnsBlue1 As Label
-    Friend WithEvents txtColumnsBlue1 As TextBox
     Friend WithEvents lblRowsBlue1 As Label
-    Friend WithEvents txtRowBlue1 As TextBox
     Friend WithEvents lblTeleOpGlyphsBlue1 As Label
-    Friend WithEvents txtGlyphBlue1 As TextBox
     Friend WithEvents lblTeleOpBlue1 As Label
     Friend WithEvents txtTeamBlue1 As TextBox
-    Friend WithEvents txtGlyphAutoBlue1 As TextBox
     Friend WithEvents lblGlyphsAutoBlue1 As Label
     Friend WithEvents chkSafeZoneBlue1 As CheckBox
     Friend WithEvents chkCryptoKeyBlue1 As CheckBox
@@ -1233,20 +1378,15 @@ Partial Class Form1
     Friend WithEvents lblTeamNumberBlue2 As Label
     Friend WithEvents chkRelicUprightBlue2 As CheckBox
     Friend WithEvents lblPatternBlue2 As Label
-    Friend WithEvents txtRelicBlue2 As TextBox
     Friend WithEvents chkBalanceBlue2 As CheckBox
     Friend WithEvents lblRelicEndBlue2 As Label
     Friend WithEvents lblEndGameBlue2 As Label
     Friend WithEvents lstPatternBlue2 As ListBox
     Friend WithEvents lblColumnsBlue2 As Label
-    Friend WithEvents txtColumnsBlue2 As TextBox
     Friend WithEvents lblRowsBlue2 As Label
-    Friend WithEvents txtRowBlue2 As TextBox
     Friend WithEvents lblTeleOpGlyphsBlue2 As Label
-    Friend WithEvents txtGlyphBlue2 As TextBox
     Friend WithEvents lblTeleOpBlue2 As Label
     Friend WithEvents txtTeamBlue2 As TextBox
-    Friend WithEvents txtGlyphAutoBlue2 As TextBox
     Friend WithEvents lblGlyphsAutoBlue2 As Label
     Friend WithEvents chkSafeZoneBlue2 As CheckBox
     Friend WithEvents chkCryptoKeyBlue2 As CheckBox
@@ -1255,4 +1395,33 @@ Partial Class Form1
     Friend WithEvents lblPatternReference As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblVersionText As Label
+    Friend WithEvents txtGlyphAutoRed1 As NumericUpDown
+    Friend WithEvents txtGlyphRed1 As NumericUpDown
+    Friend WithEvents txtColumnsRed1 As NumericUpDown
+    Friend WithEvents txtRowRed1 As NumericUpDown
+    Friend WithEvents txtRelicRed1 As NumericUpDown
+    Friend WithEvents txtRelicRed2 As NumericUpDown
+    Friend WithEvents txtColumnsRed2 As NumericUpDown
+    Friend WithEvents txtRowRed2 As NumericUpDown
+    Friend WithEvents txtGlyphRed2 As NumericUpDown
+    Friend WithEvents txtGlyphAutoRed2 As NumericUpDown
+    Friend WithEvents txtRelicBlue1 As NumericUpDown
+    Friend WithEvents txtColumnsBlue1 As NumericUpDown
+    Friend WithEvents txtRowBlue1 As NumericUpDown
+    Friend WithEvents txtGlyphblue1 As NumericUpDown
+    Friend WithEvents txtGlyphAutoBlue1 As NumericUpDown
+    Friend WithEvents txtRelicBlue2 As NumericUpDown
+    Friend WithEvents txtColumnsBlue2 As NumericUpDown
+    Friend WithEvents txtRowBlue2 As NumericUpDown
+    Friend WithEvents txtGlyphblue2 As NumericUpDown
+    Friend WithEvents txtGlyphAutoBlue2 As NumericUpDown
+    Friend WithEvents lblNotes As Label
+    Friend WithEvents lblNotesRed2 As Label
+    Friend WithEvents txtNoteRed2 As TextBox
+    Friend WithEvents txtNoteRed1 As TextBox
+    Friend WithEvents lblNotesRed1 As Label
+    Friend WithEvents txtNoteBlue1 As TextBox
+    Friend WithEvents lblNotesBlue1 As Label
+    Friend WithEvents txtNoteBlue2 As TextBox
+    Friend WithEvents lblNotesBlue2 As Label
 End Class

@@ -6,7 +6,7 @@
 ##### Excel
  - The program takes input from the form and exports it to a excel spreadsheet
  - It save the workbook to the directory of the .exe in a "matches" Folder
- 
-###### TODO 
- - Add a possible text exporter for use without excel.
+
+##### Text Document
+ - Saves as a "formatted" text document to ease transwer to Google Docs
  

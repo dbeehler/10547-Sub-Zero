@@ -8,5 +8,5 @@
  - It save the workbook to the directory of the .exe in a "matches" Folder
 
 ##### Text Document
- - Saves as a "formatted" text document to ease transwer to Google Docs
+ - Saves as a "formatted" text document to ease transfer to Google Docs
  

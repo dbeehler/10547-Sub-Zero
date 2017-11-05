@@ -86,6 +86,11 @@ Public Class Form1
         'makes coloums look nicer
         oSheet.Columns("A:P").AutoFit
 
+        'creates file tree if not present
+        If (Not System.IO.Directory.Exists(CurDir() + "\Matches")) Then
+            System.IO.Directory.CreateDirectory(CurDir() + "\Matches")
+        End If
+
         'auto saves the excel file after writing it
         matchNumber = txtMatchNumber.Text
         If My.Computer.FileSystem.FileExists(CurDir() + "\Matches\Match" + matchNumber + ".xlsx") Then

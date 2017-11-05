@@ -3,10 +3,10 @@
 
 ### How it works
 
-#### NOTES
- - You MUST have the "Matches" folder in the same folder as the exe otherwise the program will NOT work at this time
-
 ##### Excel
  - The program takes input from the form and exports it to a excel spreadsheet
- - It saves it to where ever the .exe is.
+ - It save the workbook to the directory of the .exe in a "matches" Folder
+ 
+###### TODO 
+ - Add a possible text exporter for use without excel.
  

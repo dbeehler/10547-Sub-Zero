@@ -25,6 +25,11 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnFinalSpreadSheet = New System.Windows.Forms.Button()
         Me.grpTeamRed1 = New System.Windows.Forms.GroupBox()
+        Me.txtRelicRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtColumnsRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtRowRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphRed1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoRed1 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberRed1 = New System.Windows.Forms.Label()
         Me.chkRelicUprightRed1 = New System.Windows.Forms.CheckBox()
         Me.lblPatternRed1 = New System.Windows.Forms.Label()
@@ -44,9 +49,14 @@ Partial Class Form1
         Me.lblAutonomousRed1 = New System.Windows.Forms.Label()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.grpTeamRed2 = New System.Windows.Forms.GroupBox()
+        Me.txtRelicRed2 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberRed2 = New System.Windows.Forms.Label()
+        Me.txtColumnsRed2 = New System.Windows.Forms.NumericUpDown()
         Me.chkRelicUprightRed2 = New System.Windows.Forms.CheckBox()
+        Me.txtRowRed2 = New System.Windows.Forms.NumericUpDown()
         Me.lblPatternRed2 = New System.Windows.Forms.Label()
+        Me.txtGlyphRed2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoRed2 = New System.Windows.Forms.NumericUpDown()
         Me.chkBalanceRed2 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndRed2 = New System.Windows.Forms.Label()
         Me.lblEndGameRed2 = New System.Windows.Forms.Label()
@@ -65,9 +75,14 @@ Partial Class Form1
         Me.lblmatchNumber = New System.Windows.Forms.Label()
         Me.txtMatchNumber = New System.Windows.Forms.TextBox()
         Me.grpTeamBlue1 = New System.Windows.Forms.GroupBox()
+        Me.txtRelicBlue1 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberBlue1 = New System.Windows.Forms.Label()
+        Me.txtColumnsBlue1 = New System.Windows.Forms.NumericUpDown()
         Me.chkRelicUprightBlue1 = New System.Windows.Forms.CheckBox()
+        Me.txtRowBlue1 = New System.Windows.Forms.NumericUpDown()
         Me.lblPatternBlue1 = New System.Windows.Forms.Label()
+        Me.txtGlyphblue1 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoBlue1 = New System.Windows.Forms.NumericUpDown()
         Me.chkBalanceBlue1 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndBlue1 = New System.Windows.Forms.Label()
         Me.lblEndGameBlue1 = New System.Windows.Forms.Label()
@@ -84,9 +99,14 @@ Partial Class Form1
         Me.lblAutonomousBlue1 = New System.Windows.Forms.Label()
         Me.lblWarning = New System.Windows.Forms.Label()
         Me.grpTeamBlue2 = New System.Windows.Forms.GroupBox()
+        Me.txtRelicBlue2 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberBlue2 = New System.Windows.Forms.Label()
+        Me.txtColumnsBlue2 = New System.Windows.Forms.NumericUpDown()
         Me.chkRelicUprightBlue2 = New System.Windows.Forms.CheckBox()
+        Me.txtRowBlue2 = New System.Windows.Forms.NumericUpDown()
         Me.lblPatternBlue2 = New System.Windows.Forms.Label()
+        Me.txtGlyphblue2 = New System.Windows.Forms.NumericUpDown()
+        Me.txtGlyphAutoBlue2 = New System.Windows.Forms.NumericUpDown()
         Me.chkBalanceBlue2 = New System.Windows.Forms.CheckBox()
         Me.lblRelicEndBlue2 = New System.Windows.Forms.Label()
         Me.lblEndGameBlue2 = New System.Windows.Forms.Label()
@@ -104,26 +124,6 @@ Partial Class Form1
         Me.lblPatternReference = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblVersionText = New System.Windows.Forms.Label()
-        Me.txtGlyphAutoRed1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphRed1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRowRed1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtColumnsRed1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRelicRed1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRelicRed2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtColumnsRed2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRowRed2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphRed2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphAutoRed2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRelicBlue1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtColumnsBlue1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRowBlue1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphblue1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphAutoBlue1 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRelicBlue2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtColumnsBlue2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtRowBlue2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphblue2 = New System.Windows.Forms.NumericUpDown()
-        Me.txtGlyphAutoBlue2 = New System.Windows.Forms.NumericUpDown()
         Me.lblNotes = New System.Windows.Forms.Label()
         Me.lblNotesRed2 = New System.Windows.Forms.Label()
         Me.txtNoteRed2 = New System.Windows.Forms.TextBox()
@@ -134,30 +134,30 @@ Partial Class Form1
         Me.txtNoteBlue2 = New System.Windows.Forms.TextBox()
         Me.lblNotesBlue2 = New System.Windows.Forms.Label()
         Me.grpTeamRed1.SuspendLayout()
-        Me.grpTeamRed2.SuspendLayout()
-        Me.grpTeamBlue1.SuspendLayout()
-        Me.grpTeamBlue2.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtRowRed1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtRowRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.grpTeamRed2.SuspendLayout()
         CType(Me.txtRelicRed2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsRed2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtRowRed2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphRed2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphAutoRed2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.grpTeamBlue1.SuspendLayout()
         CType(Me.txtRelicBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtRowBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphblue1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphAutoBlue1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.grpTeamBlue2.SuspendLayout()
         CType(Me.txtRelicBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtRowBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphblue2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphAutoBlue2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnFinalSpreadSheet
@@ -202,6 +202,46 @@ Partial Class Form1
         Me.grpTeamRed1.TabIndex = 1
         Me.grpTeamRed1.TabStop = False
         Me.grpTeamRed1.Text = "Red Team 1"
+        '
+        'txtRelicRed1
+        '
+        Me.txtRelicRed1.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicRed1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicRed1.Name = "txtRelicRed1"
+        Me.txtRelicRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicRed1.TabIndex = 29
+        '
+        'txtColumnsRed1
+        '
+        Me.txtColumnsRed1.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsRed1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsRed1.Name = "txtColumnsRed1"
+        Me.txtColumnsRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsRed1.TabIndex = 28
+        '
+        'txtRowRed1
+        '
+        Me.txtRowRed1.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowRed1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowRed1.Name = "txtRowRed1"
+        Me.txtRowRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowRed1.TabIndex = 27
+        '
+        'txtGlyphRed1
+        '
+        Me.txtGlyphRed1.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphRed1.Name = "txtGlyphRed1"
+        Me.txtGlyphRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphRed1.TabIndex = 26
+        '
+        'txtGlyphAutoRed1
+        '
+        Me.txtGlyphAutoRed1.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoRed1.Name = "txtGlyphAutoRed1"
+        Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoRed1.TabIndex = 25
         '
         'lblTeamNumberRed1
         '
@@ -403,6 +443,14 @@ Partial Class Form1
         Me.grpTeamRed2.TabStop = False
         Me.grpTeamRed2.Text = "Red Team 2"
         '
+        'txtRelicRed2
+        '
+        Me.txtRelicRed2.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicRed2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicRed2.Name = "txtRelicRed2"
+        Me.txtRelicRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicRed2.TabIndex = 34
+        '
         'lblTeamNumberRed2
         '
         Me.lblTeamNumberRed2.AutoSize = True
@@ -411,6 +459,14 @@ Partial Class Form1
         Me.lblTeamNumberRed2.Size = New System.Drawing.Size(81, 12)
         Me.lblTeamNumberRed2.TabIndex = 23
         Me.lblTeamNumberRed2.Text = "Team Number -"
+        '
+        'txtColumnsRed2
+        '
+        Me.txtColumnsRed2.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsRed2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsRed2.Name = "txtColumnsRed2"
+        Me.txtColumnsRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsRed2.TabIndex = 33
         '
         'chkRelicUprightRed2
         '
@@ -422,6 +478,14 @@ Partial Class Form1
         Me.chkRelicUprightRed2.Text = "Is relic upright?"
         Me.chkRelicUprightRed2.UseVisualStyleBackColor = True
         '
+        'txtRowRed2
+        '
+        Me.txtRowRed2.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowRed2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowRed2.Name = "txtRowRed2"
+        Me.txtRowRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowRed2.TabIndex = 32
+        '
         'lblPatternRed2
         '
         Me.lblPatternRed2.AutoSize = True
@@ -430,6 +494,22 @@ Partial Class Form1
         Me.lblPatternRed2.Size = New System.Drawing.Size(49, 12)
         Me.lblPatternRed2.TabIndex = 20
         Me.lblPatternRed2.Text = "Pattern -"
+        '
+        'txtGlyphRed2
+        '
+        Me.txtGlyphRed2.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphRed2.Name = "txtGlyphRed2"
+        Me.txtGlyphRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphRed2.TabIndex = 31
+        '
+        'txtGlyphAutoRed2
+        '
+        Me.txtGlyphAutoRed2.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoRed2.Name = "txtGlyphAutoRed2"
+        Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoRed2.TabIndex = 30
         '
         'chkBalanceRed2
         '
@@ -621,6 +701,14 @@ Partial Class Form1
         Me.grpTeamBlue1.TabStop = False
         Me.grpTeamBlue1.Text = "Blue Team 1"
         '
+        'txtRelicBlue1
+        '
+        Me.txtRelicBlue1.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicBlue1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicBlue1.Name = "txtRelicBlue1"
+        Me.txtRelicBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicBlue1.TabIndex = 34
+        '
         'lblTeamNumberBlue1
         '
         Me.lblTeamNumberBlue1.AutoSize = True
@@ -629,6 +717,14 @@ Partial Class Form1
         Me.lblTeamNumberBlue1.Size = New System.Drawing.Size(81, 12)
         Me.lblTeamNumberBlue1.TabIndex = 23
         Me.lblTeamNumberBlue1.Text = "Team Number -"
+        '
+        'txtColumnsBlue1
+        '
+        Me.txtColumnsBlue1.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsBlue1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsBlue1.Name = "txtColumnsBlue1"
+        Me.txtColumnsBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsBlue1.TabIndex = 33
         '
         'chkRelicUprightBlue1
         '
@@ -640,6 +736,14 @@ Partial Class Form1
         Me.chkRelicUprightBlue1.Text = "Is relic upright?"
         Me.chkRelicUprightBlue1.UseVisualStyleBackColor = True
         '
+        'txtRowBlue1
+        '
+        Me.txtRowBlue1.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowBlue1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowBlue1.Name = "txtRowBlue1"
+        Me.txtRowBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowBlue1.TabIndex = 32
+        '
         'lblPatternBlue1
         '
         Me.lblPatternBlue1.AutoSize = True
@@ -648,6 +752,22 @@ Partial Class Form1
         Me.lblPatternBlue1.Size = New System.Drawing.Size(49, 12)
         Me.lblPatternBlue1.TabIndex = 20
         Me.lblPatternBlue1.Text = "Pattern -"
+        '
+        'txtGlyphblue1
+        '
+        Me.txtGlyphblue1.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphblue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphblue1.Name = "txtGlyphblue1"
+        Me.txtGlyphblue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphblue1.TabIndex = 31
+        '
+        'txtGlyphAutoBlue1
+        '
+        Me.txtGlyphAutoBlue1.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoBlue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoBlue1.Name = "txtGlyphAutoBlue1"
+        Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoBlue1.TabIndex = 30
         '
         'chkBalanceBlue1
         '
@@ -821,6 +941,14 @@ Partial Class Form1
         Me.grpTeamBlue2.TabStop = False
         Me.grpTeamBlue2.Text = "Blue Team 2"
         '
+        'txtRelicBlue2
+        '
+        Me.txtRelicBlue2.Location = New System.Drawing.Point(73, 336)
+        Me.txtRelicBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.txtRelicBlue2.Name = "txtRelicBlue2"
+        Me.txtRelicBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicBlue2.TabIndex = 39
+        '
         'lblTeamNumberBlue2
         '
         Me.lblTeamNumberBlue2.AutoSize = True
@@ -829,6 +957,14 @@ Partial Class Form1
         Me.lblTeamNumberBlue2.Size = New System.Drawing.Size(81, 12)
         Me.lblTeamNumberBlue2.TabIndex = 23
         Me.lblTeamNumberBlue2.Text = "Team Number -"
+        '
+        'txtColumnsBlue2
+        '
+        Me.txtColumnsBlue2.Location = New System.Drawing.Point(117, 239)
+        Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
+        Me.txtColumnsBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsBlue2.TabIndex = 38
         '
         'chkRelicUprightBlue2
         '
@@ -840,6 +976,14 @@ Partial Class Form1
         Me.chkRelicUprightBlue2.Text = "Is relic upright?"
         Me.chkRelicUprightBlue2.UseVisualStyleBackColor = True
         '
+        'txtRowBlue2
+        '
+        Me.txtRowBlue2.Location = New System.Drawing.Point(117, 213)
+        Me.txtRowBlue2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
+        Me.txtRowBlue2.Name = "txtRowBlue2"
+        Me.txtRowBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowBlue2.TabIndex = 37
+        '
         'lblPatternBlue2
         '
         Me.lblPatternBlue2.AutoSize = True
@@ -848,6 +992,22 @@ Partial Class Form1
         Me.lblPatternBlue2.Size = New System.Drawing.Size(49, 12)
         Me.lblPatternBlue2.TabIndex = 20
         Me.lblPatternBlue2.Text = "Pattern -"
+        '
+        'txtGlyphblue2
+        '
+        Me.txtGlyphblue2.Location = New System.Drawing.Point(117, 187)
+        Me.txtGlyphblue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphblue2.Name = "txtGlyphblue2"
+        Me.txtGlyphblue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphblue2.TabIndex = 36
+        '
+        'txtGlyphAutoBlue2
+        '
+        Me.txtGlyphAutoBlue2.Location = New System.Drawing.Point(108, 81)
+        Me.txtGlyphAutoBlue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
+        Me.txtGlyphAutoBlue2.Name = "txtGlyphAutoBlue2"
+        Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoBlue2.TabIndex = 35
         '
         'chkBalanceBlue2
         '
@@ -1005,168 +1165,8 @@ Partial Class Form1
         Me.lblVersionText.Name = "lblVersionText"
         Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
         Me.lblVersionText.TabIndex = 30
-        Me.lblVersionText.Text = "Version 0.9"
+        Me.lblVersionText.Text = "Version 1.0"
         Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'txtGlyphAutoRed1
-        '
-        Me.txtGlyphAutoRed1.Location = New System.Drawing.Point(108, 81)
-        Me.txtGlyphAutoRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphAutoRed1.Name = "txtGlyphAutoRed1"
-        Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoRed1.TabIndex = 25
-        '
-        'txtGlyphRed1
-        '
-        Me.txtGlyphRed1.Location = New System.Drawing.Point(117, 187)
-        Me.txtGlyphRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphRed1.Name = "txtGlyphRed1"
-        Me.txtGlyphRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphRed1.TabIndex = 26
-        '
-        'txtRowRed1
-        '
-        Me.txtRowRed1.Location = New System.Drawing.Point(117, 213)
-        Me.txtRowRed1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
-        Me.txtRowRed1.Name = "txtRowRed1"
-        Me.txtRowRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowRed1.TabIndex = 27
-        '
-        'txtColumnsRed1
-        '
-        Me.txtColumnsRed1.Location = New System.Drawing.Point(117, 239)
-        Me.txtColumnsRed1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
-        Me.txtColumnsRed1.Name = "txtColumnsRed1"
-        Me.txtColumnsRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsRed1.TabIndex = 28
-        '
-        'txtRelicRed1
-        '
-        Me.txtRelicRed1.Location = New System.Drawing.Point(73, 336)
-        Me.txtRelicRed1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
-        Me.txtRelicRed1.Name = "txtRelicRed1"
-        Me.txtRelicRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicRed1.TabIndex = 29
-        '
-        'txtRelicRed2
-        '
-        Me.txtRelicRed2.Location = New System.Drawing.Point(73, 336)
-        Me.txtRelicRed2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
-        Me.txtRelicRed2.Name = "txtRelicRed2"
-        Me.txtRelicRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicRed2.TabIndex = 34
-        '
-        'txtColumnsRed2
-        '
-        Me.txtColumnsRed2.Location = New System.Drawing.Point(117, 239)
-        Me.txtColumnsRed2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
-        Me.txtColumnsRed2.Name = "txtColumnsRed2"
-        Me.txtColumnsRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsRed2.TabIndex = 33
-        '
-        'txtRowRed2
-        '
-        Me.txtRowRed2.Location = New System.Drawing.Point(117, 213)
-        Me.txtRowRed2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
-        Me.txtRowRed2.Name = "txtRowRed2"
-        Me.txtRowRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowRed2.TabIndex = 32
-        '
-        'txtGlyphRed2
-        '
-        Me.txtGlyphRed2.Location = New System.Drawing.Point(117, 187)
-        Me.txtGlyphRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphRed2.Name = "txtGlyphRed2"
-        Me.txtGlyphRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphRed2.TabIndex = 31
-        '
-        'txtGlyphAutoRed2
-        '
-        Me.txtGlyphAutoRed2.Location = New System.Drawing.Point(108, 81)
-        Me.txtGlyphAutoRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphAutoRed2.Name = "txtGlyphAutoRed2"
-        Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoRed2.TabIndex = 30
-        '
-        'txtRelicBlue1
-        '
-        Me.txtRelicBlue1.Location = New System.Drawing.Point(73, 336)
-        Me.txtRelicBlue1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
-        Me.txtRelicBlue1.Name = "txtRelicBlue1"
-        Me.txtRelicBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicBlue1.TabIndex = 34
-        '
-        'txtColumnsBlue1
-        '
-        Me.txtColumnsBlue1.Location = New System.Drawing.Point(117, 239)
-        Me.txtColumnsBlue1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
-        Me.txtColumnsBlue1.Name = "txtColumnsBlue1"
-        Me.txtColumnsBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsBlue1.TabIndex = 33
-        '
-        'txtRowBlue1
-        '
-        Me.txtRowBlue1.Location = New System.Drawing.Point(117, 213)
-        Me.txtRowBlue1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
-        Me.txtRowBlue1.Name = "txtRowBlue1"
-        Me.txtRowBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowBlue1.TabIndex = 32
-        '
-        'txtGlyphblue1
-        '
-        Me.txtGlyphblue1.Location = New System.Drawing.Point(117, 187)
-        Me.txtGlyphblue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphblue1.Name = "txtGlyphblue1"
-        Me.txtGlyphblue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphblue1.TabIndex = 31
-        '
-        'txtGlyphAutoBlue1
-        '
-        Me.txtGlyphAutoBlue1.Location = New System.Drawing.Point(108, 81)
-        Me.txtGlyphAutoBlue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphAutoBlue1.Name = "txtGlyphAutoBlue1"
-        Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoBlue1.TabIndex = 30
-        '
-        'txtRelicBlue2
-        '
-        Me.txtRelicBlue2.Location = New System.Drawing.Point(73, 336)
-        Me.txtRelicBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
-        Me.txtRelicBlue2.Name = "txtRelicBlue2"
-        Me.txtRelicBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicBlue2.TabIndex = 39
-        '
-        'txtColumnsBlue2
-        '
-        Me.txtColumnsBlue2.Location = New System.Drawing.Point(117, 239)
-        Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
-        Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
-        Me.txtColumnsBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsBlue2.TabIndex = 38
-        '
-        'txtRowBlue2
-        '
-        Me.txtRowBlue2.Location = New System.Drawing.Point(117, 213)
-        Me.txtRowBlue2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
-        Me.txtRowBlue2.Name = "txtRowBlue2"
-        Me.txtRowBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowBlue2.TabIndex = 37
-        '
-        'txtGlyphblue2
-        '
-        Me.txtGlyphblue2.Location = New System.Drawing.Point(117, 187)
-        Me.txtGlyphblue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphblue2.Name = "txtGlyphblue2"
-        Me.txtGlyphblue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphblue2.TabIndex = 36
-        '
-        'txtGlyphAutoBlue2
-        '
-        Me.txtGlyphAutoBlue2.Location = New System.Drawing.Point(108, 81)
-        Me.txtGlyphAutoBlue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
-        Me.txtGlyphAutoBlue2.Name = "txtGlyphAutoBlue2"
-        Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoBlue2.TabIndex = 35
         '
         'lblNotes
         '
@@ -1283,33 +1283,33 @@ Partial Class Form1
         Me.Text = "Mortal Combots Scouting App"
         Me.grpTeamRed1.ResumeLayout(False)
         Me.grpTeamRed1.PerformLayout()
+        CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtRowRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.grpTeamRed2.ResumeLayout(False)
         Me.grpTeamRed2.PerformLayout()
-        Me.grpTeamBlue1.ResumeLayout(False)
-        Me.grpTeamBlue1.PerformLayout()
-        Me.grpTeamBlue2.ResumeLayout(False)
-        Me.grpTeamBlue2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtRowRed1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtRelicRed2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtColumnsRed2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtRowRed2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGlyphRed2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGlyphAutoRed2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.grpTeamBlue1.ResumeLayout(False)
+        Me.grpTeamBlue1.PerformLayout()
         CType(Me.txtRelicBlue1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtColumnsBlue1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtRowBlue1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGlyphblue1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGlyphAutoBlue1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.grpTeamBlue2.ResumeLayout(False)
+        Me.grpTeamBlue2.PerformLayout()
         CType(Me.txtRelicBlue2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtColumnsBlue2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtRowBlue2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGlyphblue2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGlyphAutoBlue2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -167,7 +167,7 @@ Partial Class Form1
         Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(638, 107)
         Me.btnFinalSpreadSheet.Name = "btnFinalSpreadSheet"
         Me.btnFinalSpreadSheet.Size = New System.Drawing.Size(99, 42)
-        Me.btnFinalSpreadSheet.TabIndex = 0
+        Me.btnFinalSpreadSheet.TabIndex = 55
         Me.btnFinalSpreadSheet.Text = "Create Spreadsheet"
         Me.btnFinalSpreadSheet.UseVisualStyleBackColor = True
         '
@@ -200,7 +200,7 @@ Partial Class Form1
         Me.grpTeamRed1.Location = New System.Drawing.Point(12, 12)
         Me.grpTeamRed1.Name = "grpTeamRed1"
         Me.grpTeamRed1.Size = New System.Drawing.Size(298, 407)
-        Me.grpTeamRed1.TabIndex = 1
+        Me.grpTeamRed1.TabIndex = 0
         Me.grpTeamRed1.TabStop = False
         Me.grpTeamRed1.Text = "Red Team 1"
         '
@@ -210,7 +210,7 @@ Partial Class Form1
         Me.txtRelicRed1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicRed1.Name = "txtRelicRed1"
         Me.txtRelicRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicRed1.TabIndex = 29
+        Me.txtRelicRed1.TabIndex = 10
         '
         'txtColumnsRed1
         '
@@ -218,7 +218,7 @@ Partial Class Form1
         Me.txtColumnsRed1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtColumnsRed1.Name = "txtColumnsRed1"
         Me.txtColumnsRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsRed1.TabIndex = 28
+        Me.txtColumnsRed1.TabIndex = 8
         '
         'txtRowRed1
         '
@@ -226,7 +226,7 @@ Partial Class Form1
         Me.txtRowRed1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
         Me.txtRowRed1.Name = "txtRowRed1"
         Me.txtRowRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowRed1.TabIndex = 27
+        Me.txtRowRed1.TabIndex = 7
         '
         'txtGlyphRed1
         '
@@ -234,7 +234,7 @@ Partial Class Form1
         Me.txtGlyphRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphRed1.Name = "txtGlyphRed1"
         Me.txtGlyphRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphRed1.TabIndex = 26
+        Me.txtGlyphRed1.TabIndex = 6
         '
         'txtGlyphAutoRed1
         '
@@ -242,7 +242,7 @@ Partial Class Form1
         Me.txtGlyphAutoRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoRed1.Name = "txtGlyphAutoRed1"
         Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoRed1.TabIndex = 25
+        Me.txtGlyphAutoRed1.TabIndex = 3
         '
         'lblTeamNumberRed1
         '
@@ -250,7 +250,7 @@ Partial Class Form1
         Me.lblTeamNumberRed1.Location = New System.Drawing.Point(3, 24)
         Me.lblTeamNumberRed1.Name = "lblTeamNumberRed1"
         Me.lblTeamNumberRed1.Size = New System.Drawing.Size(81, 12)
-        Me.lblTeamNumberRed1.TabIndex = 24
+        Me.lblTeamNumberRed1.TabIndex = 0
         Me.lblTeamNumberRed1.Text = "Team Number -"
         '
         'chkRelicUprightRed1
@@ -259,7 +259,7 @@ Partial Class Form1
         Me.chkRelicUprightRed1.Location = New System.Drawing.Point(9, 354)
         Me.chkRelicUprightRed1.Name = "chkRelicUprightRed1"
         Me.chkRelicUprightRed1.Size = New System.Drawing.Size(103, 16)
-        Me.chkRelicUprightRed1.TabIndex = 21
+        Me.chkRelicUprightRed1.TabIndex = 11
         Me.chkRelicUprightRed1.Text = "Is relic upright?"
         Me.chkRelicUprightRed1.UseVisualStyleBackColor = True
         '
@@ -269,7 +269,7 @@ Partial Class Form1
         Me.lblPatternRed1.Location = New System.Drawing.Point(7, 264)
         Me.lblPatternRed1.Name = "lblPatternRed1"
         Me.lblPatternRed1.Size = New System.Drawing.Size(49, 12)
-        Me.lblPatternRed1.TabIndex = 20
+        Me.lblPatternRed1.TabIndex = 0
         Me.lblPatternRed1.Text = "Pattern -"
         '
         'chkBalanceRed1
@@ -278,7 +278,7 @@ Partial Class Form1
         Me.chkBalanceRed1.Location = New System.Drawing.Point(10, 376)
         Me.chkBalanceRed1.Name = "chkBalanceRed1"
         Me.chkBalanceRed1.Size = New System.Drawing.Size(70, 16)
-        Me.chkBalanceRed1.TabIndex = 18
+        Me.chkBalanceRed1.TabIndex = 12
         Me.chkBalanceRed1.Text = "Balanced"
         Me.chkBalanceRed1.UseVisualStyleBackColor = True
         '
@@ -288,7 +288,7 @@ Partial Class Form1
         Me.lblRelicEndRed1.Location = New System.Drawing.Point(7, 338)
         Me.lblRelicEndRed1.Name = "lblRelicEndRed1"
         Me.lblRelicEndRed1.Size = New System.Drawing.Size(66, 12)
-        Me.lblRelicEndRed1.TabIndex = 17
+        Me.lblRelicEndRed1.TabIndex = 0
         Me.lblRelicEndRed1.Text = "Relic Zone -"
         '
         'lblEndGameRed1
@@ -297,7 +297,7 @@ Partial Class Form1
         Me.lblEndGameRed1.Location = New System.Drawing.Point(7, 326)
         Me.lblEndGameRed1.Name = "lblEndGameRed1"
         Me.lblEndGameRed1.Size = New System.Drawing.Size(60, 12)
-        Me.lblEndGameRed1.TabIndex = 16
+        Me.lblEndGameRed1.TabIndex = 0
         Me.lblEndGameRed1.Text = "End Game:"
         '
         'lstPatternRed1
@@ -308,7 +308,7 @@ Partial Class Form1
         Me.lstPatternRed1.Location = New System.Drawing.Point(58, 264)
         Me.lstPatternRed1.Name = "lstPatternRed1"
         Me.lstPatternRed1.Size = New System.Drawing.Size(120, 40)
-        Me.lstPatternRed1.TabIndex = 15
+        Me.lstPatternRed1.TabIndex = 9
         '
         'lblColumnsRed1
         '
@@ -316,7 +316,7 @@ Partial Class Form1
         Me.lblColumnsRed1.Location = New System.Drawing.Point(7, 241)
         Me.lblColumnsRed1.Name = "lblColumnsRed1"
         Me.lblColumnsRed1.Size = New System.Drawing.Size(109, 12)
-        Me.lblColumnsRed1.TabIndex = 14
+        Me.lblColumnsRed1.TabIndex = 0
         Me.lblColumnsRed1.Text = "Number of columns -"
         '
         'lblRowsRed1
@@ -325,7 +325,7 @@ Partial Class Form1
         Me.lblRowsRed1.Location = New System.Drawing.Point(7, 215)
         Me.lblRowsRed1.Name = "lblRowsRed1"
         Me.lblRowsRed1.Size = New System.Drawing.Size(92, 12)
-        Me.lblRowsRed1.TabIndex = 12
+        Me.lblRowsRed1.TabIndex = 0
         Me.lblRowsRed1.Text = "Number of rows -"
         '
         'lblTeleOpGlyphsRed1
@@ -334,7 +334,7 @@ Partial Class Form1
         Me.lblTeleOpGlyphsRed1.Location = New System.Drawing.Point(7, 189)
         Me.lblTeleOpGlyphsRed1.Name = "lblTeleOpGlyphsRed1"
         Me.lblTeleOpGlyphsRed1.Size = New System.Drawing.Size(100, 12)
-        Me.lblTeleOpGlyphsRed1.TabIndex = 10
+        Me.lblTeleOpGlyphsRed1.TabIndex = 0
         Me.lblTeleOpGlyphsRed1.Text = "Number of glyphs -"
         '
         'lblTeleOpRed1
@@ -359,7 +359,7 @@ Partial Class Form1
         Me.lblGlyphsAutoRed1.Location = New System.Drawing.Point(6, 83)
         Me.lblGlyphsAutoRed1.Name = "lblGlyphsAutoRed1"
         Me.lblGlyphsAutoRed1.Size = New System.Drawing.Size(100, 12)
-        Me.lblGlyphsAutoRed1.TabIndex = 5
+        Me.lblGlyphsAutoRed1.TabIndex = 0
         Me.lblGlyphsAutoRed1.Text = "Number of glyphs -"
         '
         'chkSafeZoneRed1
@@ -388,7 +388,7 @@ Partial Class Form1
         Me.chkJewelRed1.Location = New System.Drawing.Point(6, 59)
         Me.chkJewelRed1.Name = "chkJewelRed1"
         Me.chkJewelRed1.Size = New System.Drawing.Size(94, 16)
-        Me.chkJewelRed1.TabIndex = 2
+        Me.chkJewelRed1.TabIndex = 3
         Me.chkJewelRed1.Text = "Knock Jewel?"
         Me.chkJewelRed1.UseVisualStyleBackColor = True
         '
@@ -407,7 +407,7 @@ Partial Class Form1
         Me.btnExit.Location = New System.Drawing.Point(718, 155)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(99, 42)
-        Me.btnExit.TabIndex = 2
+        Me.btnExit.TabIndex = 57
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
@@ -440,7 +440,7 @@ Partial Class Form1
         Me.grpTeamRed2.Location = New System.Drawing.Point(316, 12)
         Me.grpTeamRed2.Name = "grpTeamRed2"
         Me.grpTeamRed2.Size = New System.Drawing.Size(298, 407)
-        Me.grpTeamRed2.TabIndex = 21
+        Me.grpTeamRed2.TabIndex = 0
         Me.grpTeamRed2.TabStop = False
         Me.grpTeamRed2.Text = "Red Team 2"
         '
@@ -450,7 +450,7 @@ Partial Class Form1
         Me.txtRelicRed2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicRed2.Name = "txtRelicRed2"
         Me.txtRelicRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicRed2.TabIndex = 34
+        Me.txtRelicRed2.TabIndex = 22
         '
         'lblTeamNumberRed2
         '
@@ -458,7 +458,7 @@ Partial Class Form1
         Me.lblTeamNumberRed2.Location = New System.Drawing.Point(4, 24)
         Me.lblTeamNumberRed2.Name = "lblTeamNumberRed2"
         Me.lblTeamNumberRed2.Size = New System.Drawing.Size(81, 12)
-        Me.lblTeamNumberRed2.TabIndex = 23
+        Me.lblTeamNumberRed2.TabIndex = 0
         Me.lblTeamNumberRed2.Text = "Team Number -"
         '
         'txtColumnsRed2
@@ -467,7 +467,7 @@ Partial Class Form1
         Me.txtColumnsRed2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtColumnsRed2.Name = "txtColumnsRed2"
         Me.txtColumnsRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsRed2.TabIndex = 33
+        Me.txtColumnsRed2.TabIndex = 20
         '
         'chkRelicUprightRed2
         '
@@ -475,7 +475,7 @@ Partial Class Form1
         Me.chkRelicUprightRed2.Location = New System.Drawing.Point(9, 354)
         Me.chkRelicUprightRed2.Name = "chkRelicUprightRed2"
         Me.chkRelicUprightRed2.Size = New System.Drawing.Size(103, 16)
-        Me.chkRelicUprightRed2.TabIndex = 22
+        Me.chkRelicUprightRed2.TabIndex = 23
         Me.chkRelicUprightRed2.Text = "Is relic upright?"
         Me.chkRelicUprightRed2.UseVisualStyleBackColor = True
         '
@@ -485,7 +485,7 @@ Partial Class Form1
         Me.txtRowRed2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
         Me.txtRowRed2.Name = "txtRowRed2"
         Me.txtRowRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowRed2.TabIndex = 32
+        Me.txtRowRed2.TabIndex = 19
         '
         'lblPatternRed2
         '
@@ -493,7 +493,7 @@ Partial Class Form1
         Me.lblPatternRed2.Location = New System.Drawing.Point(7, 264)
         Me.lblPatternRed2.Name = "lblPatternRed2"
         Me.lblPatternRed2.Size = New System.Drawing.Size(49, 12)
-        Me.lblPatternRed2.TabIndex = 20
+        Me.lblPatternRed2.TabIndex = 0
         Me.lblPatternRed2.Text = "Pattern -"
         '
         'txtGlyphRed2
@@ -502,7 +502,7 @@ Partial Class Form1
         Me.txtGlyphRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphRed2.Name = "txtGlyphRed2"
         Me.txtGlyphRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphRed2.TabIndex = 31
+        Me.txtGlyphRed2.TabIndex = 18
         '
         'txtGlyphAutoRed2
         '
@@ -510,7 +510,7 @@ Partial Class Form1
         Me.txtGlyphAutoRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoRed2.Name = "txtGlyphAutoRed2"
         Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoRed2.TabIndex = 30
+        Me.txtGlyphAutoRed2.TabIndex = 15
         '
         'chkBalanceRed2
         '
@@ -518,7 +518,7 @@ Partial Class Form1
         Me.chkBalanceRed2.Location = New System.Drawing.Point(9, 376)
         Me.chkBalanceRed2.Name = "chkBalanceRed2"
         Me.chkBalanceRed2.Size = New System.Drawing.Size(70, 16)
-        Me.chkBalanceRed2.TabIndex = 18
+        Me.chkBalanceRed2.TabIndex = 24
         Me.chkBalanceRed2.Text = "Balanced"
         Me.chkBalanceRed2.UseVisualStyleBackColor = True
         '
@@ -528,7 +528,7 @@ Partial Class Form1
         Me.lblRelicEndRed2.Location = New System.Drawing.Point(7, 338)
         Me.lblRelicEndRed2.Name = "lblRelicEndRed2"
         Me.lblRelicEndRed2.Size = New System.Drawing.Size(66, 12)
-        Me.lblRelicEndRed2.TabIndex = 17
+        Me.lblRelicEndRed2.TabIndex = 0
         Me.lblRelicEndRed2.Text = "Relic Zone -"
         '
         'lblEndGameRed2
@@ -537,7 +537,7 @@ Partial Class Form1
         Me.lblEndGameRed2.Location = New System.Drawing.Point(6, 326)
         Me.lblEndGameRed2.Name = "lblEndGameRed2"
         Me.lblEndGameRed2.Size = New System.Drawing.Size(60, 12)
-        Me.lblEndGameRed2.TabIndex = 16
+        Me.lblEndGameRed2.TabIndex = 0
         Me.lblEndGameRed2.Text = "End Game:"
         '
         'lstPatternRed2
@@ -548,7 +548,7 @@ Partial Class Form1
         Me.lstPatternRed2.Location = New System.Drawing.Point(58, 264)
         Me.lstPatternRed2.Name = "lstPatternRed2"
         Me.lstPatternRed2.Size = New System.Drawing.Size(120, 40)
-        Me.lstPatternRed2.TabIndex = 15
+        Me.lstPatternRed2.TabIndex = 21
         '
         'lblColumnsRed2
         '
@@ -556,7 +556,7 @@ Partial Class Form1
         Me.lblColumnsRed2.Location = New System.Drawing.Point(7, 241)
         Me.lblColumnsRed2.Name = "lblColumnsRed2"
         Me.lblColumnsRed2.Size = New System.Drawing.Size(109, 12)
-        Me.lblColumnsRed2.TabIndex = 14
+        Me.lblColumnsRed2.TabIndex = 0
         Me.lblColumnsRed2.Text = "Number of columns -"
         '
         'lblRowsRed2
@@ -565,7 +565,7 @@ Partial Class Form1
         Me.lblRowsRed2.Location = New System.Drawing.Point(7, 215)
         Me.lblRowsRed2.Name = "lblRowsRed2"
         Me.lblRowsRed2.Size = New System.Drawing.Size(92, 12)
-        Me.lblRowsRed2.TabIndex = 12
+        Me.lblRowsRed2.TabIndex = 0
         Me.lblRowsRed2.Text = "Number of rows -"
         '
         'lblTeleOpGlyphsRed2
@@ -574,7 +574,7 @@ Partial Class Form1
         Me.lblTeleOpGlyphsRed2.Location = New System.Drawing.Point(7, 189)
         Me.lblTeleOpGlyphsRed2.Name = "lblTeleOpGlyphsRed2"
         Me.lblTeleOpGlyphsRed2.Size = New System.Drawing.Size(100, 12)
-        Me.lblTeleOpGlyphsRed2.TabIndex = 10
+        Me.lblTeleOpGlyphsRed2.TabIndex = 0
         Me.lblTeleOpGlyphsRed2.Text = "Number of glyphs -"
         '
         'lblTeleOpRed2
@@ -591,7 +591,7 @@ Partial Class Form1
         Me.txtTeamRed2.Location = New System.Drawing.Point(91, 22)
         Me.txtTeamRed2.Name = "txtTeamRed2"
         Me.txtTeamRed2.Size = New System.Drawing.Size(87, 18)
-        Me.txtTeamRed2.TabIndex = 1
+        Me.txtTeamRed2.TabIndex = 13
         '
         'lblGlyphsAutoRed2
         '
@@ -599,7 +599,7 @@ Partial Class Form1
         Me.lblGlyphsAutoRed2.Location = New System.Drawing.Point(6, 83)
         Me.lblGlyphsAutoRed2.Name = "lblGlyphsAutoRed2"
         Me.lblGlyphsAutoRed2.Size = New System.Drawing.Size(100, 12)
-        Me.lblGlyphsAutoRed2.TabIndex = 5
+        Me.lblGlyphsAutoRed2.TabIndex = 0
         Me.lblGlyphsAutoRed2.Text = "Number of glyphs -"
         '
         'chkSafeZoneRed2
@@ -608,7 +608,7 @@ Partial Class Form1
         Me.chkSafeZoneRed2.Location = New System.Drawing.Point(6, 128)
         Me.chkSafeZoneRed2.Name = "chkSafeZoneRed2"
         Me.chkSafeZoneRed2.Size = New System.Drawing.Size(81, 16)
-        Me.chkSafeZoneRed2.TabIndex = 5
+        Me.chkSafeZoneRed2.TabIndex = 17
         Me.chkSafeZoneRed2.Text = "Safe Zone?"
         Me.chkSafeZoneRed2.UseVisualStyleBackColor = True
         '
@@ -618,7 +618,7 @@ Partial Class Form1
         Me.chkCryptoKeyRed2.Location = New System.Drawing.Point(6, 105)
         Me.chkCryptoKeyRed2.Name = "chkCryptoKeyRed2"
         Me.chkCryptoKeyRed2.Size = New System.Drawing.Size(86, 16)
-        Me.chkCryptoKeyRed2.TabIndex = 4
+        Me.chkCryptoKeyRed2.TabIndex = 16
         Me.chkCryptoKeyRed2.Text = "Crypto Key?"
         Me.chkCryptoKeyRed2.UseVisualStyleBackColor = True
         '
@@ -628,7 +628,7 @@ Partial Class Form1
         Me.chkJewelRed2.Location = New System.Drawing.Point(6, 59)
         Me.chkJewelRed2.Name = "chkJewelRed2"
         Me.chkJewelRed2.Size = New System.Drawing.Size(94, 16)
-        Me.chkJewelRed2.TabIndex = 2
+        Me.chkJewelRed2.TabIndex = 14
         Me.chkJewelRed2.Text = "Knock Jewel?"
         Me.chkJewelRed2.UseVisualStyleBackColor = True
         '
@@ -647,7 +647,7 @@ Partial Class Form1
         Me.btnClear.Location = New System.Drawing.Point(718, 59)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(99, 42)
-        Me.btnClear.TabIndex = 22
+        Me.btnClear.TabIndex = 54
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
@@ -658,7 +658,7 @@ Partial Class Form1
         Me.lblmatchNumber.Location = New System.Drawing.Point(636, 16)
         Me.lblmatchNumber.Name = "lblmatchNumber"
         Me.lblmatchNumber.Size = New System.Drawing.Size(86, 12)
-        Me.lblmatchNumber.TabIndex = 23
+        Me.lblmatchNumber.TabIndex = 0
         Me.lblmatchNumber.Text = "Match Number -"
         '
         'txtMatchNumber
@@ -667,7 +667,7 @@ Partial Class Form1
         Me.txtMatchNumber.Location = New System.Drawing.Point(738, 13)
         Me.txtMatchNumber.Name = "txtMatchNumber"
         Me.txtMatchNumber.Size = New System.Drawing.Size(100, 18)
-        Me.txtMatchNumber.TabIndex = 24
+        Me.txtMatchNumber.TabIndex = 53
         '
         'grpTeamBlue1
         '
@@ -698,7 +698,7 @@ Partial Class Form1
         Me.grpTeamBlue1.Location = New System.Drawing.Point(12, 425)
         Me.grpTeamBlue1.Name = "grpTeamBlue1"
         Me.grpTeamBlue1.Size = New System.Drawing.Size(298, 407)
-        Me.grpTeamBlue1.TabIndex = 24
+        Me.grpTeamBlue1.TabIndex = 0
         Me.grpTeamBlue1.TabStop = False
         Me.grpTeamBlue1.Text = "Blue Team 1"
         '
@@ -716,7 +716,7 @@ Partial Class Form1
         Me.lblTeamNumberBlue1.Location = New System.Drawing.Point(4, 24)
         Me.lblTeamNumberBlue1.Name = "lblTeamNumberBlue1"
         Me.lblTeamNumberBlue1.Size = New System.Drawing.Size(81, 12)
-        Me.lblTeamNumberBlue1.TabIndex = 23
+        Me.lblTeamNumberBlue1.TabIndex = 0
         Me.lblTeamNumberBlue1.Text = "Team Number -"
         '
         'txtColumnsBlue1
@@ -725,7 +725,7 @@ Partial Class Form1
         Me.txtColumnsBlue1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtColumnsBlue1.Name = "txtColumnsBlue1"
         Me.txtColumnsBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsBlue1.TabIndex = 33
+        Me.txtColumnsBlue1.TabIndex = 32
         '
         'chkRelicUprightBlue1
         '
@@ -733,7 +733,7 @@ Partial Class Form1
         Me.chkRelicUprightBlue1.Location = New System.Drawing.Point(9, 354)
         Me.chkRelicUprightBlue1.Name = "chkRelicUprightBlue1"
         Me.chkRelicUprightBlue1.Size = New System.Drawing.Size(103, 16)
-        Me.chkRelicUprightBlue1.TabIndex = 22
+        Me.chkRelicUprightBlue1.TabIndex = 35
         Me.chkRelicUprightBlue1.Text = "Is relic upright?"
         Me.chkRelicUprightBlue1.UseVisualStyleBackColor = True
         '
@@ -743,7 +743,7 @@ Partial Class Form1
         Me.txtRowBlue1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
         Me.txtRowBlue1.Name = "txtRowBlue1"
         Me.txtRowBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowBlue1.TabIndex = 32
+        Me.txtRowBlue1.TabIndex = 31
         '
         'lblPatternBlue1
         '
@@ -751,7 +751,7 @@ Partial Class Form1
         Me.lblPatternBlue1.Location = New System.Drawing.Point(7, 264)
         Me.lblPatternBlue1.Name = "lblPatternBlue1"
         Me.lblPatternBlue1.Size = New System.Drawing.Size(49, 12)
-        Me.lblPatternBlue1.TabIndex = 20
+        Me.lblPatternBlue1.TabIndex = 0
         Me.lblPatternBlue1.Text = "Pattern -"
         '
         'txtGlyphblue1
@@ -760,7 +760,7 @@ Partial Class Form1
         Me.txtGlyphblue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphblue1.Name = "txtGlyphblue1"
         Me.txtGlyphblue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphblue1.TabIndex = 31
+        Me.txtGlyphblue1.TabIndex = 30
         '
         'txtGlyphAutoBlue1
         '
@@ -768,7 +768,7 @@ Partial Class Form1
         Me.txtGlyphAutoBlue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoBlue1.Name = "txtGlyphAutoBlue1"
         Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoBlue1.TabIndex = 30
+        Me.txtGlyphAutoBlue1.TabIndex = 27
         '
         'chkBalanceBlue1
         '
@@ -776,7 +776,7 @@ Partial Class Form1
         Me.chkBalanceBlue1.Location = New System.Drawing.Point(9, 376)
         Me.chkBalanceBlue1.Name = "chkBalanceBlue1"
         Me.chkBalanceBlue1.Size = New System.Drawing.Size(70, 16)
-        Me.chkBalanceBlue1.TabIndex = 18
+        Me.chkBalanceBlue1.TabIndex = 36
         Me.chkBalanceBlue1.Text = "Balanced"
         Me.chkBalanceBlue1.UseVisualStyleBackColor = True
         '
@@ -786,7 +786,7 @@ Partial Class Form1
         Me.lblRelicEndBlue1.Location = New System.Drawing.Point(7, 338)
         Me.lblRelicEndBlue1.Name = "lblRelicEndBlue1"
         Me.lblRelicEndBlue1.Size = New System.Drawing.Size(66, 12)
-        Me.lblRelicEndBlue1.TabIndex = 17
+        Me.lblRelicEndBlue1.TabIndex = 0
         Me.lblRelicEndBlue1.Text = "Relic Zone -"
         '
         'lblEndGameBlue1
@@ -795,7 +795,7 @@ Partial Class Form1
         Me.lblEndGameBlue1.Location = New System.Drawing.Point(7, 326)
         Me.lblEndGameBlue1.Name = "lblEndGameBlue1"
         Me.lblEndGameBlue1.Size = New System.Drawing.Size(60, 12)
-        Me.lblEndGameBlue1.TabIndex = 16
+        Me.lblEndGameBlue1.TabIndex = 0
         Me.lblEndGameBlue1.Text = "End Game:"
         '
         'lstPatternBlue1
@@ -806,7 +806,7 @@ Partial Class Form1
         Me.lstPatternBlue1.Location = New System.Drawing.Point(58, 264)
         Me.lstPatternBlue1.Name = "lstPatternBlue1"
         Me.lstPatternBlue1.Size = New System.Drawing.Size(120, 40)
-        Me.lstPatternBlue1.TabIndex = 15
+        Me.lstPatternBlue1.TabIndex = 33
         '
         'lblColumnsBlue1
         '
@@ -814,7 +814,7 @@ Partial Class Form1
         Me.lblColumnsBlue1.Location = New System.Drawing.Point(7, 241)
         Me.lblColumnsBlue1.Name = "lblColumnsBlue1"
         Me.lblColumnsBlue1.Size = New System.Drawing.Size(109, 12)
-        Me.lblColumnsBlue1.TabIndex = 14
+        Me.lblColumnsBlue1.TabIndex = 0
         Me.lblColumnsBlue1.Text = "Number of columns -"
         '
         'lblRowsBlue1
@@ -823,7 +823,7 @@ Partial Class Form1
         Me.lblRowsBlue1.Location = New System.Drawing.Point(7, 215)
         Me.lblRowsBlue1.Name = "lblRowsBlue1"
         Me.lblRowsBlue1.Size = New System.Drawing.Size(92, 12)
-        Me.lblRowsBlue1.TabIndex = 12
+        Me.lblRowsBlue1.TabIndex = 0
         Me.lblRowsBlue1.Text = "Number of rows -"
         '
         'lblTeleOpGlyphsBlue1
@@ -832,7 +832,7 @@ Partial Class Form1
         Me.lblTeleOpGlyphsBlue1.Location = New System.Drawing.Point(7, 189)
         Me.lblTeleOpGlyphsBlue1.Name = "lblTeleOpGlyphsBlue1"
         Me.lblTeleOpGlyphsBlue1.Size = New System.Drawing.Size(100, 12)
-        Me.lblTeleOpGlyphsBlue1.TabIndex = 10
+        Me.lblTeleOpGlyphsBlue1.TabIndex = 0
         Me.lblTeleOpGlyphsBlue1.Text = "Number of glyphs -"
         '
         'lblTeleOpBlue1
@@ -849,7 +849,7 @@ Partial Class Form1
         Me.txtTeamBlue1.Location = New System.Drawing.Point(91, 22)
         Me.txtTeamBlue1.Name = "txtTeamBlue1"
         Me.txtTeamBlue1.Size = New System.Drawing.Size(87, 18)
-        Me.txtTeamBlue1.TabIndex = 1
+        Me.txtTeamBlue1.TabIndex = 25
         '
         'lblGlyphsAutoBlue1
         '
@@ -857,7 +857,7 @@ Partial Class Form1
         Me.lblGlyphsAutoBlue1.Location = New System.Drawing.Point(6, 83)
         Me.lblGlyphsAutoBlue1.Name = "lblGlyphsAutoBlue1"
         Me.lblGlyphsAutoBlue1.Size = New System.Drawing.Size(100, 12)
-        Me.lblGlyphsAutoBlue1.TabIndex = 5
+        Me.lblGlyphsAutoBlue1.TabIndex = 0
         Me.lblGlyphsAutoBlue1.Text = "Number of glyphs -"
         '
         'chkSafeZoneBlue1
@@ -866,7 +866,7 @@ Partial Class Form1
         Me.chkSafeZoneBlue1.Location = New System.Drawing.Point(6, 128)
         Me.chkSafeZoneBlue1.Name = "chkSafeZoneBlue1"
         Me.chkSafeZoneBlue1.Size = New System.Drawing.Size(81, 16)
-        Me.chkSafeZoneBlue1.TabIndex = 5
+        Me.chkSafeZoneBlue1.TabIndex = 29
         Me.chkSafeZoneBlue1.Text = "Safe Zone?"
         Me.chkSafeZoneBlue1.UseVisualStyleBackColor = True
         '
@@ -876,7 +876,7 @@ Partial Class Form1
         Me.chkCryptoKeyBlue1.Location = New System.Drawing.Point(6, 105)
         Me.chkCryptoKeyBlue1.Name = "chkCryptoKeyBlue1"
         Me.chkCryptoKeyBlue1.Size = New System.Drawing.Size(86, 16)
-        Me.chkCryptoKeyBlue1.TabIndex = 4
+        Me.chkCryptoKeyBlue1.TabIndex = 28
         Me.chkCryptoKeyBlue1.Text = "Crypto Key?"
         Me.chkCryptoKeyBlue1.UseVisualStyleBackColor = True
         '
@@ -886,7 +886,7 @@ Partial Class Form1
         Me.chkJewelBlue1.Location = New System.Drawing.Point(6, 59)
         Me.chkJewelBlue1.Name = "chkJewelBlue1"
         Me.chkJewelBlue1.Size = New System.Drawing.Size(94, 16)
-        Me.chkJewelBlue1.TabIndex = 2
+        Me.chkJewelBlue1.TabIndex = 26
         Me.chkJewelBlue1.Text = "Knock Jewel?"
         Me.chkJewelBlue1.UseVisualStyleBackColor = True
         '
@@ -906,7 +906,7 @@ Partial Class Form1
         Me.lblWarning.Location = New System.Drawing.Point(656, 32)
         Me.lblWarning.Name = "lblWarning"
         Me.lblWarning.Size = New System.Drawing.Size(182, 24)
-        Me.lblWarning.TabIndex = 27
+        Me.lblWarning.TabIndex = 0
         Me.lblWarning.Text = "CHANGE MATCH!"
         '
         'grpTeamBlue2
@@ -938,7 +938,7 @@ Partial Class Form1
         Me.grpTeamBlue2.Location = New System.Drawing.Point(316, 425)
         Me.grpTeamBlue2.Name = "grpTeamBlue2"
         Me.grpTeamBlue2.Size = New System.Drawing.Size(298, 407)
-        Me.grpTeamBlue2.TabIndex = 25
+        Me.grpTeamBlue2.TabIndex = 0
         Me.grpTeamBlue2.TabStop = False
         Me.grpTeamBlue2.Text = "Blue Team 2"
         '
@@ -948,7 +948,7 @@ Partial Class Form1
         Me.txtRelicBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicBlue2.Name = "txtRelicBlue2"
         Me.txtRelicBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRelicBlue2.TabIndex = 39
+        Me.txtRelicBlue2.TabIndex = 46
         '
         'lblTeamNumberBlue2
         '
@@ -965,7 +965,7 @@ Partial Class Form1
         Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
         Me.txtColumnsBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtColumnsBlue2.TabIndex = 38
+        Me.txtColumnsBlue2.TabIndex = 44
         '
         'chkRelicUprightBlue2
         '
@@ -973,7 +973,7 @@ Partial Class Form1
         Me.chkRelicUprightBlue2.Location = New System.Drawing.Point(9, 354)
         Me.chkRelicUprightBlue2.Name = "chkRelicUprightBlue2"
         Me.chkRelicUprightBlue2.Size = New System.Drawing.Size(103, 16)
-        Me.chkRelicUprightBlue2.TabIndex = 22
+        Me.chkRelicUprightBlue2.TabIndex = 47
         Me.chkRelicUprightBlue2.Text = "Is relic upright?"
         Me.chkRelicUprightBlue2.UseVisualStyleBackColor = True
         '
@@ -983,7 +983,7 @@ Partial Class Form1
         Me.txtRowBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtRowBlue2.Name = "txtRowBlue2"
         Me.txtRowBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtRowBlue2.TabIndex = 37
+        Me.txtRowBlue2.TabIndex = 43
         '
         'lblPatternBlue2
         '
@@ -1000,7 +1000,7 @@ Partial Class Form1
         Me.txtGlyphblue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphblue2.Name = "txtGlyphblue2"
         Me.txtGlyphblue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphblue2.TabIndex = 36
+        Me.txtGlyphblue2.TabIndex = 42
         '
         'txtGlyphAutoBlue2
         '
@@ -1008,7 +1008,7 @@ Partial Class Form1
         Me.txtGlyphAutoBlue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoBlue2.Name = "txtGlyphAutoBlue2"
         Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(120, 18)
-        Me.txtGlyphAutoBlue2.TabIndex = 35
+        Me.txtGlyphAutoBlue2.TabIndex = 39
         '
         'chkBalanceBlue2
         '
@@ -1016,7 +1016,7 @@ Partial Class Form1
         Me.chkBalanceBlue2.Location = New System.Drawing.Point(9, 376)
         Me.chkBalanceBlue2.Name = "chkBalanceBlue2"
         Me.chkBalanceBlue2.Size = New System.Drawing.Size(70, 16)
-        Me.chkBalanceBlue2.TabIndex = 18
+        Me.chkBalanceBlue2.TabIndex = 48
         Me.chkBalanceBlue2.Text = "Balanced"
         Me.chkBalanceBlue2.UseVisualStyleBackColor = True
         '
@@ -1046,7 +1046,7 @@ Partial Class Form1
         Me.lstPatternBlue2.Location = New System.Drawing.Point(58, 264)
         Me.lstPatternBlue2.Name = "lstPatternBlue2"
         Me.lstPatternBlue2.Size = New System.Drawing.Size(120, 40)
-        Me.lstPatternBlue2.TabIndex = 15
+        Me.lstPatternBlue2.TabIndex = 45
         '
         'lblColumnsBlue2
         '
@@ -1089,7 +1089,7 @@ Partial Class Form1
         Me.txtTeamBlue2.Location = New System.Drawing.Point(91, 22)
         Me.txtTeamBlue2.Name = "txtTeamBlue2"
         Me.txtTeamBlue2.Size = New System.Drawing.Size(87, 18)
-        Me.txtTeamBlue2.TabIndex = 1
+        Me.txtTeamBlue2.TabIndex = 37
         '
         'lblGlyphsAutoBlue2
         '
@@ -1106,7 +1106,7 @@ Partial Class Form1
         Me.chkSafeZoneBlue2.Location = New System.Drawing.Point(6, 128)
         Me.chkSafeZoneBlue2.Name = "chkSafeZoneBlue2"
         Me.chkSafeZoneBlue2.Size = New System.Drawing.Size(81, 16)
-        Me.chkSafeZoneBlue2.TabIndex = 5
+        Me.chkSafeZoneBlue2.TabIndex = 41
         Me.chkSafeZoneBlue2.Text = "Safe Zone?"
         Me.chkSafeZoneBlue2.UseVisualStyleBackColor = True
         '
@@ -1116,7 +1116,7 @@ Partial Class Form1
         Me.chkCryptoKeyBlue2.Location = New System.Drawing.Point(6, 105)
         Me.chkCryptoKeyBlue2.Name = "chkCryptoKeyBlue2"
         Me.chkCryptoKeyBlue2.Size = New System.Drawing.Size(86, 16)
-        Me.chkCryptoKeyBlue2.TabIndex = 4
+        Me.chkCryptoKeyBlue2.TabIndex = 40
         Me.chkCryptoKeyBlue2.Text = "Crypto Key?"
         Me.chkCryptoKeyBlue2.UseVisualStyleBackColor = True
         '
@@ -1126,7 +1126,7 @@ Partial Class Form1
         Me.chkJewelBlue2.Location = New System.Drawing.Point(6, 59)
         Me.chkJewelBlue2.Name = "chkJewelBlue2"
         Me.chkJewelBlue2.Size = New System.Drawing.Size(94, 16)
-        Me.chkJewelBlue2.TabIndex = 2
+        Me.chkJewelBlue2.TabIndex = 38
         Me.chkJewelBlue2.Text = "Knock Jewel?"
         Me.chkJewelBlue2.UseVisualStyleBackColor = True
         '
@@ -1146,7 +1146,7 @@ Partial Class Form1
         Me.lblPatternReference.Location = New System.Drawing.Point(653, 216)
         Me.lblPatternReference.Name = "lblPatternReference"
         Me.lblPatternReference.Size = New System.Drawing.Size(166, 24)
-        Me.lblPatternReference.TabIndex = 28
+        Me.lblPatternReference.TabIndex = 0
         Me.lblPatternReference.Text = "Pattern Refrence"
         Me.lblPatternReference.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -1166,7 +1166,7 @@ Partial Class Form1
         Me.lblVersionText.Name = "lblVersionText"
         Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
         Me.lblVersionText.TabIndex = 30
-        Me.lblVersionText.Text = "Version 1.5"
+        Me.lblVersionText.Text = "Version 1.6"
         Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblNotes
@@ -1176,7 +1176,7 @@ Partial Class Form1
         Me.lblNotes.Location = New System.Drawing.Point(282, 835)
         Me.lblNotes.Name = "lblNotes"
         Me.lblNotes.Size = New System.Drawing.Size(70, 24)
-        Me.lblNotes.TabIndex = 31
+        Me.lblNotes.TabIndex = 0
         Me.lblNotes.Text = "Notes:"
         '
         'lblNotesRed2
@@ -1186,7 +1186,7 @@ Partial Class Form1
         Me.lblNotesRed2.Location = New System.Drawing.Point(411, 859)
         Me.lblNotesRed2.Name = "lblNotesRed2"
         Me.lblNotesRed2.Size = New System.Drawing.Size(76, 13)
-        Me.lblNotesRed2.TabIndex = 32
+        Me.lblNotesRed2.TabIndex = 0
         Me.lblNotesRed2.Text = "Red Team 2"
         '
         'txtNoteRed2
@@ -1195,7 +1195,7 @@ Partial Class Form1
         Me.txtNoteRed2.Multiline = True
         Me.txtNoteRed2.Name = "txtNoteRed2"
         Me.txtNoteRed2.Size = New System.Drawing.Size(200, 40)
-        Me.txtNoteRed2.TabIndex = 33
+        Me.txtNoteRed2.TabIndex = 50
         '
         'txtNoteRed1
         '
@@ -1203,7 +1203,7 @@ Partial Class Form1
         Me.txtNoteRed1.Multiline = True
         Me.txtNoteRed1.Name = "txtNoteRed1"
         Me.txtNoteRed1.Size = New System.Drawing.Size(200, 40)
-        Me.txtNoteRed1.TabIndex = 35
+        Me.txtNoteRed1.TabIndex = 49
         '
         'lblNotesRed1
         '
@@ -1212,7 +1212,7 @@ Partial Class Form1
         Me.lblNotesRed1.Location = New System.Drawing.Point(9, 859)
         Me.lblNotesRed1.Name = "lblNotesRed1"
         Me.lblNotesRed1.Size = New System.Drawing.Size(76, 13)
-        Me.lblNotesRed1.TabIndex = 34
+        Me.lblNotesRed1.TabIndex = 0
         Me.lblNotesRed1.Text = "Red Team 1"
         '
         'txtNoteBlue1
@@ -1221,7 +1221,7 @@ Partial Class Form1
         Me.txtNoteBlue1.Multiline = True
         Me.txtNoteBlue1.Name = "txtNoteBlue1"
         Me.txtNoteBlue1.Size = New System.Drawing.Size(200, 40)
-        Me.txtNoteBlue1.TabIndex = 37
+        Me.txtNoteBlue1.TabIndex = 51
         '
         'lblNotesBlue1
         '
@@ -1230,7 +1230,7 @@ Partial Class Form1
         Me.lblNotesBlue1.Location = New System.Drawing.Point(9, 946)
         Me.lblNotesBlue1.Name = "lblNotesBlue1"
         Me.lblNotesBlue1.Size = New System.Drawing.Size(78, 13)
-        Me.lblNotesBlue1.TabIndex = 36
+        Me.lblNotesBlue1.TabIndex = 0
         Me.lblNotesBlue1.Text = "Blue Team 1"
         '
         'txtNoteBlue2
@@ -1239,7 +1239,7 @@ Partial Class Form1
         Me.txtNoteBlue2.Multiline = True
         Me.txtNoteBlue2.Name = "txtNoteBlue2"
         Me.txtNoteBlue2.Size = New System.Drawing.Size(200, 40)
-        Me.txtNoteBlue2.TabIndex = 39
+        Me.txtNoteBlue2.TabIndex = 52
         '
         'lblNotesBlue2
         '
@@ -1248,7 +1248,7 @@ Partial Class Form1
         Me.lblNotesBlue2.Location = New System.Drawing.Point(411, 946)
         Me.lblNotesBlue2.Name = "lblNotesBlue2"
         Me.lblNotesBlue2.Size = New System.Drawing.Size(78, 13)
-        Me.lblNotesBlue2.TabIndex = 38
+        Me.lblNotesBlue2.TabIndex = 0
         Me.lblNotesBlue2.Text = "Blue Team 2"
         '
         'btnTextDocumentExport
@@ -1257,7 +1257,7 @@ Partial Class Form1
         Me.btnTextDocumentExport.Location = New System.Drawing.Point(795, 107)
         Me.btnTextDocumentExport.Name = "btnTextDocumentExport"
         Me.btnTextDocumentExport.Size = New System.Drawing.Size(99, 42)
-        Me.btnTextDocumentExport.TabIndex = 40
+        Me.btnTextDocumentExport.TabIndex = 56
         Me.btnTextDocumentExport.Text = "Create Text Document"
         Me.btnTextDocumentExport.UseVisualStyleBackColor = True
         '

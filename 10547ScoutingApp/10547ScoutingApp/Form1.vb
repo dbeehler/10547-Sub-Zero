@@ -1162,5 +1162,4 @@ Public Class Form1
             variablesGlobal.balanceBlue2Value = 0
         End If
     End Sub
-
 End Class

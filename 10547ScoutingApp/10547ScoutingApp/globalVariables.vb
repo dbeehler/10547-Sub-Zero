@@ -1,77 +1,77 @@
 ﻿Public Class variablesGlobal
 
     'variables for Red1
-    Public Shared glyphAutoRed1Value As Integer
-    Public Shared jewelRed1Value As Integer
-    Public Shared safeZoneRed1value As Integer
-    Public Shared cryptoKeyRed1Value As Integer
-    Public Shared glyphTeleOpRed1Value As Integer
-    Public Shared rowRed1Value As Integer
-    Public Shared columnRed1Value As Integer
-    Public Shared cypherRed1Value As Integer
-    Public Shared balanceRed1Value As Integer
-    Public Shared relicRed1Value As Integer
+    Public Shared glyphAutoRed1Value As Byte
+    Public Shared jewelRed1Value As Byte
+    Public Shared safeZoneRed1value As Byte
+    Public Shared cryptoKeyRed1Value As Byte
+    Public Shared glyphTeleOpRed1Value As Byte
+    Public Shared rowRed1Value As Byte
+    Public Shared columnRed1Value As Byte
+    Public Shared cypherRed1Value As Byte
+    Public Shared balanceRed1Value As Byte
+    Public Shared relicRed1Value As Byte
 
     'variables for Red2
-    Public Shared glyphAutoRed2Value As Integer
-    Public Shared jewelRed2Value As Integer
-    Public Shared safeZoneRed2value As Integer
-    Public Shared cryptoKeyRed2Value As Integer
-    Public Shared glyphTeleOpRed2Value As Integer
-    Public Shared rowRed2Value As Integer
-    Public Shared columnRed2Value As Integer
-    Public Shared cypherRed2Value As Integer
-    Public Shared balanceRed2Value As Integer
-    Public Shared relicRed2Value As Integer
+    Public Shared glyphAutoRed2Value As Byte
+    Public Shared jewelRed2Value As Byte
+    Public Shared safeZoneRed2value As Byte
+    Public Shared cryptoKeyRed2Value As Byte
+    Public Shared glyphTeleOpRed2Value As Byte
+    Public Shared rowRed2Value As Byte
+    Public Shared columnRed2Value As Byte
+    Public Shared cypherRed2Value As Byte
+    Public Shared balanceRed2Value As Byte
+    Public Shared relicRed2Value As Byte
 
     'variables for Blue1
-    Public Shared glyphAutoBlue1Value As Integer
-    Public Shared jewelblue1Value As Integer
-    Public Shared safeZoneBlue1value As Integer
-    Public Shared cryptoKeyBlue1Value As Integer
-    Public Shared glyphTeleOpBlue1Value As Integer
-    Public Shared rowBlue1Value As Integer
-    Public Shared columnBlue1Value As Integer
-    Public Shared cypherBlue1Value As Integer
-    Public Shared balanceBlue1Value As Integer
-    Public Shared relicBlue1Value As Integer
+    Public Shared glyphAutoBlue1Value As Byte
+    Public Shared jewelblue1Value As Byte
+    Public Shared safeZoneBlue1value As Byte
+    Public Shared cryptoKeyBlue1Value As Byte
+    Public Shared glyphTeleOpBlue1Value As Byte
+    Public Shared rowBlue1Value As Byte
+    Public Shared columnBlue1Value As Byte
+    Public Shared cypherBlue1Value As Byte
+    Public Shared balanceBlue1Value As Byte
+    Public Shared relicBlue1Value As Byte
 
     'variables for Blue2
-    Public Shared glyphAutoBlue2Value As Integer
-    Public Shared jewelBlue2Value As Integer
-    Public Shared safeZoneBlue2value As Integer
-    Public Shared cryptoKeyBlue2Value As Integer
-    Public Shared glyphTeleOpBlue2Value As Integer
-    Public Shared rowBlue2Value As Integer
-    Public Shared columnBlue2Value As Integer
-    Public Shared cypherBlue2Value As Integer
-    Public Shared balanceBlue2Value As Integer
-    Public Shared relicBlue2Value As Integer
+    Public Shared glyphAutoBlue2Value As Byte
+    Public Shared jewelBlue2Value As Byte
+    Public Shared safeZoneBlue2value As Byte
+    Public Shared cryptoKeyBlue2Value As Byte
+    Public Shared glyphTeleOpBlue2Value As Byte
+    Public Shared rowBlue2Value As Byte
+    Public Shared columnBlue2Value As Byte
+    Public Shared cypherBlue2Value As Byte
+    Public Shared balanceBlue2Value As Byte
+    Public Shared relicBlue2Value As Byte
 
     'Math variables
-    Public Shared redTeam1AutoScore As Integer
-    Public Shared redTeam1TeleScore As Integer
-    Public Shared redTeam1EndScore As Integer
-    Public Shared redTeam1FinalScore As Integer
-    Public Shared relicScoreRed1 As Integer
+    Public Shared redTeam1AutoScore As Byte
+    Public Shared redTeam1TeleScore As Byte
+    Public Shared redTeam1EndScore As Byte
+    Public Shared redTeam1FinalScore As Byte
+    Public Shared relicScoreRed1 As Byte
 
-    Public Shared redTeam2AutoScore As Integer
-    Public Shared redTeam2TeleScore As Integer
-    Public Shared redTeam2EndScore As Integer
-    Public Shared redTeam2FinalScore As Integer
-    Public Shared relicScoreRed2 As Integer
+    Public Shared redTeam2AutoScore As Byte
+    Public Shared redTeam2TeleScore As Byte
+    Public Shared redTeam2EndScore As Byte
+    Public Shared redTeam2FinalScore As Byte
+    Public Shared relicScoreRed2 As Byte
 
-    Public Shared blueTeam1AutoScore As Integer
-    Public Shared blueTeam1TeleScore As Integer
-    Public Shared blueTeam1EndScore As Integer
-    Public Shared blueTeam1FinalScore As Integer
-    Public Shared relicScoreBlue1 As Integer
+    Public Shared blueTeam1AutoScore As Byte
+    Public Shared blueTeam1TeleScore As Byte
+    Public Shared blueTeam1EndScore As Byte
+    Public Shared blueTeam1FinalScore As Byte
+    Public Shared relicScoreBlue1 As Byte
 
-    Public Shared blueTeam2AutoScore As Integer
-    Public Shared blueTeam2TeleScore As Integer
-    Public Shared blueTeam2EndScore As Integer
-    Public Shared blueTeam2FinalScore As Integer
-    Public Shared relicScoreBlue2 As Integer
+    Public Shared blueTeam2AutoScore As Byte
+    Public Shared blueTeam2TeleScore As Byte
+    Public Shared blueTeam2EndScore As Byte
+    Public Shared blueTeam2FinalScore As Byte
+    Public Shared relicScoreBlue2 As Byte
     'end math variables
 
     'variables for Red1Text

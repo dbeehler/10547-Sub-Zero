@@ -122,7 +122,6 @@ Partial Class Form1
         Me.chkJewelBlue2 = New System.Windows.Forms.CheckBox()
         Me.lblAutonomousBlue2 = New System.Windows.Forms.Label()
         Me.lblPatternReference = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblVersionText = New System.Windows.Forms.Label()
         Me.lblNotes = New System.Windows.Forms.Label()
         Me.lblNotesRed2 = New System.Windows.Forms.Label()
@@ -134,6 +133,7 @@ Partial Class Form1
         Me.txtNoteBlue2 = New System.Windows.Forms.TextBox()
         Me.lblNotesBlue2 = New System.Windows.Forms.Label()
         Me.btnTextDocumentExport = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.grpTeamRed1.SuspendLayout()
         CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -164,16 +164,16 @@ Partial Class Form1
         'btnFinalSpreadSheet
         '
         Me.btnFinalSpreadSheet.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(638, 107)
+        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(430, 127)
         Me.btnFinalSpreadSheet.Name = "btnFinalSpreadSheet"
-        Me.btnFinalSpreadSheet.Size = New System.Drawing.Size(99, 42)
+        Me.btnFinalSpreadSheet.Size = New System.Drawing.Size(90, 40)
         Me.btnFinalSpreadSheet.TabIndex = 55
         Me.btnFinalSpreadSheet.Text = "Create Spreadsheet"
         Me.btnFinalSpreadSheet.UseVisualStyleBackColor = True
         '
         'grpTeamRed1
         '
-        Me.grpTeamRed1.BackColor = System.Drawing.Color.IndianRed
+        Me.grpTeamRed1.BackColor = System.Drawing.Color.Red
         Me.grpTeamRed1.Controls.Add(Me.txtRelicRed1)
         Me.grpTeamRed1.Controls.Add(Me.txtColumnsRed1)
         Me.grpTeamRed1.Controls.Add(Me.txtRowRed1)
@@ -199,7 +199,7 @@ Partial Class Form1
         Me.grpTeamRed1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpTeamRed1.Location = New System.Drawing.Point(12, 12)
         Me.grpTeamRed1.Name = "grpTeamRed1"
-        Me.grpTeamRed1.Size = New System.Drawing.Size(298, 407)
+        Me.grpTeamRed1.Size = New System.Drawing.Size(200, 400)
         Me.grpTeamRed1.TabIndex = 0
         Me.grpTeamRed1.TabStop = False
         Me.grpTeamRed1.Text = "Red Team 1"
@@ -209,7 +209,7 @@ Partial Class Form1
         Me.txtRelicRed1.Location = New System.Drawing.Point(73, 336)
         Me.txtRelicRed1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicRed1.Name = "txtRelicRed1"
-        Me.txtRelicRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicRed1.Size = New System.Drawing.Size(105, 18)
         Me.txtRelicRed1.TabIndex = 10
         '
         'txtColumnsRed1
@@ -217,7 +217,7 @@ Partial Class Form1
         Me.txtColumnsRed1.Location = New System.Drawing.Point(117, 239)
         Me.txtColumnsRed1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtColumnsRed1.Name = "txtColumnsRed1"
-        Me.txtColumnsRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsRed1.Size = New System.Drawing.Size(61, 18)
         Me.txtColumnsRed1.TabIndex = 8
         '
         'txtRowRed1
@@ -225,7 +225,7 @@ Partial Class Form1
         Me.txtRowRed1.Location = New System.Drawing.Point(117, 213)
         Me.txtRowRed1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
         Me.txtRowRed1.Name = "txtRowRed1"
-        Me.txtRowRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowRed1.Size = New System.Drawing.Size(61, 18)
         Me.txtRowRed1.TabIndex = 7
         '
         'txtGlyphRed1
@@ -233,7 +233,7 @@ Partial Class Form1
         Me.txtGlyphRed1.Location = New System.Drawing.Point(117, 187)
         Me.txtGlyphRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphRed1.Name = "txtGlyphRed1"
-        Me.txtGlyphRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphRed1.Size = New System.Drawing.Size(61, 18)
         Me.txtGlyphRed1.TabIndex = 6
         '
         'txtGlyphAutoRed1
@@ -241,7 +241,7 @@ Partial Class Form1
         Me.txtGlyphAutoRed1.Location = New System.Drawing.Point(108, 81)
         Me.txtGlyphAutoRed1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoRed1.Name = "txtGlyphAutoRed1"
-        Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoRed1.Size = New System.Drawing.Size(70, 18)
         Me.txtGlyphAutoRed1.TabIndex = 3
         '
         'lblTeamNumberRed1
@@ -350,7 +350,7 @@ Partial Class Form1
         '
         Me.txtTeamRed1.Location = New System.Drawing.Point(90, 22)
         Me.txtTeamRed1.Name = "txtTeamRed1"
-        Me.txtTeamRed1.Size = New System.Drawing.Size(100, 18)
+        Me.txtTeamRed1.Size = New System.Drawing.Size(88, 18)
         Me.txtTeamRed1.TabIndex = 1
         '
         'lblGlyphsAutoRed1
@@ -404,16 +404,16 @@ Partial Class Form1
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(718, 155)
+        Me.btnExit.Location = New System.Drawing.Point(479, 173)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(99, 42)
+        Me.btnExit.Size = New System.Drawing.Size(90, 40)
         Me.btnExit.TabIndex = 57
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'grpTeamRed2
         '
-        Me.grpTeamRed2.BackColor = System.Drawing.Color.IndianRed
+        Me.grpTeamRed2.BackColor = System.Drawing.Color.Red
         Me.grpTeamRed2.Controls.Add(Me.txtRelicRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblTeamNumberRed2)
         Me.grpTeamRed2.Controls.Add(Me.txtColumnsRed2)
@@ -437,9 +437,9 @@ Partial Class Form1
         Me.grpTeamRed2.Controls.Add(Me.chkJewelRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblAutonomousRed2)
         Me.grpTeamRed2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpTeamRed2.Location = New System.Drawing.Point(316, 12)
+        Me.grpTeamRed2.Location = New System.Drawing.Point(216, 12)
         Me.grpTeamRed2.Name = "grpTeamRed2"
-        Me.grpTeamRed2.Size = New System.Drawing.Size(298, 407)
+        Me.grpTeamRed2.Size = New System.Drawing.Size(200, 400)
         Me.grpTeamRed2.TabIndex = 0
         Me.grpTeamRed2.TabStop = False
         Me.grpTeamRed2.Text = "Red Team 2"
@@ -449,7 +449,7 @@ Partial Class Form1
         Me.txtRelicRed2.Location = New System.Drawing.Point(73, 336)
         Me.txtRelicRed2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicRed2.Name = "txtRelicRed2"
-        Me.txtRelicRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicRed2.Size = New System.Drawing.Size(105, 18)
         Me.txtRelicRed2.TabIndex = 22
         '
         'lblTeamNumberRed2
@@ -466,7 +466,7 @@ Partial Class Form1
         Me.txtColumnsRed2.Location = New System.Drawing.Point(117, 239)
         Me.txtColumnsRed2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtColumnsRed2.Name = "txtColumnsRed2"
-        Me.txtColumnsRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsRed2.Size = New System.Drawing.Size(61, 18)
         Me.txtColumnsRed2.TabIndex = 20
         '
         'chkRelicUprightRed2
@@ -484,7 +484,7 @@ Partial Class Form1
         Me.txtRowRed2.Location = New System.Drawing.Point(117, 213)
         Me.txtRowRed2.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
         Me.txtRowRed2.Name = "txtRowRed2"
-        Me.txtRowRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowRed2.Size = New System.Drawing.Size(61, 18)
         Me.txtRowRed2.TabIndex = 19
         '
         'lblPatternRed2
@@ -501,7 +501,7 @@ Partial Class Form1
         Me.txtGlyphRed2.Location = New System.Drawing.Point(117, 187)
         Me.txtGlyphRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphRed2.Name = "txtGlyphRed2"
-        Me.txtGlyphRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphRed2.Size = New System.Drawing.Size(61, 18)
         Me.txtGlyphRed2.TabIndex = 18
         '
         'txtGlyphAutoRed2
@@ -509,7 +509,7 @@ Partial Class Form1
         Me.txtGlyphAutoRed2.Location = New System.Drawing.Point(108, 81)
         Me.txtGlyphAutoRed2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoRed2.Name = "txtGlyphAutoRed2"
-        Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoRed2.Size = New System.Drawing.Size(70, 18)
         Me.txtGlyphAutoRed2.TabIndex = 15
         '
         'chkBalanceRed2
@@ -644,9 +644,9 @@ Partial Class Form1
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(718, 59)
+        Me.btnClear.Location = New System.Drawing.Point(479, 83)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(99, 42)
+        Me.btnClear.Size = New System.Drawing.Size(90, 40)
         Me.btnClear.TabIndex = 54
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -655,7 +655,7 @@ Partial Class Form1
         '
         Me.lblmatchNumber.AutoSize = True
         Me.lblmatchNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblmatchNumber.Location = New System.Drawing.Point(636, 16)
+        Me.lblmatchNumber.Location = New System.Drawing.Point(422, 40)
         Me.lblmatchNumber.Name = "lblmatchNumber"
         Me.lblmatchNumber.Size = New System.Drawing.Size(86, 12)
         Me.lblmatchNumber.TabIndex = 0
@@ -664,7 +664,7 @@ Partial Class Form1
         'txtMatchNumber
         '
         Me.txtMatchNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMatchNumber.Location = New System.Drawing.Point(738, 13)
+        Me.txtMatchNumber.Location = New System.Drawing.Point(524, 37)
         Me.txtMatchNumber.Name = "txtMatchNumber"
         Me.txtMatchNumber.Size = New System.Drawing.Size(100, 18)
         Me.txtMatchNumber.TabIndex = 53
@@ -697,7 +697,7 @@ Partial Class Form1
         Me.grpTeamBlue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpTeamBlue1.Location = New System.Drawing.Point(12, 425)
         Me.grpTeamBlue1.Name = "grpTeamBlue1"
-        Me.grpTeamBlue1.Size = New System.Drawing.Size(298, 407)
+        Me.grpTeamBlue1.Size = New System.Drawing.Size(200, 400)
         Me.grpTeamBlue1.TabIndex = 0
         Me.grpTeamBlue1.TabStop = False
         Me.grpTeamBlue1.Text = "Blue Team 1"
@@ -707,7 +707,7 @@ Partial Class Form1
         Me.txtRelicBlue1.Location = New System.Drawing.Point(73, 336)
         Me.txtRelicBlue1.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicBlue1.Name = "txtRelicBlue1"
-        Me.txtRelicBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicBlue1.Size = New System.Drawing.Size(105, 18)
         Me.txtRelicBlue1.TabIndex = 34
         '
         'lblTeamNumberBlue1
@@ -724,7 +724,7 @@ Partial Class Form1
         Me.txtColumnsBlue1.Location = New System.Drawing.Point(117, 239)
         Me.txtColumnsBlue1.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtColumnsBlue1.Name = "txtColumnsBlue1"
-        Me.txtColumnsBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsBlue1.Size = New System.Drawing.Size(61, 18)
         Me.txtColumnsBlue1.TabIndex = 32
         '
         'chkRelicUprightBlue1
@@ -742,7 +742,7 @@ Partial Class Form1
         Me.txtRowBlue1.Location = New System.Drawing.Point(117, 213)
         Me.txtRowBlue1.Maximum = New Decimal(New Integer() {8, 0, 0, 0})
         Me.txtRowBlue1.Name = "txtRowBlue1"
-        Me.txtRowBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowBlue1.Size = New System.Drawing.Size(61, 18)
         Me.txtRowBlue1.TabIndex = 31
         '
         'lblPatternBlue1
@@ -759,7 +759,7 @@ Partial Class Form1
         Me.txtGlyphblue1.Location = New System.Drawing.Point(117, 187)
         Me.txtGlyphblue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphblue1.Name = "txtGlyphblue1"
-        Me.txtGlyphblue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphblue1.Size = New System.Drawing.Size(61, 18)
         Me.txtGlyphblue1.TabIndex = 30
         '
         'txtGlyphAutoBlue1
@@ -767,7 +767,7 @@ Partial Class Form1
         Me.txtGlyphAutoBlue1.Location = New System.Drawing.Point(108, 81)
         Me.txtGlyphAutoBlue1.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoBlue1.Name = "txtGlyphAutoBlue1"
-        Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoBlue1.Size = New System.Drawing.Size(70, 18)
         Me.txtGlyphAutoBlue1.TabIndex = 27
         '
         'chkBalanceBlue1
@@ -903,7 +903,7 @@ Partial Class Form1
         '
         Me.lblWarning.AutoSize = True
         Me.lblWarning.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblWarning.Location = New System.Drawing.Point(656, 32)
+        Me.lblWarning.Location = New System.Drawing.Point(426, 7)
         Me.lblWarning.Name = "lblWarning"
         Me.lblWarning.Size = New System.Drawing.Size(182, 24)
         Me.lblWarning.TabIndex = 0
@@ -935,9 +935,9 @@ Partial Class Form1
         Me.grpTeamBlue2.Controls.Add(Me.chkJewelBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblAutonomousBlue2)
         Me.grpTeamBlue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpTeamBlue2.Location = New System.Drawing.Point(316, 425)
+        Me.grpTeamBlue2.Location = New System.Drawing.Point(216, 425)
         Me.grpTeamBlue2.Name = "grpTeamBlue2"
-        Me.grpTeamBlue2.Size = New System.Drawing.Size(298, 407)
+        Me.grpTeamBlue2.Size = New System.Drawing.Size(200, 400)
         Me.grpTeamBlue2.TabIndex = 0
         Me.grpTeamBlue2.TabStop = False
         Me.grpTeamBlue2.Text = "Blue Team 2"
@@ -947,7 +947,7 @@ Partial Class Form1
         Me.txtRelicBlue2.Location = New System.Drawing.Point(73, 336)
         Me.txtRelicBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtRelicBlue2.Name = "txtRelicBlue2"
-        Me.txtRelicBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRelicBlue2.Size = New System.Drawing.Size(105, 18)
         Me.txtRelicBlue2.TabIndex = 46
         '
         'lblTeamNumberBlue2
@@ -964,7 +964,7 @@ Partial Class Form1
         Me.txtColumnsBlue2.Location = New System.Drawing.Point(117, 239)
         Me.txtColumnsBlue2.Maximum = New Decimal(New Integer() {3, 0, 0, 0})
         Me.txtColumnsBlue2.Name = "txtColumnsBlue2"
-        Me.txtColumnsBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtColumnsBlue2.Size = New System.Drawing.Size(61, 18)
         Me.txtColumnsBlue2.TabIndex = 44
         '
         'chkRelicUprightBlue2
@@ -982,7 +982,7 @@ Partial Class Form1
         Me.txtRowBlue2.Location = New System.Drawing.Point(117, 213)
         Me.txtRowBlue2.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
         Me.txtRowBlue2.Name = "txtRowBlue2"
-        Me.txtRowBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtRowBlue2.Size = New System.Drawing.Size(61, 18)
         Me.txtRowBlue2.TabIndex = 43
         '
         'lblPatternBlue2
@@ -999,7 +999,7 @@ Partial Class Form1
         Me.txtGlyphblue2.Location = New System.Drawing.Point(117, 187)
         Me.txtGlyphblue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphblue2.Name = "txtGlyphblue2"
-        Me.txtGlyphblue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphblue2.Size = New System.Drawing.Size(61, 18)
         Me.txtGlyphblue2.TabIndex = 42
         '
         'txtGlyphAutoBlue2
@@ -1007,7 +1007,7 @@ Partial Class Form1
         Me.txtGlyphAutoBlue2.Location = New System.Drawing.Point(108, 81)
         Me.txtGlyphAutoBlue2.Maximum = New Decimal(New Integer() {24, 0, 0, 0})
         Me.txtGlyphAutoBlue2.Name = "txtGlyphAutoBlue2"
-        Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(120, 18)
+        Me.txtGlyphAutoBlue2.Size = New System.Drawing.Size(70, 18)
         Me.txtGlyphAutoBlue2.TabIndex = 39
         '
         'chkBalanceBlue2
@@ -1143,26 +1143,17 @@ Partial Class Form1
         '
         Me.lblPatternReference.AutoSize = True
         Me.lblPatternReference.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPatternReference.Location = New System.Drawing.Point(653, 216)
+        Me.lblPatternReference.Location = New System.Drawing.Point(422, 218)
         Me.lblPatternReference.Name = "lblPatternReference"
         Me.lblPatternReference.Size = New System.Drawing.Size(166, 24)
         Me.lblPatternReference.TabIndex = 0
         Me.lblPatternReference.Text = "Pattern Refrence"
         Me.lblPatternReference.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global._10547ScoutingApp.My.Resources.Resources.patternReference
-        Me.PictureBox1.Location = New System.Drawing.Point(620, 243)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(274, 589)
-        Me.PictureBox1.TabIndex = 29
-        Me.PictureBox1.TabStop = False
-        '
         'lblVersionText
         '
         Me.lblVersionText.AutoSize = True
-        Me.lblVersionText.Location = New System.Drawing.Point(833, 992)
+        Me.lblVersionText.Location = New System.Drawing.Point(614, 7)
         Me.lblVersionText.Name = "lblVersionText"
         Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
         Me.lblVersionText.TabIndex = 30
@@ -1173,7 +1164,7 @@ Partial Class Form1
         '
         Me.lblNotes.AutoSize = True
         Me.lblNotes.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNotes.Location = New System.Drawing.Point(282, 835)
+        Me.lblNotes.Location = New System.Drawing.Point(630, 326)
         Me.lblNotes.Name = "lblNotes"
         Me.lblNotes.Size = New System.Drawing.Size(70, 24)
         Me.lblNotes.TabIndex = 0
@@ -1183,7 +1174,7 @@ Partial Class Form1
         '
         Me.lblNotesRed2.AutoSize = True
         Me.lblNotesRed2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNotesRed2.Location = New System.Drawing.Point(411, 859)
+        Me.lblNotesRed2.Location = New System.Drawing.Point(631, 422)
         Me.lblNotesRed2.Name = "lblNotesRed2"
         Me.lblNotesRed2.Size = New System.Drawing.Size(76, 13)
         Me.lblNotesRed2.TabIndex = 0
@@ -1191,25 +1182,25 @@ Partial Class Form1
         '
         'txtNoteRed2
         '
-        Me.txtNoteRed2.Location = New System.Drawing.Point(414, 875)
+        Me.txtNoteRed2.Location = New System.Drawing.Point(634, 443)
         Me.txtNoteRed2.Multiline = True
         Me.txtNoteRed2.Name = "txtNoteRed2"
-        Me.txtNoteRed2.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteRed2.Size = New System.Drawing.Size(125, 40)
         Me.txtNoteRed2.TabIndex = 50
         '
         'txtNoteRed1
         '
-        Me.txtNoteRed1.Location = New System.Drawing.Point(12, 875)
+        Me.txtNoteRed1.Location = New System.Drawing.Point(634, 374)
         Me.txtNoteRed1.Multiline = True
         Me.txtNoteRed1.Name = "txtNoteRed1"
-        Me.txtNoteRed1.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteRed1.Size = New System.Drawing.Size(125, 40)
         Me.txtNoteRed1.TabIndex = 49
         '
         'lblNotesRed1
         '
         Me.lblNotesRed1.AutoSize = True
         Me.lblNotesRed1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNotesRed1.Location = New System.Drawing.Point(9, 859)
+        Me.lblNotesRed1.Location = New System.Drawing.Point(631, 353)
         Me.lblNotesRed1.Name = "lblNotesRed1"
         Me.lblNotesRed1.Size = New System.Drawing.Size(76, 13)
         Me.lblNotesRed1.TabIndex = 0
@@ -1217,17 +1208,17 @@ Partial Class Form1
         '
         'txtNoteBlue1
         '
-        Me.txtNoteBlue1.Location = New System.Drawing.Point(12, 962)
+        Me.txtNoteBlue1.Location = New System.Drawing.Point(634, 512)
         Me.txtNoteBlue1.Multiline = True
         Me.txtNoteBlue1.Name = "txtNoteBlue1"
-        Me.txtNoteBlue1.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteBlue1.Size = New System.Drawing.Size(125, 40)
         Me.txtNoteBlue1.TabIndex = 51
         '
         'lblNotesBlue1
         '
         Me.lblNotesBlue1.AutoSize = True
         Me.lblNotesBlue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNotesBlue1.Location = New System.Drawing.Point(9, 946)
+        Me.lblNotesBlue1.Location = New System.Drawing.Point(631, 491)
         Me.lblNotesBlue1.Name = "lblNotesBlue1"
         Me.lblNotesBlue1.Size = New System.Drawing.Size(78, 13)
         Me.lblNotesBlue1.TabIndex = 0
@@ -1235,17 +1226,17 @@ Partial Class Form1
         '
         'txtNoteBlue2
         '
-        Me.txtNoteBlue2.Location = New System.Drawing.Point(414, 962)
+        Me.txtNoteBlue2.Location = New System.Drawing.Point(634, 581)
         Me.txtNoteBlue2.Multiline = True
         Me.txtNoteBlue2.Name = "txtNoteBlue2"
-        Me.txtNoteBlue2.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteBlue2.Size = New System.Drawing.Size(125, 40)
         Me.txtNoteBlue2.TabIndex = 52
         '
         'lblNotesBlue2
         '
         Me.lblNotesBlue2.AutoSize = True
         Me.lblNotesBlue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNotesBlue2.Location = New System.Drawing.Point(411, 946)
+        Me.lblNotesBlue2.Location = New System.Drawing.Point(631, 560)
         Me.lblNotesBlue2.Name = "lblNotesBlue2"
         Me.lblNotesBlue2.Size = New System.Drawing.Size(78, 13)
         Me.lblNotesBlue2.TabIndex = 0
@@ -1254,18 +1245,27 @@ Partial Class Form1
         'btnTextDocumentExport
         '
         Me.btnTextDocumentExport.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTextDocumentExport.Location = New System.Drawing.Point(795, 107)
+        Me.btnTextDocumentExport.Location = New System.Drawing.Point(534, 126)
         Me.btnTextDocumentExport.Name = "btnTextDocumentExport"
-        Me.btnTextDocumentExport.Size = New System.Drawing.Size(99, 42)
+        Me.btnTextDocumentExport.Size = New System.Drawing.Size(90, 40)
         Me.btnTextDocumentExport.TabIndex = 56
         Me.btnTextDocumentExport.Text = "Create Text Document"
         Me.btnTextDocumentExport.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global._10547ScoutingApp.My.Resources.Resources.patternReference
+        Me.PictureBox1.Location = New System.Drawing.Point(422, 245)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(202, 437)
+        Me.PictureBox1.TabIndex = 29
+        Me.PictureBox1.TabStop = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(905, 1014)
+        Me.ClientSize = New System.Drawing.Size(852, 826)
         Me.Controls.Add(Me.btnTextDocumentExport)
         Me.Controls.Add(Me.txtNoteBlue2)
         Me.Controls.Add(Me.lblNotesBlue2)

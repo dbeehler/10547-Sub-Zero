@@ -170,6 +170,7 @@ Partial Class Form1
         Me.btnFinalSpreadSheet.TabIndex = 55
         Me.btnFinalSpreadSheet.Text = "Create Spreadsheet"
         Me.btnFinalSpreadSheet.UseVisualStyleBackColor = True
+        Me.btnFinalSpreadSheet.Visible = False
         '
         'grpTeamRed1
         '
@@ -197,6 +198,7 @@ Partial Class Form1
         Me.grpTeamRed1.Controls.Add(Me.chkJewelRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblAutonomousRed1)
         Me.grpTeamRed1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpTeamRed1.ForeColor = System.Drawing.SystemColors.Control
         Me.grpTeamRed1.Location = New System.Drawing.Point(12, 12)
         Me.grpTeamRed1.Name = "grpTeamRed1"
         Me.grpTeamRed1.Size = New System.Drawing.Size(200, 400)
@@ -437,6 +439,7 @@ Partial Class Form1
         Me.grpTeamRed2.Controls.Add(Me.chkJewelRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblAutonomousRed2)
         Me.grpTeamRed2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpTeamRed2.ForeColor = System.Drawing.SystemColors.Control
         Me.grpTeamRed2.Location = New System.Drawing.Point(218, 12)
         Me.grpTeamRed2.Name = "grpTeamRed2"
         Me.grpTeamRed2.Size = New System.Drawing.Size(200, 400)
@@ -695,6 +698,7 @@ Partial Class Form1
         Me.grpTeamBlue1.Controls.Add(Me.chkJewelBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblAutonomousBlue1)
         Me.grpTeamBlue1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpTeamBlue1.ForeColor = System.Drawing.SystemColors.Control
         Me.grpTeamBlue1.Location = New System.Drawing.Point(12, 418)
         Me.grpTeamBlue1.Name = "grpTeamBlue1"
         Me.grpTeamBlue1.Size = New System.Drawing.Size(200, 400)
@@ -935,6 +939,7 @@ Partial Class Form1
         Me.grpTeamBlue2.Controls.Add(Me.chkJewelBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblAutonomousBlue2)
         Me.grpTeamBlue2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpTeamBlue2.ForeColor = System.Drawing.SystemColors.Control
         Me.grpTeamBlue2.Location = New System.Drawing.Point(218, 418)
         Me.grpTeamBlue2.Name = "grpTeamBlue2"
         Me.grpTeamBlue2.Size = New System.Drawing.Size(200, 400)

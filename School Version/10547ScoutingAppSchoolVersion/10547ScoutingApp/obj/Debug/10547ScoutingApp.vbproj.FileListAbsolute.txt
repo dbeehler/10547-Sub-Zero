@@ -61,3 +61,16 @@ C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Versi
 C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Form1.resources
 C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Resources.resources
 C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.GenerateResource.Cache
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbprojResolveAssemblyReference.cache
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.ResolveComReference.cache
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Form1.resources
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Resources.resources
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.GenerateResource.Cache
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.CoreCompileInputs.cache
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.exe
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.xml
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.pdb
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.exe.config
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.exe
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.pdb
+C:\Users\WestFTC10547\Desktop\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.xml

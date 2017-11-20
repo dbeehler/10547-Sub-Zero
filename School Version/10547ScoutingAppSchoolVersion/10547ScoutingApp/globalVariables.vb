@@ -1,5 +1,11 @@
 ﻿Public Class variablesGlobal
 
+    Public Shared teamFile As String
+    Public Shared newTeams() As String
+    Public Shared allTeams() As String
+    Public Shared matchNumber As String
+    Public Shared redAllianceScore, blueAllianceScore As Integer
+
     'variables for Red1
     Public Shared glyphAutoRed1Value, jewelRed1Value, safeZoneRed1value, cryptoKeyRed1Value, glyphTeleOpRed1Value As Byte
     Public Shared rowRed1Value, columnRed1Value, cypherRed1Value, balanceRed1Value, relicRed1Value As Byte

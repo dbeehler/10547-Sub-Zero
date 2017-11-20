@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class TextExporter
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,9 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TextExporter))
         Me.btnFinalSpreadSheet = New System.Windows.Forms.Button()
         Me.grpTeamRed1 = New System.Windows.Forms.GroupBox()
+        Me.cmboRed1 = New System.Windows.Forms.ComboBox()
         Me.txtRelicRed1 = New System.Windows.Forms.NumericUpDown()
         Me.txtColumnsRed1 = New System.Windows.Forms.NumericUpDown()
         Me.txtRowRed1 = New System.Windows.Forms.NumericUpDown()
@@ -41,7 +42,6 @@ Partial Class Form1
         Me.lblRowsRed1 = New System.Windows.Forms.Label()
         Me.lblTeleOpGlyphsRed1 = New System.Windows.Forms.Label()
         Me.lblTeleOpRed1 = New System.Windows.Forms.Label()
-        Me.txtTeamRed1 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoRed1 = New System.Windows.Forms.Label()
         Me.chkSafeZoneRed1 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyRed1 = New System.Windows.Forms.CheckBox()
@@ -49,6 +49,7 @@ Partial Class Form1
         Me.lblAutonomousRed1 = New System.Windows.Forms.Label()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.grpTeamRed2 = New System.Windows.Forms.GroupBox()
+        Me.cmboRed2 = New System.Windows.Forms.ComboBox()
         Me.txtRelicRed2 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberRed2 = New System.Windows.Forms.Label()
         Me.txtColumnsRed2 = New System.Windows.Forms.NumericUpDown()
@@ -65,7 +66,6 @@ Partial Class Form1
         Me.lblRowsRed2 = New System.Windows.Forms.Label()
         Me.lblTeleOpGlyphsRed2 = New System.Windows.Forms.Label()
         Me.lblTeleOpRed2 = New System.Windows.Forms.Label()
-        Me.txtTeamRed2 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoRed2 = New System.Windows.Forms.Label()
         Me.chkSafeZoneRed2 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyRed2 = New System.Windows.Forms.CheckBox()
@@ -75,6 +75,7 @@ Partial Class Form1
         Me.lblmatchNumber = New System.Windows.Forms.Label()
         Me.txtMatchNumber = New System.Windows.Forms.TextBox()
         Me.grpTeamBlue1 = New System.Windows.Forms.GroupBox()
+        Me.cmboBlue1 = New System.Windows.Forms.ComboBox()
         Me.txtRelicBlue1 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberBlue1 = New System.Windows.Forms.Label()
         Me.txtColumnsBlue1 = New System.Windows.Forms.NumericUpDown()
@@ -91,7 +92,6 @@ Partial Class Form1
         Me.lblRowsBlue1 = New System.Windows.Forms.Label()
         Me.lblTeleOpGlyphsBlue1 = New System.Windows.Forms.Label()
         Me.lblTeleOpBlue1 = New System.Windows.Forms.Label()
-        Me.txtTeamBlue1 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoBlue1 = New System.Windows.Forms.Label()
         Me.chkSafeZoneBlue1 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyBlue1 = New System.Windows.Forms.CheckBox()
@@ -99,6 +99,7 @@ Partial Class Form1
         Me.lblAutonomousBlue1 = New System.Windows.Forms.Label()
         Me.lblWarning = New System.Windows.Forms.Label()
         Me.grpTeamBlue2 = New System.Windows.Forms.GroupBox()
+        Me.cmboBlue2 = New System.Windows.Forms.ComboBox()
         Me.txtRelicBlue2 = New System.Windows.Forms.NumericUpDown()
         Me.lblTeamNumberBlue2 = New System.Windows.Forms.Label()
         Me.txtColumnsBlue2 = New System.Windows.Forms.NumericUpDown()
@@ -115,7 +116,6 @@ Partial Class Form1
         Me.lblRowsBlue2 = New System.Windows.Forms.Label()
         Me.lblTeleOpGlyphsBlue2 = New System.Windows.Forms.Label()
         Me.lblTeleOpBlue2 = New System.Windows.Forms.Label()
-        Me.txtTeamBlue2 = New System.Windows.Forms.TextBox()
         Me.lblGlyphsAutoBlue2 = New System.Windows.Forms.Label()
         Me.chkSafeZoneBlue2 = New System.Windows.Forms.CheckBox()
         Me.chkCryptoKeyBlue2 = New System.Windows.Forms.CheckBox()
@@ -134,6 +134,7 @@ Partial Class Form1
         Me.lblNotesBlue2 = New System.Windows.Forms.Label()
         Me.btnTextDocumentExport = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnTeamInput = New System.Windows.Forms.Button()
         Me.grpTeamRed1.SuspendLayout()
         CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -164,17 +165,17 @@ Partial Class Form1
         'btnFinalSpreadSheet
         '
         Me.btnFinalSpreadSheet.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(418, 91)
+        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(523, 93)
         Me.btnFinalSpreadSheet.Name = "btnFinalSpreadSheet"
         Me.btnFinalSpreadSheet.Size = New System.Drawing.Size(95, 50)
         Me.btnFinalSpreadSheet.TabIndex = 55
-        Me.btnFinalSpreadSheet.Text = "Create Spreadsheet"
+        Me.btnFinalSpreadSheet.Text = "Main Menu"
         Me.btnFinalSpreadSheet.UseVisualStyleBackColor = True
-        Me.btnFinalSpreadSheet.Visible = False
         '
         'grpTeamRed1
         '
         Me.grpTeamRed1.BackColor = System.Drawing.Color.DarkRed
+        Me.grpTeamRed1.Controls.Add(Me.cmboRed1)
         Me.grpTeamRed1.Controls.Add(Me.txtRelicRed1)
         Me.grpTeamRed1.Controls.Add(Me.txtColumnsRed1)
         Me.grpTeamRed1.Controls.Add(Me.txtRowRed1)
@@ -191,7 +192,6 @@ Partial Class Form1
         Me.grpTeamRed1.Controls.Add(Me.lblRowsRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblTeleOpGlyphsRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblTeleOpRed1)
-        Me.grpTeamRed1.Controls.Add(Me.txtTeamRed1)
         Me.grpTeamRed1.Controls.Add(Me.lblGlyphsAutoRed1)
         Me.grpTeamRed1.Controls.Add(Me.chkSafeZoneRed1)
         Me.grpTeamRed1.Controls.Add(Me.chkCryptoKeyRed1)
@@ -205,6 +205,14 @@ Partial Class Form1
         Me.grpTeamRed1.TabIndex = 0
         Me.grpTeamRed1.TabStop = False
         Me.grpTeamRed1.Text = "Red Team 1"
+        '
+        'cmboRed1
+        '
+        Me.cmboRed1.FormattingEnabled = True
+        Me.cmboRed1.Location = New System.Drawing.Point(90, 21)
+        Me.cmboRed1.Name = "cmboRed1"
+        Me.cmboRed1.Size = New System.Drawing.Size(87, 20)
+        Me.cmboRed1.TabIndex = 26
         '
         'txtRelicRed1
         '
@@ -348,13 +356,6 @@ Partial Class Form1
         Me.lblTeleOpRed1.TabIndex = 0
         Me.lblTeleOpRed1.Text = "TeleOp:"
         '
-        'txtTeamRed1
-        '
-        Me.txtTeamRed1.Location = New System.Drawing.Point(90, 22)
-        Me.txtTeamRed1.Name = "txtTeamRed1"
-        Me.txtTeamRed1.Size = New System.Drawing.Size(88, 18)
-        Me.txtTeamRed1.TabIndex = 1
-        '
         'lblGlyphsAutoRed1
         '
         Me.lblGlyphsAutoRed1.AutoSize = True
@@ -416,6 +417,7 @@ Partial Class Form1
         'grpTeamRed2
         '
         Me.grpTeamRed2.BackColor = System.Drawing.Color.DarkRed
+        Me.grpTeamRed2.Controls.Add(Me.cmboRed2)
         Me.grpTeamRed2.Controls.Add(Me.txtRelicRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblTeamNumberRed2)
         Me.grpTeamRed2.Controls.Add(Me.txtColumnsRed2)
@@ -432,7 +434,6 @@ Partial Class Form1
         Me.grpTeamRed2.Controls.Add(Me.lblRowsRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblTeleOpGlyphsRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblTeleOpRed2)
-        Me.grpTeamRed2.Controls.Add(Me.txtTeamRed2)
         Me.grpTeamRed2.Controls.Add(Me.lblGlyphsAutoRed2)
         Me.grpTeamRed2.Controls.Add(Me.chkSafeZoneRed2)
         Me.grpTeamRed2.Controls.Add(Me.chkCryptoKeyRed2)
@@ -446,6 +447,14 @@ Partial Class Form1
         Me.grpTeamRed2.TabIndex = 0
         Me.grpTeamRed2.TabStop = False
         Me.grpTeamRed2.Text = "Red Team 2"
+        '
+        'cmboRed2
+        '
+        Me.cmboRed2.FormattingEnabled = True
+        Me.cmboRed2.Location = New System.Drawing.Point(91, 24)
+        Me.cmboRed2.Name = "cmboRed2"
+        Me.cmboRed2.Size = New System.Drawing.Size(87, 20)
+        Me.cmboRed2.TabIndex = 25
         '
         'txtRelicRed2
         '
@@ -589,13 +598,6 @@ Partial Class Form1
         Me.lblTeleOpRed2.TabIndex = 0
         Me.lblTeleOpRed2.Text = "TeleOp:"
         '
-        'txtTeamRed2
-        '
-        Me.txtTeamRed2.Location = New System.Drawing.Point(91, 22)
-        Me.txtTeamRed2.Name = "txtTeamRed2"
-        Me.txtTeamRed2.Size = New System.Drawing.Size(87, 18)
-        Me.txtTeamRed2.TabIndex = 13
-        '
         'lblGlyphsAutoRed2
         '
         Me.lblGlyphsAutoRed2.AutoSize = True
@@ -675,6 +677,7 @@ Partial Class Form1
         'grpTeamBlue1
         '
         Me.grpTeamBlue1.BackColor = System.Drawing.Color.Blue
+        Me.grpTeamBlue1.Controls.Add(Me.cmboBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.txtRelicBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblTeamNumberBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.txtColumnsBlue1)
@@ -691,7 +694,6 @@ Partial Class Form1
         Me.grpTeamBlue1.Controls.Add(Me.lblRowsBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblTeleOpGlyphsBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblTeleOpBlue1)
-        Me.grpTeamBlue1.Controls.Add(Me.txtTeamBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.lblGlyphsAutoBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.chkSafeZoneBlue1)
         Me.grpTeamBlue1.Controls.Add(Me.chkCryptoKeyBlue1)
@@ -705,6 +707,14 @@ Partial Class Form1
         Me.grpTeamBlue1.TabIndex = 0
         Me.grpTeamBlue1.TabStop = False
         Me.grpTeamBlue1.Text = "Blue Team 1"
+        '
+        'cmboBlue1
+        '
+        Me.cmboBlue1.FormattingEnabled = True
+        Me.cmboBlue1.Location = New System.Drawing.Point(91, 21)
+        Me.cmboBlue1.Name = "cmboBlue1"
+        Me.cmboBlue1.Size = New System.Drawing.Size(87, 20)
+        Me.cmboBlue1.TabIndex = 27
         '
         'txtRelicBlue1
         '
@@ -848,13 +858,6 @@ Partial Class Form1
         Me.lblTeleOpBlue1.TabIndex = 0
         Me.lblTeleOpBlue1.Text = "TeleOp:"
         '
-        'txtTeamBlue1
-        '
-        Me.txtTeamBlue1.Location = New System.Drawing.Point(91, 22)
-        Me.txtTeamBlue1.Name = "txtTeamBlue1"
-        Me.txtTeamBlue1.Size = New System.Drawing.Size(87, 18)
-        Me.txtTeamBlue1.TabIndex = 25
-        '
         'lblGlyphsAutoBlue1
         '
         Me.lblGlyphsAutoBlue1.AutoSize = True
@@ -916,6 +919,7 @@ Partial Class Form1
         'grpTeamBlue2
         '
         Me.grpTeamBlue2.BackColor = System.Drawing.Color.Blue
+        Me.grpTeamBlue2.Controls.Add(Me.cmboBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.txtRelicBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblTeamNumberBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.txtColumnsBlue2)
@@ -932,7 +936,6 @@ Partial Class Form1
         Me.grpTeamBlue2.Controls.Add(Me.lblRowsBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblTeleOpGlyphsBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblTeleOpBlue2)
-        Me.grpTeamBlue2.Controls.Add(Me.txtTeamBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.lblGlyphsAutoBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.chkSafeZoneBlue2)
         Me.grpTeamBlue2.Controls.Add(Me.chkCryptoKeyBlue2)
@@ -946,6 +949,14 @@ Partial Class Form1
         Me.grpTeamBlue2.TabIndex = 0
         Me.grpTeamBlue2.TabStop = False
         Me.grpTeamBlue2.Text = "Blue Team 2"
+        '
+        'cmboBlue2
+        '
+        Me.cmboBlue2.FormattingEnabled = True
+        Me.cmboBlue2.Location = New System.Drawing.Point(91, 21)
+        Me.cmboBlue2.Name = "cmboBlue2"
+        Me.cmboBlue2.Size = New System.Drawing.Size(87, 20)
+        Me.cmboBlue2.TabIndex = 37
         '
         'txtRelicBlue2
         '
@@ -1088,13 +1099,6 @@ Partial Class Form1
         Me.lblTeleOpBlue2.Size = New System.Drawing.Size(44, 12)
         Me.lblTeleOpBlue2.TabIndex = 0
         Me.lblTeleOpBlue2.Text = "TeleOp:"
-        '
-        'txtTeamBlue2
-        '
-        Me.txtTeamBlue2.Location = New System.Drawing.Point(91, 22)
-        Me.txtTeamBlue2.Name = "txtTeamBlue2"
-        Me.txtTeamBlue2.Size = New System.Drawing.Size(87, 18)
-        Me.txtTeamBlue2.TabIndex = 37
         '
         'lblGlyphsAutoBlue2
         '
@@ -1250,7 +1254,7 @@ Partial Class Form1
         'btnTextDocumentExport
         '
         Me.btnTextDocumentExport.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnTextDocumentExport.Location = New System.Drawing.Point(519, 91)
+        Me.btnTextDocumentExport.Location = New System.Drawing.Point(422, 93)
         Me.btnTextDocumentExport.Name = "btnTextDocumentExport"
         Me.btnTextDocumentExport.Size = New System.Drawing.Size(95, 50)
         Me.btnTextDocumentExport.TabIndex = 56
@@ -1266,11 +1270,21 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 29
         Me.PictureBox1.TabStop = False
         '
-        'Form1
+        'btnTeamInput
+        '
+        Me.btnTeamInput.Location = New System.Drawing.Point(583, 515)
+        Me.btnTeamInput.Name = "btnTeamInput"
+        Me.btnTeamInput.Size = New System.Drawing.Size(75, 23)
+        Me.btnTeamInput.TabIndex = 58
+        Me.btnTeamInput.Text = "Input Teams"
+        Me.btnTeamInput.UseVisualStyleBackColor = True
+        '
+        'TextExporter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(718, 821)
+        Me.Controls.Add(Me.btnTeamInput)
         Me.Controls.Add(Me.btnTextDocumentExport)
         Me.Controls.Add(Me.txtNoteBlue2)
         Me.Controls.Add(Me.lblNotesBlue2)
@@ -1295,9 +1309,9 @@ Partial Class Form1
         Me.Controls.Add(Me.grpTeamRed1)
         Me.Controls.Add(Me.btnFinalSpreadSheet)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Form1"
+        Me.Name = "TextExporter"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
-        Me.Text = "Mortal Combots Scouting App"
+        Me.Text = "Text Document Export"
         Me.grpTeamRed1.ResumeLayout(False)
         Me.grpTeamRed1.PerformLayout()
         CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1338,7 +1352,6 @@ Partial Class Form1
     Friend WithEvents chkCryptoKeyRed1 As CheckBox
     Friend WithEvents chkJewelRed1 As CheckBox
     Friend WithEvents lblAutonomousRed1 As Label
-    Friend WithEvents txtTeamRed1 As TextBox
     Friend WithEvents lblTeleOpRed1 As Label
     Friend WithEvents btnExit As Button
     Friend WithEvents lblColumnsRed1 As Label
@@ -1359,7 +1372,6 @@ Partial Class Form1
     Friend WithEvents lblRowsRed2 As Label
     Friend WithEvents lblTeleOpGlyphsRed2 As Label
     Friend WithEvents lblTeleOpRed2 As Label
-    Friend WithEvents txtTeamRed2 As TextBox
     Friend WithEvents lblGlyphsAutoRed2 As Label
     Friend WithEvents chkSafeZoneRed2 As CheckBox
     Friend WithEvents chkCryptoKeyRed2 As CheckBox
@@ -1384,7 +1396,6 @@ Partial Class Form1
     Friend WithEvents lblRowsBlue1 As Label
     Friend WithEvents lblTeleOpGlyphsBlue1 As Label
     Friend WithEvents lblTeleOpBlue1 As Label
-    Friend WithEvents txtTeamBlue1 As TextBox
     Friend WithEvents lblGlyphsAutoBlue1 As Label
     Friend WithEvents chkSafeZoneBlue1 As CheckBox
     Friend WithEvents chkCryptoKeyBlue1 As CheckBox
@@ -1403,7 +1414,6 @@ Partial Class Form1
     Friend WithEvents lblRowsBlue2 As Label
     Friend WithEvents lblTeleOpGlyphsBlue2 As Label
     Friend WithEvents lblTeleOpBlue2 As Label
-    Friend WithEvents txtTeamBlue2 As TextBox
     Friend WithEvents lblGlyphsAutoBlue2 As Label
     Friend WithEvents chkSafeZoneBlue2 As CheckBox
     Friend WithEvents chkCryptoKeyBlue2 As CheckBox
@@ -1442,4 +1452,9 @@ Partial Class Form1
     Friend WithEvents txtNoteBlue2 As TextBox
     Friend WithEvents lblNotesBlue2 As Label
     Friend WithEvents btnTextDocumentExport As Button
+    Friend WithEvents btnTeamInput As Button
+    Friend WithEvents cmboRed2 As ComboBox
+    Friend WithEvents cmboRed1 As ComboBox
+    Friend WithEvents cmboBlue1 As ComboBox
+    Friend WithEvents cmboBlue2 As ComboBox
 End Class

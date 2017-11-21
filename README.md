@@ -1,5 +1,5 @@
 # mortalCombotsScoutingApp
-## scouting app made in Visual Basic for the Mortal Combots FTC team _#10547_
+## Scouting app made in Visual Basic for the Mortal Combots FTC team _#10547_
 
 ### How it works
 

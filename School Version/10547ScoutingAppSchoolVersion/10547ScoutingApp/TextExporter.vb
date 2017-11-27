@@ -12,6 +12,7 @@ Public Class TextExporter
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data")
         End If
+        Rankings.updateDataBase()
         textExport()
     End Sub
 

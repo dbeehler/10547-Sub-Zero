@@ -24,4 +24,9 @@
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         applicationClose()
     End Sub
+
+    Private Sub btnViewRankings_Click(sender As Object, e As EventArgs) Handles btnViewRankings.Click
+        Me.Visible = False
+        Rankings.Visible = True
+    End Sub
 End Class

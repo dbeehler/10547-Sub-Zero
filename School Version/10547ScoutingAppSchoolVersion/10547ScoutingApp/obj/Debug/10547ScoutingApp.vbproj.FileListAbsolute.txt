@@ -55,3 +55,6 @@ C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Versi
 C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.MainMenu.resources
 C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Resources.resources
 C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.GenerateResource.Cache
+C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\Rankings.mdf
+C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\Rankings_log.ldf
+C:\Users\db138992\Desktop\Git repositories\mortalCombotsScoutingApp\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Rankings.resources

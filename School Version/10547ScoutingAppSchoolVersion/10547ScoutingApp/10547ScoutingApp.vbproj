@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +27,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -94,16 +94,16 @@
     <Compile Include="ExcelExporter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Rankings.Designer.vb">
-      <DependentUpon>Rankings.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Rankings.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RankingsDataSet.Designer.vb">
+    <Compile Include="finalRankingsDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RankingsDataSet.xsd</DependentUpon>
+      <DependentUpon>finalRankingsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="rankingsForm.Designer.vb">
+      <DependentUpon>rankingsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rankingsForm.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="TeamImport.Designer.vb">
       <DependentUpon>TeamImport.vb</DependentUpon>
@@ -145,8 +145,8 @@
     <EmbeddedResource Include="ExcelExporter.resx">
       <DependentUpon>ExcelExporter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Rankings.resx">
-      <DependentUpon>Rankings.vb</DependentUpon>
+    <EmbeddedResource Include="rankingsForm.resx">
+      <DependentUpon>rankingsForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextExporter.resx">
       <DependentUpon>TextExporter.vb</DependentUpon>
@@ -165,6 +165,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="finalRankingsDataSet.xsc">
+      <DependentUpon>finalRankingsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="finalRankingsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>finalRankingsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="finalRankingsDataSet.xss">
+      <DependentUpon>finalRankingsDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -206,27 +217,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="RankingsDataSet.xsc">
-      <DependentUpon>RankingsDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="RankingsDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>RankingsDataSet.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="RankingsDataSet.xss">
-      <DependentUpon>RankingsDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Resources\patternReference.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Rankings.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Rankings_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Rankings.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

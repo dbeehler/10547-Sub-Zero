@@ -14,11 +14,12 @@
         TextExporter.Close()
         MainMenu.Close()
         ExcelExporter.Close()
+        rankingsForm.Close()
     End Sub
 
     Private Sub BtnText_Click(sender As Object, e As EventArgs) Handles BtnText.Click
-        Me.Visible = False
-        TextExporter.Visible = True
+        Dim frmTextExporter As New TextExporter
+        frmTextExporter.ShowDialog()
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
@@ -26,7 +27,7 @@
     End Sub
 
     Private Sub btnViewRankings_Click(sender As Object, e As EventArgs) Handles btnViewRankings.Click
-        Me.Visible = False
-        Rankings.Visible = True
+        Dim frmRankings As New rankingsForm
+        frmRankings.ShowDialog()
     End Sub
 End Class

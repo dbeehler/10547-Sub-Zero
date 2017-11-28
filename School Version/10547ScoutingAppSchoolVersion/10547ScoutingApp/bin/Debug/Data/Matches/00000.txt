@@ -1,241 +1,9 @@
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
-Match Number: 
---Autonomous--
-Knock Jewel: 
-Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
---TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
-Number of Columns: 0
-Cypher Pattern: None
---End Game--
-Relic Zone: 0
-Relic Upright: 
-Balanced: 
-
---SCORES--
-
---Red Team 1-- 00000
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
-
---NOTES--
-Match Notes:
-
---NEXT GAME!--
-
 Match Number: 1
 --Autonomous--
-Knock Jewel: 
+Knock Jewel: No
 Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
+CryptoKey: No
+Safe Zone: No
 --TeleOp--
 Number of Glyphs: 0
 Number of Rows: 0
@@ -243,8 +11,8 @@ Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
-Relic Upright: 
-Balanced: 
+Relic Upright: No
+Balanced: No
 
 --SCORES--
 
@@ -261,10 +29,10 @@ Match1 Notes:
 
 Match Number: 1
 --Autonomous--
-Knock Jewel: 
+Knock Jewel: No
 Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
+CryptoKey: No
+Safe Zone: No
 --TeleOp--
 Number of Glyphs: 0
 Number of Rows: 0
@@ -272,8 +40,8 @@ Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
-Relic Upright: 
-Balanced: 
+Relic Upright: No
+Balanced: No
 
 --SCORES--
 
@@ -290,10 +58,10 @@ Match1 Notes:
 
 Match Number: 1
 --Autonomous--
-Knock Jewel: 
+Knock Jewel: No
 Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
+CryptoKey: No
+Safe Zone: No
 --TeleOp--
 Number of Glyphs: 0
 Number of Rows: 0
@@ -301,8 +69,8 @@ Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
-Relic Upright: 
-Balanced: 
+Relic Upright: No
+Balanced: No
 
 --SCORES--
 
@@ -317,12 +85,12 @@ Match1 Notes:
 
 --NEXT GAME!--
 
-Match Number: 
+Match Number: 1
 --Autonomous--
-Knock Jewel: 
+Knock Jewel: No
 Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
+CryptoKey: No
+Safe Zone: No
 --TeleOp--
 Number of Glyphs: 0
 Number of Rows: 0
@@ -330,8 +98,8 @@ Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
-Relic Upright: 
-Balanced: 
+Relic Upright: No
+Balanced: No
 
 --SCORES--
 
@@ -342,16 +110,16 @@ EndGame Score: 0
 Total Score: 0
 
 --NOTES--
-Match Notes:
+Match1 Notes:
 
 --NEXT GAME!--
 
-Match Number: 
+Match Number: 1
 --Autonomous--
-Knock Jewel: 
+Knock Jewel: No
 Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
+CryptoKey: No
+Safe Zone: No
 --TeleOp--
 Number of Glyphs: 0
 Number of Rows: 0
@@ -359,8 +127,8 @@ Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
-Relic Upright: 
-Balanced: 
+Relic Upright: No
+Balanced: No
 
 --SCORES--
 
@@ -371,16 +139,16 @@ EndGame Score: 0
 Total Score: 0
 
 --NOTES--
-Match Notes:
+Match1 Notes:
 
 --NEXT GAME!--
 
-Match Number: 
+Match Number: 1
 --Autonomous--
-Knock Jewel: 
+Knock Jewel: No
 Number of Glyphs: 0
-CryptoKey: 
-Safe Zone: 
+CryptoKey: No
+Safe Zone: No
 --TeleOp--
 Number of Glyphs: 0
 Number of Rows: 0
@@ -388,8 +156,8 @@ Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
-Relic Upright: 
-Balanced: 
+Relic Upright: No
+Balanced: No
 
 --SCORES--
 
@@ -400,4 +168,787 @@ EndGame Score: 0
 Total Score: 0
 
 --NOTES--
-Match Notes:
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 00000
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:

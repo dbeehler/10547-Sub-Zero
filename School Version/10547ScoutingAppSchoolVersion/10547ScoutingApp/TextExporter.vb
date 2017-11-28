@@ -12,7 +12,6 @@ Public Class TextExporter
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data")
         End If
-        Rankings.updateDataBase()
         textExport()
     End Sub
 
@@ -275,6 +274,11 @@ Public Class TextExporter
     End Sub
 
     Private Sub textExport()
+        textSetupRed1()
+        textSetupRed2()
+        textSetupBlue1()
+        textSetupBlue2()
+        textMath()
         'Export red team one
         variablesGlobal.matchNumber = txtMatchNumber.Text
         If (Not System.IO.File.Exists(CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt")) Then
@@ -518,6 +522,6 @@ Public Class TextExporter
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         'closes application
-        MainMenu.applicationClose()
+        Me.Close()
     End Sub
 End Class

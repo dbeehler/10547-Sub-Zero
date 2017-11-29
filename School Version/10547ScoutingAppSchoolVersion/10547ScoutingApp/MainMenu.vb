@@ -1,7 +1,7 @@
 ﻿Public Class MainMenu
     Private Sub MainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.CenterToScreen()
-        Me.Visible = True
+        rankingsForm.Visible = False
     End Sub
 
     Private Sub btnExcel_Click(sender As Object, e As EventArgs) Handles btnExcel.Click
@@ -27,7 +27,6 @@
     End Sub
 
     Private Sub btnViewRankings_Click(sender As Object, e As EventArgs) Handles btnViewRankings.Click
-        Dim frmRankings As New rankingsForm
-        frmRankings.ShowDialog()
+        rankingsForm.Visible = True
     End Sub
 End Class

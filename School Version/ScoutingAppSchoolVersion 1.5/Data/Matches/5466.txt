@@ -1,40 +1,40 @@
-Match Number: 33
+Match Number: 1
 --Autonomous--
 Knock Jewel: No
 Number of Glyphs: 0
 CryptoKey: No
-Safe Zone: No
+Safe Zone: Yes
 --TeleOp--
-Number of Glyphs: 0
+Number of Glyphs: 5
 Number of Rows: 0
 Number of Columns: 0
 Cypher Pattern: None
 --End Game--
 Relic Zone: 0
 Relic Upright: No
-Balanced: No
+Balanced: Yes
 
 --SCORES--
 
---Red Team 1-- 8813
-Autonomous Score: 0
-Tele Op Score: 0
-EndGame Score: 0
-Total Score: 0
+--Red Team 1-- 5466
+Autonomous Score: 10
+Tele Op Score: 10
+EndGame Score: 20
+Total Score: 40
 
 --NOTES--
-Match33 Notes:
+Match1 Notes:
 
 --NEXT GAME!--
 
 Match Number: 2
 --Autonomous--
-Knock Jewel: No
+Knock Jewel: Yes
 Number of Glyphs: 0
 CryptoKey: No
-Safe Zone: No
+Safe Zone: Yes
 --TeleOp--
-Number of Glyphs: 0
+Number of Glyphs: 3
 Number of Rows: 0
 Number of Columns: 0
 Cypher Pattern: None
@@ -45,11 +45,11 @@ Balanced: No
 
 --SCORES--
 
---Red Team 1-- 8813
-Autonomous Score: 0
-Tele Op Score: 0
+--Red Team 1-- 5466
+Autonomous Score: 40
+Tele Op Score: 6
 EndGame Score: 0
-Total Score: 0
+Total Score: 46
 
 --NOTES--
 Match2 Notes:

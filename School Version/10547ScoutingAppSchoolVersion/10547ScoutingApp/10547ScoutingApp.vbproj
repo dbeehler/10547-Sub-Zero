@@ -94,10 +94,10 @@
     <Compile Include="ExcelExporter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="finalRankingsDataSet.Designer.vb">
+    <Compile Include="mainDataDataSet1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>finalRankingsDataSet.xsd</DependentUpon>
+      <DependentUpon>mainDataDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="rankingsForm.Designer.vb">
       <DependentUpon>rankingsForm.vb</DependentUpon>
@@ -165,16 +165,16 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="finalRankingsDataSet.xsc">
-      <DependentUpon>finalRankingsDataSet.xsd</DependentUpon>
+    <None Include="mainDataDataSet1.xsc">
+      <DependentUpon>mainDataDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="finalRankingsDataSet.xsd">
+    <None Include="mainDataDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>finalRankingsDataSet.Designer.vb</LastGenOutput>
+      <LastGenOutput>mainDataDataSet1.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="finalRankingsDataSet.xss">
-      <DependentUpon>finalRankingsDataSet.xsd</DependentUpon>
+    <None Include="mainDataDataSet1.xss">
+      <DependentUpon>mainDataDataSet1.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

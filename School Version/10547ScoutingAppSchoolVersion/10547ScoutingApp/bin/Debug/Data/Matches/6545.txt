@@ -1,12 +1,12 @@
-Match Number: 4
+Match Number: 1
 --Autonomous--
-Knock Jewel: No
+Knock Jewel: Yes
 Number of Glyphs: 0
 CryptoKey: No
 Safe Zone: No
 --TeleOp--
-Number of Glyphs: 0
-Number of Rows: 0
+Number of Glyphs: 3
+Number of Rows: 1
 Number of Columns: 0
 Cypher Pattern: None
 --End Game--
@@ -16,11 +16,11 @@ Balanced: No
 
 --SCORES--
 
---Red Team 1-- 11142
-Autonomous Score: 0
-Tele Op Score: 0
+--Red Team 1-- 6545
+Autonomous Score: 30
+Tele Op Score: 16
 EndGame Score: 0
-Total Score: 0
+Total Score: 46
 
 --NOTES--
-Match4 Notes:
+Match1 Notes:

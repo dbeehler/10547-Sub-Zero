@@ -8,11 +8,70 @@ Imports System.IO
 
 Public Class TextExporter
 
+    Public Sub updateDatabase()
+        If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
+
+        End If
+        rankingsForm.Visible = True
+        rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
+        rankingsForm.Team_NumberTextBox.Text = cmboRed1.SelectedItem
+        rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.redTeam1AutoScore
+        rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.redTeam1TeleScore
+        rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam1EndScore
+        rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam1FinalScore
+        Try
+            rankingsForm.TableBindingSource.EndEdit()
+            rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
+        Catch ex As Exception
+            MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End Try
+        rankingsForm.TableBindingSource.AddNew()
+        rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
+        rankingsForm.Team_NumberTextBox.Text = cmboRed2.SelectedItem
+        rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.redTeam2AutoScore
+        rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.redTeam2TeleScore
+        rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam2EndScore
+        rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam2FinalScore
+        Try
+            rankingsForm.TableBindingSource.EndEdit()
+            rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
+        Catch ex As Exception
+            MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End Try
+        rankingsForm.TableBindingSource.AddNew()
+        rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
+        rankingsForm.Team_NumberTextBox.Text = cmboBlue1.SelectedItem
+        rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.blueTeam1AutoScore
+        rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.blueTeam1TeleScore
+        rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam1EndScore
+        rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.blueTeam1FinalScore
+        Try
+            rankingsForm.TableBindingSource.EndEdit()
+            rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
+        Catch ex As Exception
+            MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End Try
+        rankingsForm.TableBindingSource.AddNew()
+        rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
+        rankingsForm.Team_NumberTextBox.Text = cmboBlue2.SelectedItem
+        rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.blueTeam2AutoScore
+        rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.blueTeam2TeleScore
+        rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam2EndScore
+        rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.blueTeam2FinalScore
+        Try
+            rankingsForm.TableBindingSource.EndEdit()
+            rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
+        Catch ex As Exception
+            MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End Try
+    End Sub
+
     Private Sub btnTextDocumentExport_Click(sender As Object, e As EventArgs) Handles btnTextDocumentExport.Click
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data")
         End If
         textExport()
+        updateDatabase()
     End Sub
 
     Private Sub textMath()

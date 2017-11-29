@@ -16,7 +16,7 @@ Balanced: No
 
 --SCORES--
 
---Red Team 1-- 8813
+--Red Team 1-- 12863
 Autonomous Score: 0
 Tele Op Score: 0
 EndGame Score: 0
@@ -27,7 +27,7 @@ Match33 Notes:
 
 --NEXT GAME!--
 
-Match Number: 2
+Match Number: 1
 --Autonomous--
 Knock Jewel: No
 Number of Glyphs: 0
@@ -45,11 +45,11 @@ Balanced: No
 
 --SCORES--
 
---Red Team 1-- 8813
+--Red Team 1-- 12863
 Autonomous Score: 0
 Tele Op Score: 0
 EndGame Score: 0
 Total Score: 0
 
 --NOTES--
-Match2 Notes:
+Match1 Notes:

@@ -20,6 +20,7 @@
             Me.TableBindingSource.EndEdit()
             Me.TableTableAdapter.Update(Me.MainDataDataSet.Table)
             Me.Visible = False
+            Console.WriteLine(datac)
         Catch ex As Exception
             MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End Try
@@ -39,7 +40,9 @@
         ElseIf result = DialogResult.No Then
             MessageBox.Show("Aborted")
         ElseIf result = DialogResult.Yes Then
-            MainDataDataSet.Clear()
+            MainDataDataSet.Tables("Table").Clear()
+            Me.TableBindingSource.EndEdit()
+            Me.TableTableAdapter.Update(Me.MainDataDataSet.Table)
         End If
     End Sub
 End Class

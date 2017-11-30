@@ -57,35 +57,22 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=""|DataDirectory|\bin\Debug\Data\Data"& _ 
-            "Base (Dont Touch)\mainData.mdf"";Integrated Security=True;Connect Timeout=30")>  _
-        Public ReadOnly Property mainDataConnectionString() As String
-            Get
-                Return CType(Me("mainDataConnectionString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=""C:\Users\db138992\Desktop\Git repos"& _ 
-            "itories\mortalCombotsScoutingApp\School Version\Database (Dont Touch)\mainData.m"& _ 
-            "df"";Integrated Security=True;Connect Timeout=30")>  _
-        Public ReadOnly Property mainDataConnectionString1() As String
-            Get
-                Return CType(Me("mainDataConnectionString1"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=""C:\Users\db138992\Desktop\Git repos"& _ 
-            "itories\mortalCombotsScoutingApp\School Version\ScoutingAppSchoolVersion 1.5\Dat"& _ 
-            "abase (Dont Touch)\mainData.mdf"";Integrated Security=True;Connect Timeout=30")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database\mainData.md"& _ 
+            "f;Integrated Security=True;Connect Timeout=30")>  _
         Public ReadOnly Property mainDataConnection() As String
             Get
                 Return CType(Me("mainDataConnection"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\scoutingapp\database\mainData.mdf"& _ 
+            ";Integrated Security=True;Connect Timeout=30")>  _
+        Public ReadOnly Property mainDataConnectionString() As String
+            Get
+                Return CType(Me("mainDataConnectionString"),String)
             End Get
         End Property
     End Class

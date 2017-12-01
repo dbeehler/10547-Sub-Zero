@@ -4,14 +4,12 @@ Imports System.IO
 'November 4, 2017
 'Mortal Combots FTC #10547 2017 - 2018 Season
 'Version 1.0
-'Excel Exporter
+'Text Export
 
 Public Class TextExporter
 
+    'updates databse with entries
     Public Sub updateDatabase()
-        If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
-
-        End If
         rankingsForm.Visible = True
         rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
         rankingsForm.Team_NumberTextBox.Text = cmboRed1.SelectedItem
@@ -66,6 +64,7 @@ Public Class TextExporter
         End Try
     End Sub
 
+    'runs text exporter and database update
     Private Sub btnTextDocumentExport_Click(sender As Object, e As EventArgs) Handles btnTextDocumentExport.Click
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data")

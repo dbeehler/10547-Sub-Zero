@@ -1,0 +1,26 @@
+Match Number: 1
+--Autonomous--
+Knock Jewel: Yes
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 3
+Number of Rows: 1
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 6545
+Autonomous Score: 30
+Tele Op Score: 16
+EndGame Score: 0
+Total Score: 46
+
+--NOTES--
+Match1 Notes:

@@ -1,15 +1,20 @@
-# #10547 _Sub Zero_ Scouting App 
+#  Sub Zero
 
 ## Contents
 
 * **Sub Zero**
-  - An application used for First Tech Challenge scouting
+  - An application used for First Tech Challenge scouting by 10547 The Mortal Combots
   
 * **Overview**
   - Created for FTC team #10547 The Mortal Combots
   - Creates text documents that lists team scores and various things through matches
   - Adds information to a database for easy storage
   - Ability to create Excel Spread Sheets
+  
+* **Example Usage:** Our FTC team at West Virginia used the app to help our alliance selections
+
+* **Getting Started**
+ - **Installation**
 
 ### Sorted by the forms themselves
 

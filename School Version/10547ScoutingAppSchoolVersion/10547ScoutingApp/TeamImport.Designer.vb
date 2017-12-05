@@ -27,7 +27,6 @@ Partial Class TeamImport
         Me.txtNewTeams = New System.Windows.Forms.TextBox()
         Me.lblTeamsToBeAdded = New System.Windows.Forms.Label()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.btnGoMainMenu = New System.Windows.Forms.Button()
         Me.lblListTeam = New System.Windows.Forms.Label()
         Me.lstTeams = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
@@ -68,21 +67,12 @@ Partial Class TeamImport
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(13, 225)
+        Me.btnExit.Location = New System.Drawing.Point(12, 211)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
-        '
-        'btnGoMainMenu
-        '
-        Me.btnGoMainMenu.Location = New System.Drawing.Point(13, 196)
-        Me.btnGoMainMenu.Name = "btnGoMainMenu"
-        Me.btnGoMainMenu.Size = New System.Drawing.Size(75, 23)
-        Me.btnGoMainMenu.TabIndex = 5
-        Me.btnGoMainMenu.Text = "Main Menu"
-        Me.btnGoMainMenu.UseVisualStyleBackColor = True
         '
         'lblListTeam
         '
@@ -108,7 +98,6 @@ Partial Class TeamImport
         Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Controls.Add(Me.lstTeams)
         Me.Controls.Add(Me.lblListTeam)
-        Me.Controls.Add(Me.btnGoMainMenu)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.lblTeamsToBeAdded)
         Me.Controls.Add(Me.txtNewTeams)
@@ -126,7 +115,6 @@ Partial Class TeamImport
     Friend WithEvents txtNewTeams As TextBox
     Friend WithEvents lblTeamsToBeAdded As Label
     Friend WithEvents btnExit As Button
-    Friend WithEvents btnGoMainMenu As Button
     Friend WithEvents lblListTeam As Label
     Friend WithEvents lstTeams As ListBox
 End Class

@@ -1,13 +1,18 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Data.OleDb
+'Dusty Beehler
+'Mortal Combots 10547
+'2017-2018 Season
 Public Class rankingsForm
     Private Sub rankingsForm_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: This line of code loads data into the 'MainDataDataSet1.Table' table. You can move, or remove it, as needed.
+        'This line of code loads data into the 'MainDataDataSet1.Table' table.
         Me.TableTableAdapter.Fill(Me.MainDataDataSet.Table)
         'starts the editing
         Me.TableBindingSource.AddNew()
+        grpMain.Visible = False
     End Sub
 
+    'when toolstrip is clicked it saves the database
     Private Sub SaveAndCloseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaveAndCloseToolStripMenuItem.Click
         Try
             'saves entries
@@ -22,7 +27,8 @@ Public Class rankingsForm
         End Try
     End Sub
 
-    'doesnt work D:
+    'supposed to clear database when clicked
+    'doesnt work right now
     Private Sub ClearDataToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClearDataToolStripMenuItem.Click
         Dim result As Integer = MessageBox.Show("Are you sure?", "Warning", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning)
         If result = DialogResult.Cancel Then

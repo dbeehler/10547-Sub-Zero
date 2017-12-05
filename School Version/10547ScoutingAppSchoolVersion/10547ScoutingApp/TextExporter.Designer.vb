@@ -23,7 +23,7 @@ Partial Class TextExporter
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TextExporter))
-        Me.btnFinalSpreadSheet = New System.Windows.Forms.Button()
+        Me.btnMainMenu = New System.Windows.Forms.Button()
         Me.grpTeamRed1 = New System.Windows.Forms.GroupBox()
         Me.cmboRed1 = New System.Windows.Forms.ComboBox()
         Me.txtRelicRed1 = New System.Windows.Forms.NumericUpDown()
@@ -162,15 +162,15 @@ Partial Class TextExporter
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'btnFinalSpreadSheet
+        'btnMainMenu
         '
-        Me.btnFinalSpreadSheet.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnFinalSpreadSheet.Location = New System.Drawing.Point(523, 93)
-        Me.btnFinalSpreadSheet.Name = "btnFinalSpreadSheet"
-        Me.btnFinalSpreadSheet.Size = New System.Drawing.Size(95, 50)
-        Me.btnFinalSpreadSheet.TabIndex = 55
-        Me.btnFinalSpreadSheet.Text = "Main Menu"
-        Me.btnFinalSpreadSheet.UseVisualStyleBackColor = True
+        Me.btnMainMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMainMenu.Location = New System.Drawing.Point(523, 93)
+        Me.btnMainMenu.Name = "btnMainMenu"
+        Me.btnMainMenu.Size = New System.Drawing.Size(95, 50)
+        Me.btnMainMenu.TabIndex = 55
+        Me.btnMainMenu.Text = "Main Menu"
+        Me.btnMainMenu.UseVisualStyleBackColor = True
         '
         'grpTeamRed1
         '
@@ -1307,7 +1307,7 @@ Partial Class TextExporter
         Me.Controls.Add(Me.grpTeamRed2)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.grpTeamRed1)
-        Me.Controls.Add(Me.btnFinalSpreadSheet)
+        Me.Controls.Add(Me.btnMainMenu)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "TextExporter"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
@@ -1345,7 +1345,7 @@ Partial Class TextExporter
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnFinalSpreadSheet As System.Windows.Forms.Button
+    Friend WithEvents btnMainMenu As System.Windows.Forms.Button
     Friend WithEvents grpTeamRed1 As GroupBox
     Friend WithEvents lblGlyphsAutoRed1 As Label
     Friend WithEvents chkSafeZoneRed1 As CheckBox

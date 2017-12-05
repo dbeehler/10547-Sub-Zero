@@ -1,31 +1,36 @@
-﻿Imports Microsoft.Office.Interop
-Imports System.IO
-'Made my Dusty Beehler
-'November 4, 2017
-'Mortal Combots FTC #10547 2017 - 2018 Season
-'Version 1.0
-'Text Export
+﻿Imports System.IO
+'Dusty Beehler
+'Mortal Combots 10547
+'2017-2018 Season
 
 Public Class TextExporter
 
     'updates databse with entries
     Public Sub updateDatabase()
+        'makes the form visible, otherwise it WILL NOT work
         rankingsForm.Visible = True
+        'makes text boxes visble so it will work
+        rankingsForm.grpMain.Visible = True
+        'updates text box text
         rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
-        rankingsForm.Team_NumberTextBox.Text = cmboRed1.SelectedItem
+        rankingsForm.Team_NumberTextBox.Text = cmboRed1.Text
         rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.redTeam1AutoScore
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.redTeam1TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam1EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam1FinalScore
         Try
+            'saves the text from the text boxes and saves them to the database
             rankingsForm.TableBindingSource.EndEdit()
+            'updates the form with the new database
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
         Catch ex As Exception
+            'cathes error if it doesn't complete the update
             MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End Try
+        'rinse and repeat
         rankingsForm.TableBindingSource.AddNew()
         rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
-        rankingsForm.Team_NumberTextBox.Text = cmboRed2.SelectedItem
+        rankingsForm.Team_NumberTextBox.Text = cmboRed2.Text
         rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.redTeam2AutoScore
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.redTeam2TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam2EndScore
@@ -38,7 +43,7 @@ Public Class TextExporter
         End Try
         rankingsForm.TableBindingSource.AddNew()
         rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
-        rankingsForm.Team_NumberTextBox.Text = cmboBlue1.SelectedItem
+        rankingsForm.Team_NumberTextBox.Text = cmboBlue1.Text
         rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.blueTeam1AutoScore
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.blueTeam1TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam1EndScore
@@ -51,7 +56,7 @@ Public Class TextExporter
         End Try
         rankingsForm.TableBindingSource.AddNew()
         rankingsForm.Match_NumberTextBox.Text = variablesGlobal.matchNumber
-        rankingsForm.Team_NumberTextBox.Text = cmboBlue2.SelectedItem
+        rankingsForm.Team_NumberTextBox.Text = cmboBlue2.Text
         rankingsForm.Auto_ScoreTextBox.Text = variablesGlobal.blueTeam2AutoScore
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.blueTeam2TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam2EndScore
@@ -62,21 +67,30 @@ Public Class TextExporter
         Catch ex As Exception
             MessageBox.Show(Me, "Error: " & ex.Message, "Save", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End Try
+        'closes the form
+        rankingsForm.Close()
     End Sub
 
     'runs text exporter and database update
+    'main method
     Private Sub btnTextDocumentExport_Click(sender As Object, e As EventArgs) Handles btnTextDocumentExport.Click
+        'creates the folder if not present
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data")
         End If
+        'runs text exporter
         textExport()
+        'runs the update for database
         updateDatabase()
     End Sub
 
     Private Sub textMath()
         'Red1
+        'figures auto score for red team 1
         variablesGlobal.redTeam1AutoScore = (variablesGlobal.jewelRed1Value * 30) + (variablesGlobal.safeZoneRed1value * 10) + (variablesGlobal.cryptoKeyRed1Value * 30) + (variablesGlobal.glyphAutoRed1Value * 15)
-        variablesGlobal.redTeam1TeleScore = (variablesGlobal.glyphTeleOpRed1Value * 2) + (variablesGlobal.rowRed1Value * 10) + (variablesGlobal.columnRed1Value * 20) + (variablesGlobal.cypherRed1Value * 30)
+        'teleop score
+        variablesGlobal.redTeam1TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoRed1Value) * 2) + (variablesGlobal.rowRed1Value * 10) + (variablesGlobal.columnRed1Value * 20) + (variablesGlobal.cypherRed1Value * 30)
+        'if the relic is in a certain zone it adds points
         If variablesGlobal.relicRed1Value = 1 Then
             variablesGlobal.relicScoreRed1 = 10
         ElseIf variablesGlobal.relicRed1Value = 2 Then
@@ -86,12 +100,15 @@ Public Class TextExporter
         Else
             variablesGlobal.relicScoreRed1 = 0
         End If
+        ' end score
         variablesGlobal.redTeam1EndScore = variablesGlobal.relicScoreRed1 + (variablesGlobal.balanceRed1Value * 20) + (variablesGlobal.relicRed1Value * 15)
+        'final score by adding all other scores
         variablesGlobal.redTeam1FinalScore = variablesGlobal.redTeam1AutoScore + variablesGlobal.redTeam1TeleScore + variablesGlobal.redTeam1EndScore
 
+        'rinse and repeat all math for each team
         'Red2
         variablesGlobal.redTeam2AutoScore = (variablesGlobal.jewelRed2Value * 30) + (variablesGlobal.safeZoneRed2value * 10) + (variablesGlobal.cryptoKeyRed2Value * 30) + (variablesGlobal.glyphAutoRed2Value * 15)
-        variablesGlobal.redTeam2TeleScore = (variablesGlobal.glyphTeleOpRed2Value * 2) + (variablesGlobal.rowRed2Value * 10) + (variablesGlobal.columnRed2Value * 20) + (variablesGlobal.cypherRed2Value * 30)
+        variablesGlobal.redTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoRed2Value) * 2) + (variablesGlobal.rowRed2Value * 10) + (variablesGlobal.columnRed2Value * 20) + (variablesGlobal.cypherRed2Value * 30)
         If variablesGlobal.relicRed2Value = 1 Then
             variablesGlobal.relicScoreRed2 = 10
         ElseIf variablesGlobal.relicRed2Value = 2 Then
@@ -106,7 +123,7 @@ Public Class TextExporter
 
         'Blue1
         variablesGlobal.blueTeam1AutoScore = (variablesGlobal.jewelblue1Value * 30) + (variablesGlobal.safeZoneBlue1value * 10) + (variablesGlobal.cryptoKeyBlue1Value * 30) + (variablesGlobal.glyphAutoBlue1Value * 15)
-        variablesGlobal.blueTeam1TeleScore = (variablesGlobal.glyphTeleOpBlue1Value * 2) + (variablesGlobal.rowBlue1Value * 10) + (variablesGlobal.columnBlue1Value * 20) + (variablesGlobal.cypherBlue1Value * 30)
+        variablesGlobal.blueTeam1TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoBlue1Value) * 2) + (variablesGlobal.rowBlue1Value * 10) + (variablesGlobal.columnBlue1Value * 20) + (variablesGlobal.cypherBlue1Value * 30)
         If variablesGlobal.relicBlue1Value = 1 Then
             variablesGlobal.relicScoreBlue1 = 10
         ElseIf variablesGlobal.relicBlue1Value = 2 Then
@@ -121,7 +138,7 @@ Public Class TextExporter
 
         'Bllue2
         variablesGlobal.blueTeam2AutoScore = (variablesGlobal.jewelBlue2Value * 30) + (variablesGlobal.safeZoneBlue2value * 10) + (variablesGlobal.cryptoKeyBlue2Value * 30) + (variablesGlobal.glyphAutoBlue2Value * 15)
-        variablesGlobal.blueTeam2TeleScore = (variablesGlobal.glyphTeleOpBlue2Value * 2) + (variablesGlobal.rowBlue2Value * 10) + (variablesGlobal.columnBlue2Value * 20) + (variablesGlobal.cypherBlue2Value * 30)
+        variablesGlobal.blueTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoBlue2Value) * 2) + (variablesGlobal.rowBlue2Value * 10) + (variablesGlobal.columnBlue2Value * 20) + (variablesGlobal.cypherBlue2Value * 30)
         If variablesGlobal.relicBlue2Value = 1 Then
             variablesGlobal.relicScoreBlue2 = 10
         ElseIf variablesGlobal.relicBlue2Value = 2 Then
@@ -135,25 +152,33 @@ Public Class TextExporter
         variablesGlobal.blueTeam2FinalScore = variablesGlobal.blueTeam2AutoScore + variablesGlobal.blueTeam2TeleScore + variablesGlobal.blueTeam2EndScore
 
         'Alliance Score
-        variablesGlobal.blueAllianceScore = variablesGlobal.blueTeam1FinalScore + variablesGlobal.blueTeam2FinalScore
+        'figures alliance score by adding teams final scores 
         variablesGlobal.redAllianceScore = variablesGlobal.redTeam1FinalScore + variablesGlobal.redTeam2FinalScore
+        variablesGlobal.blueAllianceScore = variablesGlobal.blueTeam1FinalScore + variablesGlobal.blueTeam2FinalScore
     End Sub
 
+    'sets variables for red1 math and text export
+    'same for all other textSetupRed2, etc.
     Private Sub textSetupRed1()
+        'parses values from text boxes into integers
         variablesGlobal.glyphAutoRed1Value = Integer.Parse(txtGlyphAutoRed1.Text)
         variablesGlobal.glyphTeleOpRed1Value = Integer.Parse(txtGlyphRed1.Text)
         variablesGlobal.rowRed1Value = Integer.Parse(txtRowRed1.Text)
         variablesGlobal.columnRed1Value = Integer.Parse(txtColumnsRed1.Text)
         variablesGlobal.relicRed1Value = Integer.Parse(txtRelicRed1.Text)
 
+        'checks if check box is checked and sets it accordingly
         If chkJewelRed1.Checked Then
+            'used for text export
             variablesGlobal.jewelTextRed1 = "Yes"
+            'used for math
             variablesGlobal.jewelRed1Value = 1
         Else
             variablesGlobal.jewelTextRed1 = "No"
             variablesGlobal.jewelRed1Value = 0
         End If
 
+        'checks crypto key and sets accodringly
         If chkCryptoKeyRed1.Checked Then
             variablesGlobal.cryptoTextRed1 = "Yes"
             variablesGlobal.cryptoKeyRed1Value = 1
@@ -162,6 +187,7 @@ Public Class TextExporter
             variablesGlobal.cryptoKeyRed1Value = 0
         End If
 
+        'same as above
         If chkSafeZoneRed1.Checked Then
             variablesGlobal.safeZoneTextRed1 = "Yes"
             variablesGlobal.safeZoneRed1value = 1
@@ -170,6 +196,7 @@ Public Class TextExporter
             variablesGlobal.safeZoneRed1value = 0
         End If
 
+        'same as above
         If chkRelicUprightRed1.Checked Then
             variablesGlobal.relicUprightTextRed1 = "Yes"
             variablesGlobal.relicRed1Value = 1
@@ -178,6 +205,7 @@ Public Class TextExporter
             variablesGlobal.relicRed1Value = 0
         End If
 
+        'same as above
         If chkBalanceRed1.Checked Then
             variablesGlobal.balancedTextRed1 = "Yes"
             variablesGlobal.balanceRed1Value = 1
@@ -187,6 +215,7 @@ Public Class TextExporter
         End If
     End Sub
 
+    'same as textSetupRed1 but for Red2
     Private Sub textSetupRed2()
         variablesGlobal.glyphAutoRed2Value = Integer.Parse(txtGlyphAutoRed2.Text)
         variablesGlobal.glyphTeleOpRed2Value = Integer.Parse(txtGlyphRed2.Text)
@@ -235,6 +264,7 @@ Public Class TextExporter
         End If
     End Sub
 
+    'same as textSetupRed1 but for Blue1
     Private Sub textSetupBlue1()
         variablesGlobal.glyphAutoBlue1Value = Integer.Parse(txtGlyphAutoBlue1.Text)
         variablesGlobal.glyphTeleOpBlue1Value = Integer.Parse(txtGlyphblue1.Text)
@@ -283,6 +313,7 @@ Public Class TextExporter
         End If
     End Sub
 
+    'same as textSetupRed1 but for Blue2
     Private Sub textSetupBlue2()
         variablesGlobal.glyphAutoBlue2Value = Integer.Parse(txtGlyphAutoBlue2.Text)
         variablesGlobal.glyphTeleOpBlue2Value = Integer.Parse(txtGlyphblue2.Text)
@@ -332,13 +363,16 @@ Public Class TextExporter
     End Sub
 
     Private Sub textExport()
+        'runs the functions before exporting text
         textSetupRed1()
         textSetupRed2()
         textSetupBlue1()
         textSetupBlue2()
         textMath()
         'Export red team one
+        'grabs match number
         variablesGlobal.matchNumber = txtMatchNumber.Text
+        'if the file isnt present then create it
         If (Not System.IO.File.Exists(CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt")) Then
             File.AppendAllText((CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt"), "Match Number: " + variablesGlobal.matchNumber)
         Else
@@ -346,6 +380,7 @@ Public Class TextExporter
             File.AppendAllText((CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt"), Environment.NewLine + "")
             File.AppendAllText((CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt"), Environment.NewLine + "Match Number: " + variablesGlobal.matchNumber)
         End If
+        'these lines export all text. they are all the same, but change variables
         File.AppendAllText((CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt"), Environment.NewLine + "--Autonomous--")
         File.AppendAllText((CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt"), Environment.NewLine + "Knock Jewel: " + variablesGlobal.jewelTextRed1)
         File.AppendAllText((CurDir() + "\Data\Matches\" + cmboRed1.SelectedItem + ".txt"), Environment.NewLine + "Number of Glyphs: " + variablesGlobal.glyphAutoRed1Value.ToString)
@@ -480,13 +515,16 @@ Public Class TextExporter
 
     End Sub
 
+    'opens form to input new teams. maybe works, maybe not. really not needed
     Private Sub btnTeamInput_Click(sender As Object, e As EventArgs) Handles btnTeamInput.Click
-        Me.Visible = False
-        TeamImport.Visible = True
+        Dim teamInput As New TeamImport
+        teamInput.ShowDialog()
     End Sub
 
+    'clears text entry. self explanatory
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         'clears all typeable input
+        txtMatchNumber.Text = ""
         cmboRed1.SelectedIndex = 0
         chkJewelRed1.Checked = False
         txtGlyphAutoRed1.Text = "0"
@@ -531,12 +569,13 @@ Public Class TextExporter
         lstPatternBlue2.SelectedItem = "None"
         txtRelicBlue2.Text = "0"
         chkBalanceBlue2.Checked = False
-        txtNoteRed1.Text = "0"
+        txtNoteRed1.Text = ""
         txtNoteRed2.Text = ""
         txtNoteBlue1.Text = ""
         txtNoteBlue2.Text = ""
     End Sub
 
+    'grabs information from the text file and imports team to array
     Private Sub mainTeamImporter()
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Teams")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data\Teams")
@@ -544,10 +583,12 @@ Public Class TextExporter
 
         Dim sr As StreamReader = New StreamReader(CurDir() + "\Data\Teams\TeamDirectory.txt")
 
+        'splits values from the ","
         While Not sr.EndOfStream
             Dim i As Integer = 0
             variablesGlobal.allTeams = sr.ReadLine.Split(",")
         End While
+        'adds team numbers to the list boxes
         For i As Integer = 0 To variablesGlobal.allTeams.Length - 2
             cmboRed1.Items.Add(variablesGlobal.allTeams(i))
             cmboRed2.Items.Add(variablesGlobal.allTeams(i))
@@ -556,18 +597,13 @@ Public Class TextExporter
         Next
     End Sub
 
-    Private Sub btnFinalSpreadSheet_Click(sender As Object, e As EventArgs) Handles btnFinalSpreadSheet.Click
-        Me.Visible = False
-        MainMenu.Visible = True
-    End Sub
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'changes window size and places it in center of screen
         Me.Size = New Size(735, 860)
         Me.Visible = False
         mainTeamImporter()
 
-        'makes default choice in list None
+        'makes default choice in list boxes None
         lstPatternRed1.SelectedIndex = 0
         lstPatternRed2.SelectedIndex = 0
         lstPatternBlue1.SelectedIndex = 0
@@ -580,6 +616,10 @@ Public Class TextExporter
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         'closes application
+        Me.Close()
+    End Sub
+
+    Private Sub btnMainMenu_Click(sender As Object, e As EventArgs) Handles btnMainMenu.Click
         Me.Close()
     End Sub
 End Class

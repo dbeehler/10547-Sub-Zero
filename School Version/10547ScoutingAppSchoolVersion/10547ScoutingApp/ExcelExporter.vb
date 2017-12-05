@@ -1,6 +1,10 @@
 ﻿Imports Microsoft.Office.Interop
 Imports System.IO
-
+'Only works with microsoft office installed.
+'Disabled for laptop version.
+'Dusty Beehler
+'Mortal Combots 10547
+'2017-2018 Season
 Public Class ExcelExporter
 
     'global variables
@@ -752,6 +756,6 @@ Public Class ExcelExporter
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        MainMenu.applicationClose()
+        Me.Close()
     End Sub
 End Class

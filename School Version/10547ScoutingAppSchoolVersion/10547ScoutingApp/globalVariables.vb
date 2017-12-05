@@ -1,5 +1,6 @@
 ﻿Public Class variablesGlobal
 
+    'variables used for all of the application
     Public Shared teamFile As String
     Public Shared newTeams() As String
     Public Shared allTeams() As String
@@ -23,13 +24,13 @@
     Public Shared rowBlue2Value, columnBlue2Value, cypherBlue2Value, balanceBlue2Value, relicBlue2Value As Byte
 
     'Math variables
-    Public Shared redTeam1AutoScore, redTeam1TeleScore, redTeam1EndScore, redTeam1FinalScore, relicScoreRed1 As Byte
+    Public Shared redTeam1AutoScore, redTeam1TeleScore, redTeam1EndScore, redTeam1FinalScore, relicScoreRed1 As Integer
 
-    Public Shared redTeam2AutoScore, redTeam2TeleScore, redTeam2EndScore, redTeam2FinalScore, relicScoreRed2 As Byte
+    Public Shared redTeam2AutoScore, redTeam2TeleScore, redTeam2EndScore, redTeam2FinalScore, relicScoreRed2 As Integer
 
-    Public Shared blueTeam1AutoScore, blueTeam1TeleScore, blueTeam1EndScore, blueTeam1FinalScore, relicScoreBlue1 As Byte
+    Public Shared blueTeam1AutoScore, blueTeam1TeleScore, blueTeam1EndScore, blueTeam1FinalScore, relicScoreBlue1 As Integer
 
-    Public Shared blueTeam2AutoScore, blueTeam2TeleScore, blueTeam2EndScore, blueTeam2FinalScore, relicScoreBlue2 As Byte
+    Public Shared blueTeam2AutoScore, blueTeam2TeleScore, blueTeam2EndScore, blueTeam2FinalScore, relicScoreBlue2 As Integer
     'end math variables
 
     'variables for Red1Text

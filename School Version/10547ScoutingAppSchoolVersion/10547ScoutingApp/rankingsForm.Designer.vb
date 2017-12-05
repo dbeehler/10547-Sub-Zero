@@ -51,6 +51,7 @@ Partial Class rankingsForm
         Me.SaveAndCloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitWithoutSaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClearDataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.grpMain = New System.Windows.Forms.GroupBox()
         Match_NumberLabel = New System.Windows.Forms.Label()
         Team_NumberLabel = New System.Windows.Forms.Label()
         Auto_ScoreLabel = New System.Windows.Forms.Label()
@@ -61,12 +62,13 @@ Partial Class rankingsForm
         CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TableDataGridViewMain, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
+        Me.grpMain.SuspendLayout()
         Me.SuspendLayout()
         '
         'Match_NumberLabel
         '
         Match_NumberLabel.AutoSize = True
-        Match_NumberLabel.Location = New System.Drawing.Point(479, 32)
+        Match_NumberLabel.Location = New System.Drawing.Point(8, 22)
         Match_NumberLabel.Name = "Match_NumberLabel"
         Match_NumberLabel.Size = New System.Drawing.Size(80, 13)
         Match_NumberLabel.TabIndex = 1
@@ -75,7 +77,7 @@ Partial Class rankingsForm
         'Team_NumberLabel
         '
         Team_NumberLabel.AutoSize = True
-        Team_NumberLabel.Location = New System.Drawing.Point(479, 58)
+        Team_NumberLabel.Location = New System.Drawing.Point(8, 48)
         Team_NumberLabel.Name = "Team_NumberLabel"
         Team_NumberLabel.Size = New System.Drawing.Size(77, 13)
         Team_NumberLabel.TabIndex = 3
@@ -84,7 +86,7 @@ Partial Class rankingsForm
         'Auto_ScoreLabel
         '
         Auto_ScoreLabel.AutoSize = True
-        Auto_ScoreLabel.Location = New System.Drawing.Point(479, 84)
+        Auto_ScoreLabel.Location = New System.Drawing.Point(8, 74)
         Auto_ScoreLabel.Name = "Auto_ScoreLabel"
         Auto_ScoreLabel.Size = New System.Drawing.Size(63, 13)
         Auto_ScoreLabel.TabIndex = 5
@@ -93,7 +95,7 @@ Partial Class rankingsForm
         'TeleOp_ScoreLabel
         '
         TeleOp_ScoreLabel.AutoSize = True
-        TeleOp_ScoreLabel.Location = New System.Drawing.Point(479, 110)
+        TeleOp_ScoreLabel.Location = New System.Drawing.Point(8, 100)
         TeleOp_ScoreLabel.Name = "TeleOp_ScoreLabel"
         TeleOp_ScoreLabel.Size = New System.Drawing.Size(79, 13)
         TeleOp_ScoreLabel.TabIndex = 7
@@ -102,7 +104,7 @@ Partial Class rankingsForm
         'End_ScoreLabel
         '
         End_ScoreLabel.AutoSize = True
-        End_ScoreLabel.Location = New System.Drawing.Point(479, 136)
+        End_ScoreLabel.Location = New System.Drawing.Point(8, 126)
         End_ScoreLabel.Name = "End_ScoreLabel"
         End_ScoreLabel.Size = New System.Drawing.Size(60, 13)
         End_ScoreLabel.TabIndex = 9
@@ -111,7 +113,7 @@ Partial Class rankingsForm
         'Total_ScoreLabel
         '
         Total_ScoreLabel.AutoSize = True
-        Total_ScoreLabel.Location = New System.Drawing.Point(479, 162)
+        Total_ScoreLabel.Location = New System.Drawing.Point(8, 152)
         Total_ScoreLabel.Name = "Total_ScoreLabel"
         Total_ScoreLabel.Size = New System.Drawing.Size(65, 13)
         Total_ScoreLabel.TabIndex = 11
@@ -140,7 +142,7 @@ Partial Class rankingsForm
         'Match_NumberTextBox
         '
         Me.Match_NumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Match Number", True))
-        Me.Match_NumberTextBox.Location = New System.Drawing.Point(565, 29)
+        Me.Match_NumberTextBox.Location = New System.Drawing.Point(94, 19)
         Me.Match_NumberTextBox.Name = "Match_NumberTextBox"
         Me.Match_NumberTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Match_NumberTextBox.TabIndex = 2
@@ -148,7 +150,7 @@ Partial Class rankingsForm
         'Team_NumberTextBox
         '
         Me.Team_NumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Team Number", True))
-        Me.Team_NumberTextBox.Location = New System.Drawing.Point(565, 55)
+        Me.Team_NumberTextBox.Location = New System.Drawing.Point(94, 45)
         Me.Team_NumberTextBox.Name = "Team_NumberTextBox"
         Me.Team_NumberTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Team_NumberTextBox.TabIndex = 4
@@ -156,7 +158,7 @@ Partial Class rankingsForm
         'Auto_ScoreTextBox
         '
         Me.Auto_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Auto Score", True))
-        Me.Auto_ScoreTextBox.Location = New System.Drawing.Point(565, 81)
+        Me.Auto_ScoreTextBox.Location = New System.Drawing.Point(94, 71)
         Me.Auto_ScoreTextBox.Name = "Auto_ScoreTextBox"
         Me.Auto_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Auto_ScoreTextBox.TabIndex = 6
@@ -164,7 +166,7 @@ Partial Class rankingsForm
         'TeleOp_ScoreTextBox
         '
         Me.TeleOp_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "TeleOp Score", True))
-        Me.TeleOp_ScoreTextBox.Location = New System.Drawing.Point(565, 107)
+        Me.TeleOp_ScoreTextBox.Location = New System.Drawing.Point(94, 97)
         Me.TeleOp_ScoreTextBox.Name = "TeleOp_ScoreTextBox"
         Me.TeleOp_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
         Me.TeleOp_ScoreTextBox.TabIndex = 8
@@ -172,7 +174,7 @@ Partial Class rankingsForm
         'End_ScoreTextBox
         '
         Me.End_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "End Score", True))
-        Me.End_ScoreTextBox.Location = New System.Drawing.Point(565, 133)
+        Me.End_ScoreTextBox.Location = New System.Drawing.Point(94, 123)
         Me.End_ScoreTextBox.Name = "End_ScoreTextBox"
         Me.End_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
         Me.End_ScoreTextBox.TabIndex = 10
@@ -180,7 +182,7 @@ Partial Class rankingsForm
         'Total_ScoreTextBox
         '
         Me.Total_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Total Score", True))
-        Me.Total_ScoreTextBox.Location = New System.Drawing.Point(565, 159)
+        Me.Total_ScoreTextBox.Location = New System.Drawing.Point(94, 149)
         Me.Total_ScoreTextBox.Name = "Total_ScoreTextBox"
         Me.Total_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Total_ScoreTextBox.TabIndex = 12
@@ -266,22 +268,31 @@ Partial Class rankingsForm
         Me.ClearDataToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
         Me.ClearDataToolStripMenuItem.Text = "Clear Data"
         '
+        'grpMain
+        '
+        Me.grpMain.Controls.Add(Me.Match_NumberTextBox)
+        Me.grpMain.Controls.Add(Me.Total_ScoreTextBox)
+        Me.grpMain.Controls.Add(Match_NumberLabel)
+        Me.grpMain.Controls.Add(Total_ScoreLabel)
+        Me.grpMain.Controls.Add(Me.End_ScoreTextBox)
+        Me.grpMain.Controls.Add(Team_NumberLabel)
+        Me.grpMain.Controls.Add(End_ScoreLabel)
+        Me.grpMain.Controls.Add(Me.Team_NumberTextBox)
+        Me.grpMain.Controls.Add(Me.TeleOp_ScoreTextBox)
+        Me.grpMain.Controls.Add(Auto_ScoreLabel)
+        Me.grpMain.Controls.Add(TeleOp_ScoreLabel)
+        Me.grpMain.Controls.Add(Me.Auto_ScoreTextBox)
+        Me.grpMain.Location = New System.Drawing.Point(462, 27)
+        Me.grpMain.Name = "grpMain"
+        Me.grpMain.Size = New System.Drawing.Size(200, 182)
+        Me.grpMain.TabIndex = 14
+        Me.grpMain.TabStop = False
+        '
         'rankingsForm
         '
         Me.ClientSize = New System.Drawing.Size(674, 447)
+        Me.Controls.Add(Me.grpMain)
         Me.Controls.Add(Me.TableDataGridViewMain)
-        Me.Controls.Add(Match_NumberLabel)
-        Me.Controls.Add(Me.Match_NumberTextBox)
-        Me.Controls.Add(Team_NumberLabel)
-        Me.Controls.Add(Me.Team_NumberTextBox)
-        Me.Controls.Add(Auto_ScoreLabel)
-        Me.Controls.Add(Me.Auto_ScoreTextBox)
-        Me.Controls.Add(TeleOp_ScoreLabel)
-        Me.Controls.Add(Me.TeleOp_ScoreTextBox)
-        Me.Controls.Add(End_ScoreLabel)
-        Me.Controls.Add(Me.End_ScoreTextBox)
-        Me.Controls.Add(Total_ScoreLabel)
-        Me.Controls.Add(Me.Total_ScoreTextBox)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "rankingsForm"
@@ -290,6 +301,8 @@ Partial Class rankingsForm
         CType(Me.TableDataGridViewMain, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.grpMain.ResumeLayout(False)
+        Me.grpMain.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -316,4 +329,5 @@ Partial Class rankingsForm
     Friend WithEvents SaveAndCloseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitWithoutSaveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ClearDataToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents grpMain As System.Windows.Forms.GroupBox
 End Class

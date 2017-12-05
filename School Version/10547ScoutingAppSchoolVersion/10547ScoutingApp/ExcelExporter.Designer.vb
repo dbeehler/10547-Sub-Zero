@@ -22,6 +22,7 @@ Partial Class ExcelExporter
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ExcelExporter))
         Me.btnTeamInput = New System.Windows.Forms.Button()
         Me.btnMainMenu = New System.Windows.Forms.Button()
         Me.txtNoteBlue2 = New System.Windows.Forms.TextBox()
@@ -1295,6 +1296,7 @@ Partial Class ExcelExporter
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.grpTeamRed1)
         Me.Controls.Add(Me.btnFinalSpreadSheet)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ExcelExporter"
         Me.Text = "Excel Export"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

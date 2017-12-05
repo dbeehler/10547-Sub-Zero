@@ -22,6 +22,7 @@ Partial Class MainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
         Me.btnExcel = New System.Windows.Forms.Button()
         Me.BtnText = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
@@ -85,6 +86,7 @@ Partial Class MainMenu
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.BtnText)
         Me.Controls.Add(Me.btnExcel)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MainMenu"
         Me.Text = "Scout App Main Menu"
         Me.ResumeLayout(False)

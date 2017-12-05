@@ -29,6 +29,7 @@ Partial Class rankingsForm
         Dim TeleOp_ScoreLabel As System.Windows.Forms.Label
         Dim End_ScoreLabel As System.Windows.Forms.Label
         Dim Total_ScoreLabel As System.Windows.Forms.Label
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(rankingsForm))
         Me.MainDataDataSet = New _10547ScoutingApp.mainDataDataSet()
         Me.TableBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.TableTableAdapter = New _10547ScoutingApp.mainDataDataSetTableAdapters.TableTableAdapter()
@@ -294,8 +295,10 @@ Partial Class rankingsForm
         Me.Controls.Add(Me.grpMain)
         Me.Controls.Add(Me.TableDataGridViewMain)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "rankingsForm"
+        Me.Text = "Rankings"
         CType(Me.MainDataDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TableDataGridViewMain, System.ComponentModel.ISupportInitialize).EndInit()

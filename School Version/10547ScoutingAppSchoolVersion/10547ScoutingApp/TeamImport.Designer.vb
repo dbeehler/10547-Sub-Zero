@@ -22,6 +22,7 @@ Partial Class TeamImport
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TeamImport))
         Me.btnExportTeams = New System.Windows.Forms.Button()
         Me.btnShowTeams = New System.Windows.Forms.Button()
         Me.txtNewTeams = New System.Windows.Forms.TextBox()
@@ -103,6 +104,7 @@ Partial Class TeamImport
         Me.Controls.Add(Me.txtNewTeams)
         Me.Controls.Add(Me.btnShowTeams)
         Me.Controls.Add(Me.btnExportTeams)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "TeamImport"
         Me.Text = "Team Import"
         Me.ResumeLayout(False)

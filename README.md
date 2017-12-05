@@ -17,6 +17,18 @@
   - **Installation**
     - Install "scoutingapp" to _root C Drive_ 
       - This contains the database and MUST be installed here to work
+  - **Prerequisites**
+    - Microsoft SQL server 2012 express 64-bit
+    - Microsoft SQL Management 64-bit
+    - Microsoft SQL LocalDB
+    - Download Link https://www.microsoft.com/en-us/download/details.aspx?id=29062
+    
+* **Design Goals**
+  - This program is programmed around features, at the stake of resources.
+  - It can be ran on any computer with the correct database version, and prerequisites
+  
+* **Detailed Usage**
+  -
 
 ### Sorted by the forms themselves
 

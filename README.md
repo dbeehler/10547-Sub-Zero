@@ -35,6 +35,7 @@
 * **Main Menu**
   - Main Menu for application
     - navigate whole program
+  ![Alt Text](Pictures/mainMenu.jpg?raw=true "mainMenu")
 
 * **Excel Exporter**
   - Only works with Microsoft Office installed

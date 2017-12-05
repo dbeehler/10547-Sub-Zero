@@ -14,7 +14,9 @@
 * **Example Usage:** Our FTC team at West Virginia used the app to help our alliance selections
 
 * **Getting Started**
- - **Installation**
+  - **Installation**
+    - Install "scoutingapp" to _root C Drive_ 
+      - This contains the database and MUST be installed here to work
 
 ### Sorted by the forms themselves
 

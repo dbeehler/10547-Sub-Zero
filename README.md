@@ -1,12 +1,9 @@
-# mortalCombotsScoutingApp
+# **Mortal Combots #10547 Scouting App**
 ## Scouting app made in Visual Basic for the Mortal Combots FTC team _#10547_
 
-### How it works
+# Installation
+## Inside "Install to C Drive" there is a folder called "scoutingapp" install that to _root C Drive_
 
-##### Excel
- - The program takes input from the form and exports it to a excel spreadsheet
- - It save the workbook to the directory of the .exe in a "matches" Folder
+## Documentation
 
-##### Text Document
- - Saves as a "formatted" text document to ease transfer to Google Docs
  

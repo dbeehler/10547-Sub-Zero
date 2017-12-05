@@ -39,8 +39,9 @@
     - 7. Sort teams and select alliance partners
     
 * **Developer Info**
-  - Picture of code
-![Database Code](/GIT Pics/dataBaseSave.PNG?raw=true "dataBase")
+  - Known Issues
+    - No way to delete entries in database
+    - Team list isn't sorted by value
 
 ### Sorted by the forms themselves
 

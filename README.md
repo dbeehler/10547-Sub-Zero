@@ -28,6 +28,17 @@
   - It can be ran on any computer with the correct database version, and prerequisites
   
 * **Detailed Usage**
+  - Interface and better explanations down below
+  - **Examples**
+    - 1. Start Application
+    - 2. Go to Text Export
+    - 3. Fill out information as needed
+    - 4. Repeat as many times as needed
+    - 5. Exit text Exporter
+    - 6. Open rankings from main menu
+    - 7. Sort teams and select alliance partners
+    
+* **Developer Info**
   -
 
 ### Sorted by the forms themselves

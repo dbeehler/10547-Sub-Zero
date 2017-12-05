@@ -39,7 +39,8 @@
     - 7. Sort teams and select alliance partners
     
 * **Developer Info**
-  -
+  - Picture of code
+![Database Code](/GIT Pics/dataBaseSave.PNG?raw=true "dataBase")
 
 ### Sorted by the forms themselves
 
@@ -47,7 +48,7 @@
   - Main Menu for application
     - navigate whole program
     
-![Main Menu](/Pictures/mainMenu.PNG?raw=true "mainMenu")
+![Main Menu](/GIT Pics/mainMenu.PNG?raw=true "mainMenu")
 
 * **Excel Exporter**
   - Only works with Microsoft Office installed
@@ -61,17 +62,17 @@
   - Exports data to a text document
     - Custom format for our team
     - One document per team, seperated by a spacer and match number
-![Text Pad](/Pictures/textPad.PNG?raw=true "textPad")
+![Text Pad](/GIT Pics/textPad.PNG?raw=true "textPad")
   - When the export button is clicked it also adds the needed information to a text document
     - Puts Match Number, Team Number, Auto Score, TeleOp Score, End Score, and Total Score into the database
-![Text Exporter](/Pictures/textExport.PNG?raw=true "textExport")
+![Text Exporter](/GIT Pics/textExport.PNG?raw=true "textExport")
     
 * **Rankings Form**
   - Shows a dataGridView for the database
     - shows the information input to it
     - helps our team decide who we would pick if we had to for final alliances
   - 
-![Rankings](/Pictures/Rankings.PNG?raw=true "Rankings")
+![Rankings](/GIT Pics/Rankings.PNG?raw=true "Rankings")
 
 * **Team Import**
   - Ability to import team Numbers

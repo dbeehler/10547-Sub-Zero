@@ -49,7 +49,7 @@
   - Main Menu for application
     - navigate whole program
     
-![Main Menu](/GitPics/mainMenu.PNG?raw=true "mainMenu")
+![Main Menu](/Git Pics/mainMenu.PNG?raw=true "mainMenu")
 
 * **Excel Exporter**
   - Only works with Microsoft Office installed
@@ -63,17 +63,17 @@
   - Exports data to a text document
     - Custom format for our team
     - One document per team, seperated by a spacer and match number
-![Text Pad](/GitPics/textPad.PNG?raw=true "textPad")
+![Text Pad](/Git Pics/textPad.PNG?raw=true "textPad")
   - When the export button is clicked it also adds the needed information to a text document
     - Puts Match Number, Team Number, Auto Score, TeleOp Score, End Score, and Total Score into the database
-![Text Exporter](/GitPics/textExport.PNG?raw=true "textExport")
+![Text Exporter](/Git Pics/textExport.PNG?raw=true "textExport")
     
 * **Rankings Form**
   - Shows a dataGridView for the database
     - shows the information input to it
     - helps our team decide who we would pick if we had to for final alliances
   - 
-![Rankings](/GitPics/Rankings.PNG?raw=true "Rankings")
+![Rankings](/Git Pics/Rankings.PNG?raw=true "Rankings")
 
 * **Team Import**
   - Ability to import team Numbers

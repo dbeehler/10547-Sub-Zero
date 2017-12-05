@@ -35,6 +35,7 @@
 * **Main Menu**
   - Main Menu for application
     - navigate whole program
+    
 ![Main Menu](/Pictures/mainMenu.PNG?raw=true "mainMenu")
 
 * **Excel Exporter**

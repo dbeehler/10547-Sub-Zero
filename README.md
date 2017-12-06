@@ -3,7 +3,7 @@
 ## Contents
 
 * **Sub Zero**
-  - An application used for First Tech Challenge scouting by 10547 The Mortal Combots
+  - An application used for First Tech Challenge Relic Recovery scouting by #10547 The Mortal Combots
   
 * **Overview**
   - Created for FTC team #10547 The Mortal Combots

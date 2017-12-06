@@ -85,6 +85,8 @@
 * December 6, 2016 (Version 2.1a)
   - Added Scrollbar hotfix
     - Thanks to #11472 for bringing up this issue!
+  - Fixed team import issue
+  - Fixed the program not actually making the "Match" folder
 * December 5, 2017 (Version 2.1)
   - Added comments for other teams and people
     - Also major update to readme

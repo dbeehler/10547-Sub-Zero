@@ -49,7 +49,7 @@
   - Main Menu for application
     - navigate whole program
     
-![Main Menu](/GITPics/mainMenu.PNG?raw=true "mainMenu")
+![Main Menu](/Images/mainMenu.PNG?raw=true "mainMenu")
 
 * **Excel Exporter**
   - Only works with Microsoft Office installed
@@ -63,17 +63,17 @@
   - Exports data to a text document
     - Custom format for our team
     - One document per team, seperated by a spacer and match number
-![Text Pad](/GITPics/textPad.PNG?raw=true "textPad")
+![Text Pad](/Images/textPad.PNG?raw=true "textPad")
   - When the export button is clicked it also adds the needed information to a text document
     - Puts Match Number, Team Number, Auto Score, TeleOp Score, End Score, and Total Score into the database
-![Text Exporter](/GITPics/textExport.PNG?raw=true "textExport")
+![Text Exporter](/Images/textExport.PNG?raw=true "textExport")
     
 * **Rankings Form**
   - Shows a dataGridView for the database
     - shows the information input to it
     - helps our team decide who we would pick if we had to for final alliances
   - 
-![Rankings](/GITPics/Rankings.PNG?raw=true "Rankings")
+![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
 * **Team Import**
   - Ability to import team Numbers

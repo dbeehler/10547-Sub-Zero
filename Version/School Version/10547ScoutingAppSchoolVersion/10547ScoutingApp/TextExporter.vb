@@ -76,7 +76,7 @@ Public Class TextExporter
     Private Sub btnTextDocumentExport_Click(sender As Object, e As EventArgs) Handles btnTextDocumentExport.Click
         'creates the folder if not present
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
-            System.IO.Directory.CreateDirectory(CurDir() + "\Data")
+            System.IO.Directory.CreateDirectory(CurDir() + "\Data\Matches")
         End If
         'runs text exporter
         textExport()
@@ -515,12 +515,6 @@ Public Class TextExporter
 
     End Sub
 
-    'opens form to input new teams. maybe works, maybe not. really not needed
-    Private Sub btnTeamInput_Click(sender As Object, e As EventArgs) Handles btnTeamInput.Click
-        Dim teamInput As New TeamImport
-        teamInput.ShowDialog()
-    End Sub
-
     'clears text entry. self explanatory
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         'clears all typeable input
@@ -589,7 +583,7 @@ Public Class TextExporter
             variablesGlobal.allTeams = sr.ReadLine.Split(",")
         End While
         'adds team numbers to the list boxes
-        For i As Integer = 0 To variablesGlobal.allTeams.Length - 2
+        For i As Integer = 0 To variablesGlobal.allTeams.Length - 1
             cmboRed1.Items.Add(variablesGlobal.allTeams(i))
             cmboRed2.Items.Add(variablesGlobal.allTeams(i))
             cmboBlue1.Items.Add(variablesGlobal.allTeams(i))

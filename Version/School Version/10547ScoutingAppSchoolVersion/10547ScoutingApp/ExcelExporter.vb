@@ -731,11 +731,6 @@ Public Class ExcelExporter
         MainMenu.Visible = True
     End Sub
 
-    Private Sub btnTeamInput_Click(sender As Object, e As EventArgs) Handles btnTeamInput.Click
-        Me.Visible = False
-        TeamImport.Visible = True
-    End Sub
-
     Private Sub mainTeamImporter()
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Teams")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data\Teams")

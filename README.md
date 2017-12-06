@@ -132,3 +132,5 @@
   - Added new saving method.
     - More efficent
   - Update to make red team 1 fill in the spreadsheet
+## Contact
+For questions, comments, concers, or suggestions please email dbeehler00@gmail.com

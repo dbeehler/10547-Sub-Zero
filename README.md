@@ -15,6 +15,12 @@
 
 * **Getting Started**
   - **Installation**
+    - **To add teams!**
+      - 1. Go to Data/Teams/TeamDirectory.txt
+      - 2. follow Previous formatting to edit
+      - 3. example text : 10547,5466,10030,
+      - 4. to edit: add neede teams to end, and delete unneeded teams
+      - 5. example edit: 10547,10030,11742,
     - Install "scoutingapp" to _root C Drive_ 
       - This contains the database and MUST be installed here to work
   - **Prerequisites**

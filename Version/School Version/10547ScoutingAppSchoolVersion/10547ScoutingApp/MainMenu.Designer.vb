@@ -28,6 +28,7 @@ Partial Class MainMenu
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnViewRankings = New System.Windows.Forms.Button()
+        Me.lblVersionText = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnExcel
@@ -76,11 +77,22 @@ Partial Class MainMenu
         Me.btnViewRankings.Text = "View Rankings"
         Me.btnViewRankings.UseVisualStyleBackColor = True
         '
+        'lblVersionText
+        '
+        Me.lblVersionText.AutoSize = True
+        Me.lblVersionText.Location = New System.Drawing.Point(212, 239)
+        Me.lblVersionText.Name = "lblVersionText"
+        Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
+        Me.lblVersionText.TabIndex = 31
+        Me.lblVersionText.Text = "Version 2.1"
+        Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.lblVersionText)
         Me.Controls.Add(Me.btnViewRankings)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
@@ -99,4 +111,5 @@ Partial Class MainMenu
     Friend WithEvents btnExit As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents btnViewRankings As System.Windows.Forms.Button
+    Friend WithEvents lblVersionText As System.Windows.Forms.Label
 End Class

@@ -1272,7 +1272,7 @@ Partial Class ExcelExporter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(719, 821)
+        Me.ClientSize = New System.Drawing.Size(719, 822)
         Me.Controls.Add(Me.btnTeamInput)
         Me.Controls.Add(Me.btnMainMenu)
         Me.Controls.Add(Me.txtNoteBlue2)

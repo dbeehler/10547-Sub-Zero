@@ -53,6 +53,7 @@ Partial Class rankingsForm
         Me.ExitWithoutSaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClearDataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.grpMain = New System.Windows.Forms.GroupBox()
+        Me.lblVersionText = New System.Windows.Forms.Label()
         Match_NumberLabel = New System.Windows.Forms.Label()
         Team_NumberLabel = New System.Windows.Forms.Label()
         Auto_ScoreLabel = New System.Windows.Forms.Label()
@@ -194,7 +195,7 @@ Partial Class rankingsForm
         Me.TableDataGridViewMain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.TableDataGridViewMain.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6})
         Me.TableDataGridViewMain.DataSource = Me.TableBindingSource
-        Me.TableDataGridViewMain.Location = New System.Drawing.Point(12, 215)
+        Me.TableDataGridViewMain.Location = New System.Drawing.Point(9, 202)
         Me.TableDataGridViewMain.Name = "TableDataGridViewMain"
         Me.TableDataGridViewMain.Size = New System.Drawing.Size(653, 220)
         Me.TableDataGridViewMain.TabIndex = 12
@@ -289,9 +290,20 @@ Partial Class rankingsForm
         Me.grpMain.TabIndex = 14
         Me.grpMain.TabStop = False
         '
+        'lblVersionText
+        '
+        Me.lblVersionText.AutoSize = True
+        Me.lblVersionText.Location = New System.Drawing.Point(602, 425)
+        Me.lblVersionText.Name = "lblVersionText"
+        Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
+        Me.lblVersionText.TabIndex = 31
+        Me.lblVersionText.Text = "Version 2.1"
+        Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'rankingsForm
         '
         Me.ClientSize = New System.Drawing.Size(674, 447)
+        Me.Controls.Add(Me.lblVersionText)
         Me.Controls.Add(Me.grpMain)
         Me.Controls.Add(Me.TableDataGridViewMain)
         Me.Controls.Add(Me.MenuStrip1)
@@ -333,4 +345,5 @@ Partial Class rankingsForm
     Friend WithEvents ExitWithoutSaveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ClearDataToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents grpMain As System.Windows.Forms.GroupBox
+    Friend WithEvents lblVersionText As System.Windows.Forms.Label
 End Class

@@ -75,14 +75,10 @@
   - 
 ![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
-* **Team Import**
-  - Ability to import team Numbers
-    - you type the team numbers into the box and it exports to the text document
-    - can also edit text pad manually if wanted
-      - must follow formatting
-  - Button for viewing all teams in the file
-
 ## Changelog
+* December 6, 2016 (Version 2.1a)
+  - Added Scrollbar hotfix
+    - Thanks to #11472 for bringing up this issue!
 * December 5, 2017 (Version 2.1)
   - Added comments for other teams and people
     - Also major update to readme

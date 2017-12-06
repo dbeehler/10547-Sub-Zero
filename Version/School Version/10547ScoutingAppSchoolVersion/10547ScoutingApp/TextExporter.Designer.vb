@@ -1162,11 +1162,11 @@ Partial Class TextExporter
         'lblVersionText
         '
         Me.lblVersionText.AutoSize = True
-        Me.lblVersionText.Location = New System.Drawing.Point(833, 992)
+        Me.lblVersionText.Location = New System.Drawing.Point(647, 9)
         Me.lblVersionText.Name = "lblVersionText"
         Me.lblVersionText.Size = New System.Drawing.Size(60, 13)
         Me.lblVersionText.TabIndex = 30
-        Me.lblVersionText.Text = "Version 1.6"
+        Me.lblVersionText.Text = "Version 2.1"
         Me.lblVersionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblNotes
@@ -1194,7 +1194,7 @@ Partial Class TextExporter
         Me.txtNoteRed2.Location = New System.Drawing.Point(501, 620)
         Me.txtNoteRed2.Multiline = True
         Me.txtNoteRed2.Name = "txtNoteRed2"
-        Me.txtNoteRed2.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteRed2.Size = New System.Drawing.Size(188, 40)
         Me.txtNoteRed2.TabIndex = 50
         '
         'txtNoteRed1
@@ -1202,7 +1202,7 @@ Partial Class TextExporter
         Me.txtNoteRed1.Location = New System.Drawing.Point(501, 574)
         Me.txtNoteRed1.Multiline = True
         Me.txtNoteRed1.Name = "txtNoteRed1"
-        Me.txtNoteRed1.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteRed1.Size = New System.Drawing.Size(188, 40)
         Me.txtNoteRed1.TabIndex = 49
         '
         'lblNotesRed1
@@ -1220,7 +1220,7 @@ Partial Class TextExporter
         Me.txtNoteBlue1.Location = New System.Drawing.Point(501, 666)
         Me.txtNoteBlue1.Multiline = True
         Me.txtNoteBlue1.Name = "txtNoteBlue1"
-        Me.txtNoteBlue1.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteBlue1.Size = New System.Drawing.Size(188, 40)
         Me.txtNoteBlue1.TabIndex = 51
         '
         'lblNotesBlue1
@@ -1238,7 +1238,7 @@ Partial Class TextExporter
         Me.txtNoteBlue2.Location = New System.Drawing.Point(501, 712)
         Me.txtNoteBlue2.Multiline = True
         Me.txtNoteBlue2.Name = "txtNoteBlue2"
-        Me.txtNoteBlue2.Size = New System.Drawing.Size(200, 40)
+        Me.txtNoteBlue2.Size = New System.Drawing.Size(188, 40)
         Me.txtNoteBlue2.TabIndex = 52
         '
         'lblNotesBlue2
@@ -1283,7 +1283,8 @@ Partial Class TextExporter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(718, 821)
+        Me.AutoScroll = True
+        Me.ClientSize = New System.Drawing.Size(719, 839)
         Me.Controls.Add(Me.btnTeamInput)
         Me.Controls.Add(Me.btnTextDocumentExport)
         Me.Controls.Add(Me.txtNoteBlue2)

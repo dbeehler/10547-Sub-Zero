@@ -740,7 +740,6 @@ Public Class ExcelExporter
 
         While Not sr.EndOfStream
             Dim i As Integer = 0
-            variablesGlobal.allTeams = sr.ReadLine.Split(",")
         End While
         For i As Integer = 0 To variablesGlobal.allTeams.Length - 2
             cmboRed1.Items.Add(variablesGlobal.allTeams(i))

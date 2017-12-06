@@ -76,7 +76,7 @@ Public Class TextExporter
     Private Sub btnTextDocumentExport_Click(sender As Object, e As EventArgs) Handles btnTextDocumentExport.Click
         'creates the folder if not present
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
-            System.IO.Directory.CreateDirectory(CurDir() + "\Data\Matches")
+            System.IO.Directory.CreateDirectory(CurDir() + "\Data")
         End If
         'runs text exporter
         textExport()
@@ -582,8 +582,12 @@ Public Class TextExporter
             Dim i As Integer = 0
             variablesGlobal.allTeams = sr.ReadLine.Split(",")
         End While
+        Array.Sort(variablesGlobal.allTeams)
         'adds team numbers to the list boxes
+        variablesGlobal.allTeams = variablesGlobal.allTeams.OrderByDescending(Function(q) Int32.Parse(q.Split(" ").Last)).ToArray()
+        Array.Reverse(variablesGlobal.allTeams)
         For i As Integer = 0 To variablesGlobal.allTeams.Length - 1
+            Console.WriteLine(variablesGlobal.allTeams(i))
             cmboRed1.Items.Add(variablesGlobal.allTeams(i))
             cmboRed2.Items.Add(variablesGlobal.allTeams(i))
             cmboBlue1.Items.Add(variablesGlobal.allTeams(i))

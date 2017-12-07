@@ -78,7 +78,6 @@
   - Shows a dataGridView for the database
     - shows the information input to it
     - helps our team decide who we would pick if we had to for final alliances
-  - 
 ![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
 ## Changelog

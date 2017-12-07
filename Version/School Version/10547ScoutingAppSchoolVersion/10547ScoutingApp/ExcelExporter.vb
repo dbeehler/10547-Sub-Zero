@@ -738,10 +738,17 @@ Public Class ExcelExporter
 
         Dim sr As StreamReader = New StreamReader(CurDir() + "\Data\Teams\TeamDirectory.txt")
 
+        'splits values from the ","
         While Not sr.EndOfStream
             Dim i As Integer = 0
+            variablesGlobal.allTeams = sr.ReadLine.Split(",")
         End While
-        For i As Integer = 0 To variablesGlobal.allTeams.Length - 2
+        'sorts array
+        variablesGlobal.allTeams = variablesGlobal.allTeams.OrderByDescending(Function(q) Int32.Parse(q.Split(" ").Last)).ToArray()
+        'reverses array for low to high
+        Array.Reverse(variablesGlobal.allTeams)
+        'adds team numbers to the list boxes
+        For i As Integer = 0 To variablesGlobal.allTeams.Length - 1
             cmboRed1.Items.Add(variablesGlobal.allTeams(i))
             cmboRed2.Items.Add(variablesGlobal.allTeams(i))
             cmboBlue1.Items.Add(variablesGlobal.allTeams(i))

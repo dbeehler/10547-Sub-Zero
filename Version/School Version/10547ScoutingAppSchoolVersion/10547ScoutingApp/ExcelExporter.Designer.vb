@@ -23,7 +23,6 @@ Partial Class ExcelExporter
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ExcelExporter))
-        Me.btnTeamInput = New System.Windows.Forms.Button()
         Me.btnMainMenu = New System.Windows.Forms.Button()
         Me.txtNoteBlue2 = New System.Windows.Forms.TextBox()
         Me.lblNotesBlue2 = New System.Windows.Forms.Label()
@@ -160,15 +159,6 @@ Partial Class ExcelExporter
         CType(Me.txtGlyphRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGlyphAutoRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'btnTeamInput
-        '
-        Me.btnTeamInput.Location = New System.Drawing.Point(586, 510)
-        Me.btnTeamInput.Name = "btnTeamInput"
-        Me.btnTeamInput.Size = New System.Drawing.Size(75, 23)
-        Me.btnTeamInput.TabIndex = 81
-        Me.btnTeamInput.Text = "Input Teams"
-        Me.btnTeamInput.UseVisualStyleBackColor = True
         '
         'btnMainMenu
         '
@@ -1273,7 +1263,6 @@ Partial Class ExcelExporter
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(719, 822)
-        Me.Controls.Add(Me.btnTeamInput)
         Me.Controls.Add(Me.btnMainMenu)
         Me.Controls.Add(Me.txtNoteBlue2)
         Me.Controls.Add(Me.lblNotesBlue2)
@@ -1333,7 +1322,6 @@ Partial Class ExcelExporter
 
     End Sub
 
-    Friend WithEvents btnTeamInput As Button
     Friend WithEvents btnMainMenu As Button
     Friend WithEvents txtNoteBlue2 As TextBox
     Friend WithEvents lblNotesBlue2 As Label

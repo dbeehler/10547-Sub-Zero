@@ -18,6 +18,7 @@ Public Class TextExporter
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.redTeam1TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam1EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam1FinalScore
+        rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.redAllianceScore
         Try
             'saves the text from the text boxes and saves them to the database
             rankingsForm.TableBindingSource.EndEdit()
@@ -35,6 +36,7 @@ Public Class TextExporter
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.redTeam2TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam2EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam2FinalScore
+        rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.redAllianceScore
         Try
             rankingsForm.TableBindingSource.EndEdit()
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
@@ -48,6 +50,7 @@ Public Class TextExporter
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.blueTeam1TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam1EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.blueTeam1FinalScore
+        rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.blueAllianceScore
         Try
             rankingsForm.TableBindingSource.EndEdit()
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
@@ -61,6 +64,7 @@ Public Class TextExporter
         rankingsForm.TeleOp_ScoreTextBox.Text = variablesGlobal.blueTeam2TeleScore
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam2EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.blueTeam2FinalScore
+        rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.blueAllianceScore
         Try
             rankingsForm.TableBindingSource.EndEdit()
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
@@ -78,10 +82,18 @@ Public Class TextExporter
         If (Not System.IO.Directory.Exists(CurDir() + "\Data\Matches")) Then
             System.IO.Directory.CreateDirectory(CurDir() + "\Data")
         End If
-        'runs text exporter
-        textExport()
-        'runs the update for database
-        updateDatabase()
+        Dim result As Integer = MessageBox.Show("Are you sure? After you accept you may not change data!", "Warning", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning)
+        If result = DialogResult.Cancel Then
+            MessageBox.Show("Aborted")
+        ElseIf result = DialogResult.No Then
+            MessageBox.Show("Aborted")
+        ElseIf result = DialogResult.Yes Then
+            'only if you click yes
+            'runs text exporter
+            textExport()
+            'runs the update for database
+            updateDatabase()
+        End If
     End Sub
 
     Private Sub textMath()
@@ -108,7 +120,7 @@ Public Class TextExporter
         'rinse and repeat all math for each team
         'Red2
         variablesGlobal.redTeam2AutoScore = (variablesGlobal.jewelRed2Value * 30) + (variablesGlobal.safeZoneRed2value * 10) + (variablesGlobal.cryptoKeyRed2Value * 30) + (variablesGlobal.glyphAutoRed2Value * 15)
-        variablesGlobal.redTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoRed2Value) * 2) + (variablesGlobal.rowRed2Value * 10) + (variablesGlobal.columnRed2Value * 20) + (variablesGlobal.cypherRed2Value * 30)
+        variablesGlobal.redTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed2Value + variablesGlobal.glyphAutoRed2Value) * 2) + (variablesGlobal.rowRed2Value * 10) + (variablesGlobal.columnRed2Value * 20) + (variablesGlobal.cypherRed2Value * 30)
         If variablesGlobal.relicRed2Value = 1 Then
             variablesGlobal.relicScoreRed2 = 10
         ElseIf variablesGlobal.relicRed2Value = 2 Then
@@ -123,7 +135,7 @@ Public Class TextExporter
 
         'Blue1
         variablesGlobal.blueTeam1AutoScore = (variablesGlobal.jewelblue1Value * 30) + (variablesGlobal.safeZoneBlue1value * 10) + (variablesGlobal.cryptoKeyBlue1Value * 30) + (variablesGlobal.glyphAutoBlue1Value * 15)
-        variablesGlobal.blueTeam1TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoBlue1Value) * 2) + (variablesGlobal.rowBlue1Value * 10) + (variablesGlobal.columnBlue1Value * 20) + (variablesGlobal.cypherBlue1Value * 30)
+        variablesGlobal.blueTeam1TeleScore = ((variablesGlobal.glyphTeleOpBlue1Value + variablesGlobal.glyphAutoBlue1Value) * 2) + (variablesGlobal.rowBlue1Value * 10) + (variablesGlobal.columnBlue1Value * 20) + (variablesGlobal.cypherBlue1Value * 30)
         If variablesGlobal.relicBlue1Value = 1 Then
             variablesGlobal.relicScoreBlue1 = 10
         ElseIf variablesGlobal.relicBlue1Value = 2 Then
@@ -138,7 +150,7 @@ Public Class TextExporter
 
         'Bllue2
         variablesGlobal.blueTeam2AutoScore = (variablesGlobal.jewelBlue2Value * 30) + (variablesGlobal.safeZoneBlue2value * 10) + (variablesGlobal.cryptoKeyBlue2Value * 30) + (variablesGlobal.glyphAutoBlue2Value * 15)
-        variablesGlobal.blueTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoBlue2Value) * 2) + (variablesGlobal.rowBlue2Value * 10) + (variablesGlobal.columnBlue2Value * 20) + (variablesGlobal.cypherBlue2Value * 30)
+        variablesGlobal.blueTeam2TeleScore = ((variablesGlobal.glyphTeleOpBlue2Value + variablesGlobal.glyphAutoBlue2Value) * 2) + (variablesGlobal.rowBlue2Value * 10) + (variablesGlobal.columnBlue2Value * 20) + (variablesGlobal.cypherBlue2Value * 30)
         If variablesGlobal.relicBlue2Value = 1 Then
             variablesGlobal.relicScoreBlue2 = 10
         ElseIf variablesGlobal.relicBlue2Value = 2 Then
@@ -582,12 +594,12 @@ Public Class TextExporter
             Dim i As Integer = 0
             variablesGlobal.allTeams = sr.ReadLine.Split(",")
         End While
-        Array.Sort(variablesGlobal.allTeams)
-        'adds team numbers to the list boxes
+        'sorts array
         variablesGlobal.allTeams = variablesGlobal.allTeams.OrderByDescending(Function(q) Int32.Parse(q.Split(" ").Last)).ToArray()
+        'reverses array for low to high
         Array.Reverse(variablesGlobal.allTeams)
+        'adds team numbers to the list boxes
         For i As Integer = 0 To variablesGlobal.allTeams.Length - 1
-            Console.WriteLine(variablesGlobal.allTeams(i))
             cmboRed1.Items.Add(variablesGlobal.allTeams(i))
             cmboRed2.Items.Add(variablesGlobal.allTeams(i))
             cmboBlue1.Items.Add(variablesGlobal.allTeams(i))

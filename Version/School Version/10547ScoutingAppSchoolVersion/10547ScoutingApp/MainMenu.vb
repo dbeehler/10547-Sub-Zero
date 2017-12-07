@@ -10,8 +10,8 @@ Public Class MainMenu
 
     'opens the excel form
     Private Sub btnExcel_Click(sender As Object, e As EventArgs) Handles btnExcel.Click
-        Me.Visible = False
-        ExcelExporter.Visible = True
+        Dim frmExcel As New ExcelExporter
+        frmExcel.ShowDialog()
     End Sub
 
     'opens text form

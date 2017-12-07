@@ -43,4 +43,11 @@ Public Class rankingsForm
         'cancels edit
         Me.TableBindingSource.CancelEdit()
     End Sub
+
+    Private Sub TableBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs)
+        Me.Validate()
+        Me.TableBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.MainDataDataSet)
+
+    End Sub
 End Class

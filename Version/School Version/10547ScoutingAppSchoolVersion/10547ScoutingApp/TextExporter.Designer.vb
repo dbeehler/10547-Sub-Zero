@@ -134,7 +134,6 @@ Partial Class TextExporter
         Me.lblNotesBlue2 = New System.Windows.Forms.Label()
         Me.btnTextDocumentExport = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnTeamInput = New System.Windows.Forms.Button()
         Me.grpTeamRed1.SuspendLayout()
         CType(Me.txtRelicRed1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtColumnsRed1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1270,22 +1269,12 @@ Partial Class TextExporter
         Me.PictureBox1.TabIndex = 29
         Me.PictureBox1.TabStop = False
         '
-        'btnTeamInput
-        '
-        Me.btnTeamInput.Location = New System.Drawing.Point(583, 515)
-        Me.btnTeamInput.Name = "btnTeamInput"
-        Me.btnTeamInput.Size = New System.Drawing.Size(75, 23)
-        Me.btnTeamInput.TabIndex = 58
-        Me.btnTeamInput.Text = "Input Teams"
-        Me.btnTeamInput.UseVisualStyleBackColor = True
-        '
         'TextExporter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(719, 839)
-        Me.Controls.Add(Me.btnTeamInput)
         Me.Controls.Add(Me.btnTextDocumentExport)
         Me.Controls.Add(Me.txtNoteBlue2)
         Me.Controls.Add(Me.lblNotesBlue2)
@@ -1453,7 +1442,6 @@ Partial Class TextExporter
     Friend WithEvents txtNoteBlue2 As TextBox
     Friend WithEvents lblNotesBlue2 As Label
     Friend WithEvents btnTextDocumentExport As Button
-    Friend WithEvents btnTeamInput As Button
     Friend WithEvents cmboRed2 As ComboBox
     Friend WithEvents cmboRed1 As ComboBox
     Friend WithEvents cmboBlue1 As ComboBox

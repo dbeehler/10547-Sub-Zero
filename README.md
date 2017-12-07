@@ -19,7 +19,7 @@
       - 1. Go to Data/Teams/TeamDirectory.txt
       - 2. Follow Previous formatting to edit
       - 3. Example text : 10547,5466,10030,
-      - 4. To edit: add neede teams to end, and delete unneeded teams
+      - 4. To edit: add needed teams to end, and delete unneeded teams
       - 5. Example edit: 10547,10030,11742,
     - Install "scoutingapp" to _root C Drive_ 
       - This contains the database and MUST be installed here to work
@@ -68,7 +68,7 @@
     - allows for a long list of team numbers
   - Exports data to a text document
     - Custom format for our team
-    - One document per team, seperated by a spacer and match number
+    - One document per team, separated by a spacer and match number
 ![Text Pad](/Images/textPad.PNG?raw=true "textPad")
   - When the export button is clicked it also adds the needed information to a text document
     - Puts Match Number, Team Number, Auto Score, TeleOp Score, End Score, and Total Score into the database
@@ -88,7 +88,7 @@
   - Fixed team import issue
   - Fixed the program not actually making the "Match" folder
 * December 5, 2017 (Version 2.1)
-  - Added comments for other teams and people
+  - Added comments for teams and people
     - Also major update to readme
   - Fixed a major bug where the variables were getting over filled
 * December 1, 2017 (Version 2.0b)
@@ -110,10 +110,10 @@
 * November 18, 2017 (Version 1.0)
   - Reworked text exporter to print per team, not per match
     - This will lead to being able to select alliance partners 
-    - This is much better than the othher way.
+    - This is much better than the other way.
   - Big fixes
 * November 14, 2017 (Version 0.5c)
-  - Rewrote glovalVariables so it is more appealing to the eyes.
+  - Rewrote globalVariables so it is more appealing to the eyes.
 * November 11, 2017 (Version 0.5b)
   - Remade UI for school computers. Switched from 1920 x 1080 to 1280 x 720.
 * November 8, 2017 (Version 0.5a Hotfix)
@@ -134,7 +134,7 @@
   - Initial Commit
   - Added personalized .ico file
   - Added new saving method.
-    - More efficent
+    - More efficient
   - Update to make red team 1 fill in the spreadsheet
 ## Contact
-For questions, comments, concers, or suggestions please email dbeehler00@gmail.com
+For questions, comments, concerns, or suggestions please email dbeehler00@gmail.com

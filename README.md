@@ -47,7 +47,9 @@
 * **Developer Info**
   - Known Issues
     - No way to delete entries in database
-    - Team list isn't sorted by value
+    - ~~Team list isn't sorted by value~~
+  - TODO
+    - add notes to database?
 
 ### Sorted by the forms themselves
 

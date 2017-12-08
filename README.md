@@ -49,7 +49,7 @@
     - No way to delete entries in database
     - ~~Team list isn't sorted by value~~
   - TODO
-    - add notes to database?
+    - ~~add notes to database?~~
 
 ### Sorted by the forms themselves
 
@@ -83,7 +83,7 @@
 ![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
 ## Changelog
-* December 8 2017 (Version 2.1b)
+* December 8, 2017 (Version 2.1b)
   - Added notes to datbase
     - Added because in WV some teams werent scouted after lunch, and scores were though of as robot didnt move.
 	- Instead of no data because of scouting.

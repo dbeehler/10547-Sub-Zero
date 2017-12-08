@@ -19,6 +19,7 @@ Public Class TextExporter
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam1EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam1FinalScore
         rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.redAllianceScore
+        rankingsForm.NotesTextBox.Text = txtNoteRed1.Text
         Try
             'saves the text from the text boxes and saves them to the database
             rankingsForm.TableBindingSource.EndEdit()
@@ -37,6 +38,7 @@ Public Class TextExporter
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.redTeam2EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.redTeam2FinalScore
         rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.redAllianceScore
+        rankingsForm.NotesTextBox.Text = txtNoteRed2.Text
         Try
             rankingsForm.TableBindingSource.EndEdit()
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
@@ -51,6 +53,7 @@ Public Class TextExporter
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam1EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.blueTeam1FinalScore
         rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.blueAllianceScore
+        rankingsForm.NotesTextBox.Text = txtNoteBlue1.Text
         Try
             rankingsForm.TableBindingSource.EndEdit()
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)
@@ -65,6 +68,7 @@ Public Class TextExporter
         rankingsForm.End_ScoreTextBox.Text = variablesGlobal.blueTeam2EndScore
         rankingsForm.Total_ScoreTextBox.Text = variablesGlobal.blueTeam2FinalScore
         rankingsForm.Alliance_ScoreTextBox.Text = variablesGlobal.blueAllianceScore
+        rankingsForm.NotesTextBox.Text = txtNoteBlue2.Text
         Try
             rankingsForm.TableBindingSource.EndEdit()
             rankingsForm.TableTableAdapter.Update(rankingsForm.MainDataDataSet.Table)

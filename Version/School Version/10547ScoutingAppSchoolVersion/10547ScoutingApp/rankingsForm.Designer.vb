@@ -30,6 +30,7 @@ Partial Class rankingsForm
         Dim End_ScoreLabel As System.Windows.Forms.Label
         Dim Total_ScoreLabel As System.Windows.Forms.Label
         Dim Alliance_ScoreLabel As System.Windows.Forms.Label
+        Dim NotesLabel As System.Windows.Forms.Label
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(rankingsForm))
         Me.lblVersionText = New System.Windows.Forms.Label()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -38,8 +39,16 @@ Partial Class rankingsForm
         Me.ClearDataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.grpMain = New System.Windows.Forms.GroupBox()
+        Me.Match_NumberTextBox = New System.Windows.Forms.TextBox()
         Me.TableBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.MainDataDataSet = New _10547ScoutingApp.mainDataDataSet()
+        Me.Team_NumberTextBox = New System.Windows.Forms.TextBox()
+        Me.Auto_ScoreTextBox = New System.Windows.Forms.TextBox()
+        Me.TeleOp_ScoreTextBox = New System.Windows.Forms.TextBox()
+        Me.End_ScoreTextBox = New System.Windows.Forms.TextBox()
+        Me.Total_ScoreTextBox = New System.Windows.Forms.TextBox()
+        Me.Alliance_ScoreTextBox = New System.Windows.Forms.TextBox()
+        Me.NotesTextBox = New System.Windows.Forms.TextBox()
         Me.TableTableAdapter = New _10547ScoutingApp.mainDataDataSetTableAdapters.TableTableAdapter()
         Me.TableAdapterManager = New _10547ScoutingApp.mainDataDataSetTableAdapters.TableAdapterManager()
         Me.TableDataGridView = New System.Windows.Forms.DataGridView()
@@ -50,13 +59,7 @@ Partial Class rankingsForm
         Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Match_NumberTextBox = New System.Windows.Forms.TextBox()
-        Me.Team_NumberTextBox = New System.Windows.Forms.TextBox()
-        Me.Auto_ScoreTextBox = New System.Windows.Forms.TextBox()
-        Me.TeleOp_ScoreTextBox = New System.Windows.Forms.TextBox()
-        Me.End_ScoreTextBox = New System.Windows.Forms.TextBox()
-        Me.Total_ScoreTextBox = New System.Windows.Forms.TextBox()
-        Me.Alliance_ScoreTextBox = New System.Windows.Forms.TextBox()
+        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Match_NumberLabel = New System.Windows.Forms.Label()
         Team_NumberLabel = New System.Windows.Forms.Label()
         Auto_ScoreLabel = New System.Windows.Forms.Label()
@@ -64,12 +67,85 @@ Partial Class rankingsForm
         End_ScoreLabel = New System.Windows.Forms.Label()
         Total_ScoreLabel = New System.Windows.Forms.Label()
         Alliance_ScoreLabel = New System.Windows.Forms.Label()
+        NotesLabel = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.grpMain.SuspendLayout()
         CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MainDataDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TableDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Match_NumberLabel
+        '
+        Match_NumberLabel.AutoSize = True
+        Match_NumberLabel.Location = New System.Drawing.Point(6, 16)
+        Match_NumberLabel.Name = "Match_NumberLabel"
+        Match_NumberLabel.Size = New System.Drawing.Size(80, 13)
+        Match_NumberLabel.TabIndex = 0
+        Match_NumberLabel.Text = "Match Number:"
+        '
+        'Team_NumberLabel
+        '
+        Team_NumberLabel.AutoSize = True
+        Team_NumberLabel.Location = New System.Drawing.Point(6, 42)
+        Team_NumberLabel.Name = "Team_NumberLabel"
+        Team_NumberLabel.Size = New System.Drawing.Size(77, 13)
+        Team_NumberLabel.TabIndex = 2
+        Team_NumberLabel.Text = "Team Number:"
+        '
+        'Auto_ScoreLabel
+        '
+        Auto_ScoreLabel.AutoSize = True
+        Auto_ScoreLabel.Location = New System.Drawing.Point(6, 68)
+        Auto_ScoreLabel.Name = "Auto_ScoreLabel"
+        Auto_ScoreLabel.Size = New System.Drawing.Size(63, 13)
+        Auto_ScoreLabel.TabIndex = 4
+        Auto_ScoreLabel.Text = "Auto Score:"
+        '
+        'TeleOp_ScoreLabel
+        '
+        TeleOp_ScoreLabel.AutoSize = True
+        TeleOp_ScoreLabel.Location = New System.Drawing.Point(6, 94)
+        TeleOp_ScoreLabel.Name = "TeleOp_ScoreLabel"
+        TeleOp_ScoreLabel.Size = New System.Drawing.Size(79, 13)
+        TeleOp_ScoreLabel.TabIndex = 6
+        TeleOp_ScoreLabel.Text = "Tele Op Score:"
+        '
+        'End_ScoreLabel
+        '
+        End_ScoreLabel.AutoSize = True
+        End_ScoreLabel.Location = New System.Drawing.Point(198, 16)
+        End_ScoreLabel.Name = "End_ScoreLabel"
+        End_ScoreLabel.Size = New System.Drawing.Size(60, 13)
+        End_ScoreLabel.TabIndex = 8
+        End_ScoreLabel.Text = "End Score:"
+        '
+        'Total_ScoreLabel
+        '
+        Total_ScoreLabel.AutoSize = True
+        Total_ScoreLabel.Location = New System.Drawing.Point(198, 42)
+        Total_ScoreLabel.Name = "Total_ScoreLabel"
+        Total_ScoreLabel.Size = New System.Drawing.Size(65, 13)
+        Total_ScoreLabel.TabIndex = 10
+        Total_ScoreLabel.Text = "Total Score:"
+        '
+        'Alliance_ScoreLabel
+        '
+        Alliance_ScoreLabel.AutoSize = True
+        Alliance_ScoreLabel.Location = New System.Drawing.Point(198, 68)
+        Alliance_ScoreLabel.Name = "Alliance_ScoreLabel"
+        Alliance_ScoreLabel.Size = New System.Drawing.Size(78, 13)
+        Alliance_ScoreLabel.TabIndex = 12
+        Alliance_ScoreLabel.Text = "Alliance Score:"
+        '
+        'NotesLabel
+        '
+        NotesLabel.AutoSize = True
+        NotesLabel.Location = New System.Drawing.Point(198, 94)
+        NotesLabel.Name = "NotesLabel"
+        NotesLabel.Size = New System.Drawing.Size(38, 13)
+        NotesLabel.TabIndex = 14
+        NotesLabel.Text = "Notes:"
         '
         'lblVersionText
         '
@@ -111,7 +187,7 @@ Partial Class rankingsForm
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(774, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(876, 24)
         Me.MenuStrip1.TabIndex = 13
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -131,11 +207,21 @@ Partial Class rankingsForm
         Me.grpMain.Controls.Add(Me.Total_ScoreTextBox)
         Me.grpMain.Controls.Add(Alliance_ScoreLabel)
         Me.grpMain.Controls.Add(Me.Alliance_ScoreTextBox)
-        Me.grpMain.Location = New System.Drawing.Point(294, 27)
+        Me.grpMain.Controls.Add(NotesLabel)
+        Me.grpMain.Controls.Add(Me.NotesTextBox)
+        Me.grpMain.Location = New System.Drawing.Point(431, 51)
         Me.grpMain.Name = "grpMain"
-        Me.grpMain.Size = New System.Drawing.Size(425, 182)
+        Me.grpMain.Size = New System.Drawing.Size(425, 192)
         Me.grpMain.TabIndex = 14
         Me.grpMain.TabStop = False
+        '
+        'Match_NumberTextBox
+        '
+        Me.Match_NumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Match Number", True))
+        Me.Match_NumberTextBox.Location = New System.Drawing.Point(92, 13)
+        Me.Match_NumberTextBox.Name = "Match_NumberTextBox"
+        Me.Match_NumberTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.Match_NumberTextBox.TabIndex = 1
         '
         'TableBindingSource
         '
@@ -146,6 +232,63 @@ Partial Class rankingsForm
         '
         Me.MainDataDataSet.DataSetName = "mainDataDataSet"
         Me.MainDataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Team_NumberTextBox
+        '
+        Me.Team_NumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Team Number", True))
+        Me.Team_NumberTextBox.Location = New System.Drawing.Point(92, 39)
+        Me.Team_NumberTextBox.Name = "Team_NumberTextBox"
+        Me.Team_NumberTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.Team_NumberTextBox.TabIndex = 3
+        '
+        'Auto_ScoreTextBox
+        '
+        Me.Auto_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Auto Score", True))
+        Me.Auto_ScoreTextBox.Location = New System.Drawing.Point(92, 65)
+        Me.Auto_ScoreTextBox.Name = "Auto_ScoreTextBox"
+        Me.Auto_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.Auto_ScoreTextBox.TabIndex = 5
+        '
+        'TeleOp_ScoreTextBox
+        '
+        Me.TeleOp_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "TeleOp Score", True))
+        Me.TeleOp_ScoreTextBox.Location = New System.Drawing.Point(92, 91)
+        Me.TeleOp_ScoreTextBox.Name = "TeleOp_ScoreTextBox"
+        Me.TeleOp_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.TeleOp_ScoreTextBox.TabIndex = 7
+        '
+        'End_ScoreTextBox
+        '
+        Me.End_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "End Score", True))
+        Me.End_ScoreTextBox.Location = New System.Drawing.Point(284, 13)
+        Me.End_ScoreTextBox.Name = "End_ScoreTextBox"
+        Me.End_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.End_ScoreTextBox.TabIndex = 9
+        '
+        'Total_ScoreTextBox
+        '
+        Me.Total_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Total Score", True))
+        Me.Total_ScoreTextBox.Location = New System.Drawing.Point(284, 39)
+        Me.Total_ScoreTextBox.Name = "Total_ScoreTextBox"
+        Me.Total_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.Total_ScoreTextBox.TabIndex = 11
+        '
+        'Alliance_ScoreTextBox
+        '
+        Me.Alliance_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Alliance Score", True))
+        Me.Alliance_ScoreTextBox.Location = New System.Drawing.Point(284, 65)
+        Me.Alliance_ScoreTextBox.Name = "Alliance_ScoreTextBox"
+        Me.Alliance_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.Alliance_ScoreTextBox.TabIndex = 13
+        '
+        'NotesTextBox
+        '
+        Me.NotesTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Notes", True))
+        Me.NotesTextBox.Location = New System.Drawing.Point(284, 91)
+        Me.NotesTextBox.Multiline = True
+        Me.NotesTextBox.Name = "NotesTextBox"
+        Me.NotesTextBox.Size = New System.Drawing.Size(135, 74)
+        Me.NotesTextBox.TabIndex = 15
         '
         'TableTableAdapter
         '
@@ -161,11 +304,11 @@ Partial Class rankingsForm
         '
         Me.TableDataGridView.AutoGenerateColumns = False
         Me.TableDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.TableDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7})
+        Me.TableDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8})
         Me.TableDataGridView.DataSource = Me.TableBindingSource
-        Me.TableDataGridView.Location = New System.Drawing.Point(12, 215)
+        Me.TableDataGridView.Location = New System.Drawing.Point(12, 266)
         Me.TableDataGridView.Name = "TableDataGridView"
-        Me.TableDataGridView.Size = New System.Drawing.Size(742, 220)
+        Me.TableDataGridView.Size = New System.Drawing.Size(852, 220)
         Me.TableDataGridView.TabIndex = 31
         '
         'DataGridViewTextBoxColumn1
@@ -210,129 +353,16 @@ Partial Class rankingsForm
         Me.DataGridViewTextBoxColumn7.HeaderText = "Alliance Score"
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
         '
-        'Match_NumberLabel
+        'DataGridViewTextBoxColumn8
         '
-        Match_NumberLabel.AutoSize = True
-        Match_NumberLabel.Location = New System.Drawing.Point(17, 24)
-        Match_NumberLabel.Name = "Match_NumberLabel"
-        Match_NumberLabel.Size = New System.Drawing.Size(80, 13)
-        Match_NumberLabel.TabIndex = 0
-        Match_NumberLabel.Text = "Match Number:"
-        '
-        'Match_NumberTextBox
-        '
-        Me.Match_NumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Match Number", True))
-        Me.Match_NumberTextBox.Location = New System.Drawing.Point(103, 21)
-        Me.Match_NumberTextBox.Name = "Match_NumberTextBox"
-        Me.Match_NumberTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Match_NumberTextBox.TabIndex = 1
-        '
-        'Team_NumberLabel
-        '
-        Team_NumberLabel.AutoSize = True
-        Team_NumberLabel.Location = New System.Drawing.Point(17, 50)
-        Team_NumberLabel.Name = "Team_NumberLabel"
-        Team_NumberLabel.Size = New System.Drawing.Size(77, 13)
-        Team_NumberLabel.TabIndex = 2
-        Team_NumberLabel.Text = "Team Number:"
-        '
-        'Team_NumberTextBox
-        '
-        Me.Team_NumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Team Number", True))
-        Me.Team_NumberTextBox.Location = New System.Drawing.Point(103, 47)
-        Me.Team_NumberTextBox.Name = "Team_NumberTextBox"
-        Me.Team_NumberTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Team_NumberTextBox.TabIndex = 3
-        '
-        'Auto_ScoreLabel
-        '
-        Auto_ScoreLabel.AutoSize = True
-        Auto_ScoreLabel.Location = New System.Drawing.Point(17, 76)
-        Auto_ScoreLabel.Name = "Auto_ScoreLabel"
-        Auto_ScoreLabel.Size = New System.Drawing.Size(63, 13)
-        Auto_ScoreLabel.TabIndex = 4
-        Auto_ScoreLabel.Text = "Auto Score:"
-        '
-        'Auto_ScoreTextBox
-        '
-        Me.Auto_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Auto Score", True))
-        Me.Auto_ScoreTextBox.Location = New System.Drawing.Point(103, 73)
-        Me.Auto_ScoreTextBox.Name = "Auto_ScoreTextBox"
-        Me.Auto_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Auto_ScoreTextBox.TabIndex = 5
-        '
-        'TeleOp_ScoreLabel
-        '
-        TeleOp_ScoreLabel.AutoSize = True
-        TeleOp_ScoreLabel.Location = New System.Drawing.Point(17, 102)
-        TeleOp_ScoreLabel.Name = "TeleOp_ScoreLabel"
-        TeleOp_ScoreLabel.Size = New System.Drawing.Size(79, 13)
-        TeleOp_ScoreLabel.TabIndex = 6
-        TeleOp_ScoreLabel.Text = "Tele Op Score:"
-        '
-        'TeleOp_ScoreTextBox
-        '
-        Me.TeleOp_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "TeleOp Score", True))
-        Me.TeleOp_ScoreTextBox.Location = New System.Drawing.Point(103, 99)
-        Me.TeleOp_ScoreTextBox.Name = "TeleOp_ScoreTextBox"
-        Me.TeleOp_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.TeleOp_ScoreTextBox.TabIndex = 7
-        '
-        'End_ScoreLabel
-        '
-        End_ScoreLabel.AutoSize = True
-        End_ScoreLabel.Location = New System.Drawing.Point(225, 24)
-        End_ScoreLabel.Name = "End_ScoreLabel"
-        End_ScoreLabel.Size = New System.Drawing.Size(60, 13)
-        End_ScoreLabel.TabIndex = 8
-        End_ScoreLabel.Text = "End Score:"
-        '
-        'End_ScoreTextBox
-        '
-        Me.End_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "End Score", True))
-        Me.End_ScoreTextBox.Location = New System.Drawing.Point(311, 21)
-        Me.End_ScoreTextBox.Name = "End_ScoreTextBox"
-        Me.End_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.End_ScoreTextBox.TabIndex = 9
-        '
-        'Total_ScoreLabel
-        '
-        Total_ScoreLabel.AutoSize = True
-        Total_ScoreLabel.Location = New System.Drawing.Point(225, 50)
-        Total_ScoreLabel.Name = "Total_ScoreLabel"
-        Total_ScoreLabel.Size = New System.Drawing.Size(65, 13)
-        Total_ScoreLabel.TabIndex = 10
-        Total_ScoreLabel.Text = "Total Score:"
-        '
-        'Total_ScoreTextBox
-        '
-        Me.Total_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Total Score", True))
-        Me.Total_ScoreTextBox.Location = New System.Drawing.Point(311, 47)
-        Me.Total_ScoreTextBox.Name = "Total_ScoreTextBox"
-        Me.Total_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Total_ScoreTextBox.TabIndex = 11
-        '
-        'Alliance_ScoreLabel
-        '
-        Alliance_ScoreLabel.AutoSize = True
-        Alliance_ScoreLabel.Location = New System.Drawing.Point(225, 76)
-        Alliance_ScoreLabel.Name = "Alliance_ScoreLabel"
-        Alliance_ScoreLabel.Size = New System.Drawing.Size(78, 13)
-        Alliance_ScoreLabel.TabIndex = 12
-        Alliance_ScoreLabel.Text = "Alliance Score:"
-        '
-        'Alliance_ScoreTextBox
-        '
-        Me.Alliance_ScoreTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.TableBindingSource, "Alliance Score", True))
-        Me.Alliance_ScoreTextBox.Location = New System.Drawing.Point(311, 73)
-        Me.Alliance_ScoreTextBox.Name = "Alliance_ScoreTextBox"
-        Me.Alliance_ScoreTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Alliance_ScoreTextBox.TabIndex = 13
+        Me.DataGridViewTextBoxColumn8.DataPropertyName = "Notes"
+        Me.DataGridViewTextBoxColumn8.HeaderText = "Notes"
+        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
         '
         'rankingsForm
         '
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(774, 455)
+        Me.ClientSize = New System.Drawing.Size(876, 506)
         Me.Controls.Add(Me.TableDataGridView)
         Me.Controls.Add(Me.lblVersionText)
         Me.Controls.Add(Me.grpMain)
@@ -363,6 +393,14 @@ Partial Class rankingsForm
     Friend WithEvents TableBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents TableTableAdapter As _10547ScoutingApp.mainDataDataSetTableAdapters.TableTableAdapter
     Friend WithEvents TableAdapterManager As _10547ScoutingApp.mainDataDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents Match_NumberTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents Team_NumberTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents Auto_ScoreTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents TeleOp_ScoreTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents End_ScoreTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents Total_ScoreTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents Alliance_ScoreTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents NotesTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TableDataGridView As System.Windows.Forms.DataGridView
     Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -371,11 +409,5 @@ Partial Class rankingsForm
     Friend WithEvents DataGridViewTextBoxColumn5 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn6 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn7 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Match_NumberTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents Team_NumberTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents Auto_ScoreTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents TeleOp_ScoreTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents End_ScoreTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents Total_ScoreTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents Alliance_ScoreTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents DataGridViewTextBoxColumn8 As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

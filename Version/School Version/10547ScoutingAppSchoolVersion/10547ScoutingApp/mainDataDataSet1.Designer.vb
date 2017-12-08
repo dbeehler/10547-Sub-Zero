@@ -297,6 +297,8 @@ Partial Public Class mainDataDataSet
         
         Private columnAlliance_Score As Global.System.Data.DataColumn
 
+        Private columnNotes As Global.System.Data.DataColumn
+
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
         Public Sub New()
@@ -389,6 +391,14 @@ Partial Public Class mainDataDataSet
         End Property
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public ReadOnly Property NotesColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnNotes
+            End Get
+        End Property
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
          Global.System.ComponentModel.Browsable(False)> _
         Public ReadOnly Property Count() As Integer
@@ -425,9 +435,9 @@ Partial Public Class mainDataDataSet
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
-        Public Overloads Function AddTableRow(ByVal Match_Number As Integer, ByVal Team_Number As Integer, ByVal Auto_Score As Integer, ByVal TeleOp_Score As Integer, ByVal End_Score As Integer, ByVal Total_Score As Integer, ByVal Alliance_Score As Integer) As TableRow
+        Public Overloads Function AddTableRow(ByVal Match_Number As Integer, ByVal Team_Number As Integer, ByVal Auto_Score As Integer, ByVal TeleOp_Score As Integer, ByVal End_Score As Integer, ByVal Total_Score As Integer, ByVal Alliance_Score As Integer, ByVal Notes As String) As TableRow
             Dim rowTableRow As TableRow = CType(Me.NewRow, TableRow)
-            Dim columnValuesArray() As Object = New Object() {Match_Number, Team_Number, Auto_Score, TeleOp_Score, End_Score, Total_Score, Alliance_Score}
+            Dim columnValuesArray() As Object = New Object() {Match_Number, Team_Number, Auto_Score, TeleOp_Score, End_Score, Total_Score, Alliance_Score, Notes}
             rowTableRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowTableRow)
             Return rowTableRow
@@ -457,6 +467,7 @@ Partial Public Class mainDataDataSet
             Me.columnEnd_Score = MyBase.Columns("End Score")
             Me.columnTotal_Score = MyBase.Columns("Total Score")
             Me.columnAlliance_Score = MyBase.Columns("Alliance Score")
+            Me.columnNotes = MyBase.Columns("Notes")
         End Sub
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
@@ -476,8 +487,11 @@ Partial Public Class mainDataDataSet
             MyBase.Columns.Add(Me.columnTotal_Score)
             Me.columnAlliance_Score = New Global.System.Data.DataColumn("Alliance Score", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnAlliance_Score)
+            Me.columnNotes = New Global.System.Data.DataColumn("Notes", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnNotes)
             Me.columnMatch_Number.AllowDBNull = False
             Me.columnTeam_Number.AllowDBNull = False
+            Me.columnNotes.MaxLength = 25
             Me.ExtendedProperties.Add("Generator_RowClassName", "TableRow")
             Me.ExtendedProperties.Add("Generator_RowEvArgName", "TableRowChangeEvent")
             Me.ExtendedProperties.Add("Generator_RowEvHandlerName", "TableRowChangeEventHandler")
@@ -728,6 +742,21 @@ Partial Public Class mainDataDataSet
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public Property Notes() As String
+            Get
+                Try
+                    Return CType(Me(Me.tableTable.NotesColumn), String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'Notes' in table 'Table' is DBNull.", e)
+                End Try
+            End Get
+            Set(value As String)
+                Me(Me.tableTable.NotesColumn) = value
+            End Set
+        End Property
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
         Public Function IsAuto_ScoreNull() As Boolean
             Return Me.IsNull(Me.tableTable.Auto_ScoreColumn)
         End Function
@@ -784,6 +813,18 @@ Partial Public Class mainDataDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
         Public Sub SetAlliance_ScoreNull()
             Me(Me.tableTable.Alliance_ScoreColumn) = Global.System.Convert.DBNull
+        End Sub
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public Function IsNotesNull() As Boolean
+            Return Me.IsNull(Me.tableTable.NotesColumn)
+        End Function
+
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")> _
+        Public Sub SetNotesNull()
+            Me(Me.tableTable.NotesColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
 
@@ -960,12 +1001,14 @@ Namespace mainDataDataSetTableAdapters
             tableMapping.ColumnMappings.Add("End Score", "End Score")
             tableMapping.ColumnMappings.Add("Total Score", "Total Score")
             tableMapping.ColumnMappings.Add("Alliance Score", "Alliance Score")
+            tableMapping.ColumnMappings.Add("Notes", "Notes")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.InsertCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
             Me._adapter.InsertCommand.CommandText = "INSERT INTO [Table] ([Match Number], [Team Number], [Auto Score], [TeleOp Score]," & _
-                " [End Score], [Total Score], [Alliance Score]) VALUES (@Match_Number, @Team_Numb" & _
-                "er, @Auto_Score, @TeleOp_Score, @End_Score, @Total_Score, @Alliance_Score)"
+                " [End Score], [Total Score], [Alliance Score], [Notes]) VALUES (@Match_Number, @" & _
+                "Team_Number, @Auto_Score, @TeleOp_Score, @End_Score, @Total_Score, @Alliance_Sco" & _
+                "re, @Notes)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Match_Number", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Match Number", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Team_Number", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Team Number", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
@@ -974,6 +1017,7 @@ Namespace mainDataDataSetTableAdapters
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@End_Score", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "End Score", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Total_Score", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Total Score", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Alliance_Score", Global.System.Data.SqlDbType.Int, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Alliance Score", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@Notes", Global.System.Data.SqlDbType.NChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "Notes", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
         End Sub
 
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
@@ -1049,7 +1093,7 @@ Namespace mainDataDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, True)> _
-        Public Overridable Overloads Function Insert(ByVal Match_Number As Integer, ByVal Team_Number As Integer, ByVal Auto_Score As Global.System.Nullable(Of Integer), ByVal TeleOp_Score As Global.System.Nullable(Of Integer), ByVal End_Score As Global.System.Nullable(Of Integer), ByVal Total_Score As Global.System.Nullable(Of Integer), ByVal Alliance_Score As Global.System.Nullable(Of Integer)) As Integer
+        Public Overridable Overloads Function Insert(ByVal Match_Number As Integer, ByVal Team_Number As Integer, ByVal Auto_Score As Global.System.Nullable(Of Integer), ByVal TeleOp_Score As Global.System.Nullable(Of Integer), ByVal End_Score As Global.System.Nullable(Of Integer), ByVal Total_Score As Global.System.Nullable(Of Integer), ByVal Alliance_Score As Global.System.Nullable(Of Integer), ByVal Notes As String) As Integer
             Me.Adapter.InsertCommand.Parameters(0).Value = CType(Match_Number, Integer)
             Me.Adapter.InsertCommand.Parameters(1).Value = CType(Team_Number, Integer)
             If (Auto_Score.HasValue = True) Then
@@ -1076,6 +1120,11 @@ Namespace mainDataDataSetTableAdapters
                 Me.Adapter.InsertCommand.Parameters(6).Value = CType(Alliance_Score.Value, Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(6).Value = Global.System.DBNull.Value
+            End If
+            If (Notes Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(7).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(7).Value = CType(Notes, String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
             If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open) _
@@ -1119,7 +1168,7 @@ Namespace mainDataDataSetTableAdapters
                 Return Me._updateOrder
             End Get
             Set(value As UpdateOrderOption)
-                Me._updateOrder = Value
+                Me._updateOrder = value
             End Set
         End Property
 
@@ -1133,7 +1182,7 @@ Namespace mainDataDataSetTableAdapters
                 Return Me._tableTableAdapter
             End Get
             Set(value As TableTableAdapter)
-                Me._tableTableAdapter = Value
+                Me._tableTableAdapter = value
             End Set
         End Property
 
@@ -1144,7 +1193,7 @@ Namespace mainDataDataSetTableAdapters
                 Return Me._backupDataSetBeforeUpdate
             End Get
             Set(value As Boolean)
-                Me._backupDataSetBeforeUpdate = Value
+                Me._backupDataSetBeforeUpdate = value
             End Set
         End Property
 
@@ -1163,7 +1212,7 @@ Namespace mainDataDataSetTableAdapters
                 Return Nothing
             End Get
             Set(value As Global.System.Data.IDbConnection)
-                Me._connection = Value
+                Me._connection = value
             End Set
         End Property
 

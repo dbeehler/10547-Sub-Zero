@@ -1,0 +1,578 @@
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad, like really, really bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad. why do they play?
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:robot broke down
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad, really bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:robot broke
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:robot didnt move
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:really bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:robot not move
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:no auto
+
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:bad
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 1
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match1 Notes:
+
+--NEXT GAME!--
+
+Match Number: 2
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match2 Notes:robot didnt move
+
+--NEXT GAME!--
+
+Match Number: 2
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match2 Notes:bad teleop
+
+--NEXT GAME!--
+
+Match Number: 2
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match2 Notes:no auto
+
+--NEXT GAME!--
+
+Match Number: 2
+--Autonomous--
+Knock Jewel: No
+Number of Glyphs: 0
+CryptoKey: No
+Safe Zone: No
+--TeleOp--
+Number of Glyphs: 0
+Number of Rows: 0
+Number of Columns: 0
+Cypher Pattern: None
+--End Game--
+Relic Zone: 0
+Relic Upright: No
+Balanced: No
+
+--SCORES--
+
+--Red Team 1-- 5466
+Autonomous Score: 0
+Tele Op Score: 0
+EndGame Score: 0
+Total Score: 0
+
+--NOTES--
+Match2 Notes:good at scoring relic

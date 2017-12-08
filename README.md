@@ -83,7 +83,11 @@
 ![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
 ## Changelog
-* December 6, 2016 (Version 2.1a)
+* December 8 2017 (Version 2.1b)
+  - Added notes to datbase
+    - Added because in WV some teams werent scouted after lunch, and scores were though of as robot didnt move.
+	- Instead of no data because of scouting.
+* December 6, 2017 (Version 2.1a)
   - Added Scrollbar hotfix
     - Thanks to #11472 for bringing up this issue!
   - Fixed team import issue

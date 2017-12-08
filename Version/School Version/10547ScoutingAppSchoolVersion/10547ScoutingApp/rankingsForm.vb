@@ -9,7 +9,7 @@ Public Class rankingsForm
         Me.TableTableAdapter.Fill(Me.MainDataDataSet.Table)
         'starts the editing
         Me.TableBindingSource.AddNew()
-        grpMain.Visible = False
+        grpMain.Visible = True
     End Sub
 
     'when toolstrip is clicked it saves the database

@@ -83,6 +83,9 @@
 ![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
 ## Changelog
+* December 9, 2017 (Version 2.1c)
+  - Fixed excel exit button
+  - Fixed "Cipher Math" for math
 * December 8, 2017 (Version 2.1b)
   - Added notes to datbase
     - Added because in WV some teams werent scouted after lunch, and scores were though of as robot didnt move.

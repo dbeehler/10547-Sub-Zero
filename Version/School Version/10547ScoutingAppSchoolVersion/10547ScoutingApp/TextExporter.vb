@@ -105,7 +105,7 @@ Public Class TextExporter
         'figures auto score for red team 1
         variablesGlobal.redTeam1AutoScore = (variablesGlobal.jewelRed1Value * 30) + (variablesGlobal.safeZoneRed1value * 10) + (variablesGlobal.cryptoKeyRed1Value * 30) + (variablesGlobal.glyphAutoRed1Value * 15)
         'teleop score
-        variablesGlobal.redTeam1TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoRed1Value) * 2) + (variablesGlobal.rowRed1Value * 10) + (variablesGlobal.columnRed1Value * 20) + (variablesGlobal.cypherRed1Value * 30)
+        variablesGlobal.redTeam1TeleScore = ((variablesGlobal.glyphTeleOpRed1Value + variablesGlobal.glyphAutoRed1Value) * 2) + (variablesGlobal.rowRed1Value * 10) + (variablesGlobal.columnRed1Value * 20) + (variablesGlobal.cipherRed1Value * 30)
         'if the relic is in a certain zone it adds points
         If variablesGlobal.relicRed1Value = 1 Then
             variablesGlobal.relicScoreRed1 = 10
@@ -124,7 +124,7 @@ Public Class TextExporter
         'rinse and repeat all math for each team
         'Red2
         variablesGlobal.redTeam2AutoScore = (variablesGlobal.jewelRed2Value * 30) + (variablesGlobal.safeZoneRed2value * 10) + (variablesGlobal.cryptoKeyRed2Value * 30) + (variablesGlobal.glyphAutoRed2Value * 15)
-        variablesGlobal.redTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed2Value + variablesGlobal.glyphAutoRed2Value) * 2) + (variablesGlobal.rowRed2Value * 10) + (variablesGlobal.columnRed2Value * 20) + (variablesGlobal.cypherRed2Value * 30)
+        variablesGlobal.redTeam2TeleScore = ((variablesGlobal.glyphTeleOpRed2Value + variablesGlobal.glyphAutoRed2Value) * 2) + (variablesGlobal.rowRed2Value * 10) + (variablesGlobal.columnRed2Value * 20) + (variablesGlobal.cipherRed2Value * 30)
         If variablesGlobal.relicRed2Value = 1 Then
             variablesGlobal.relicScoreRed2 = 10
         ElseIf variablesGlobal.relicRed2Value = 2 Then
@@ -139,7 +139,7 @@ Public Class TextExporter
 
         'Blue1
         variablesGlobal.blueTeam1AutoScore = (variablesGlobal.jewelblue1Value * 30) + (variablesGlobal.safeZoneBlue1value * 10) + (variablesGlobal.cryptoKeyBlue1Value * 30) + (variablesGlobal.glyphAutoBlue1Value * 15)
-        variablesGlobal.blueTeam1TeleScore = ((variablesGlobal.glyphTeleOpBlue1Value + variablesGlobal.glyphAutoBlue1Value) * 2) + (variablesGlobal.rowBlue1Value * 10) + (variablesGlobal.columnBlue1Value * 20) + (variablesGlobal.cypherBlue1Value * 30)
+        variablesGlobal.blueTeam1TeleScore = ((variablesGlobal.glyphTeleOpBlue1Value + variablesGlobal.glyphAutoBlue1Value) * 2) + (variablesGlobal.rowBlue1Value * 10) + (variablesGlobal.columnBlue1Value * 20) + (variablesGlobal.cipherBlue1Value * 30)
         If variablesGlobal.relicBlue1Value = 1 Then
             variablesGlobal.relicScoreBlue1 = 10
         ElseIf variablesGlobal.relicBlue1Value = 2 Then
@@ -152,9 +152,9 @@ Public Class TextExporter
         variablesGlobal.blueTeam1EndScore = variablesGlobal.relicScoreBlue1 + (variablesGlobal.balanceBlue1Value * 20) + (variablesGlobal.relicBlue1Value * 15)
         variablesGlobal.blueTeam1FinalScore = variablesGlobal.blueTeam1AutoScore + variablesGlobal.blueTeam1TeleScore + variablesGlobal.blueTeam1EndScore
 
-        'Bllue2
+        'Blue2
         variablesGlobal.blueTeam2AutoScore = (variablesGlobal.jewelBlue2Value * 30) + (variablesGlobal.safeZoneBlue2value * 10) + (variablesGlobal.cryptoKeyBlue2Value * 30) + (variablesGlobal.glyphAutoBlue2Value * 15)
-        variablesGlobal.blueTeam2TeleScore = ((variablesGlobal.glyphTeleOpBlue2Value + variablesGlobal.glyphAutoBlue2Value) * 2) + (variablesGlobal.rowBlue2Value * 10) + (variablesGlobal.columnBlue2Value * 20) + (variablesGlobal.cypherBlue2Value * 30)
+        variablesGlobal.blueTeam2TeleScore = ((variablesGlobal.glyphTeleOpBlue2Value + variablesGlobal.glyphAutoBlue2Value) * 2) + (variablesGlobal.rowBlue2Value * 10) + (variablesGlobal.columnBlue2Value * 20) + (variablesGlobal.cipherBlue2Value * 30)
         If variablesGlobal.relicBlue2Value = 1 Then
             variablesGlobal.relicScoreBlue2 = 10
         ElseIf variablesGlobal.relicBlue2Value = 2 Then
@@ -182,6 +182,12 @@ Public Class TextExporter
         variablesGlobal.rowRed1Value = Integer.Parse(txtRowRed1.Text)
         variablesGlobal.columnRed1Value = Integer.Parse(txtColumnsRed1.Text)
         variablesGlobal.relicRed1Value = Integer.Parse(txtRelicRed1.Text)
+
+        If lstPatternRed1.SelectedItem IsNot "None" Then
+            variablesGlobal.cipherRed1Value = 1
+        Else
+            variablesGlobal.cipherRed1Value = 0
+        End If
 
         'checks if check box is checked and sets it accordingly
         If chkJewelRed1.Checked Then
@@ -239,6 +245,13 @@ Public Class TextExporter
         variablesGlobal.columnRed2Value = Integer.Parse(txtColumnsRed2.Text)
         variablesGlobal.relicRed2Value = Integer.Parse(txtRelicRed2.Text)
 
+        If lstPatternRed2.SelectedItem IsNot "None" Then
+            variablesGlobal.cipherRed2Value = 1
+        Else
+            variablesGlobal.cipherRed2Value = 0
+        End If
+
+
         If chkJewelRed2.Checked Then
             variablesGlobal.jewelTextRed2 = "Yes"
             variablesGlobal.jewelRed2Value = 1
@@ -288,6 +301,13 @@ Public Class TextExporter
         variablesGlobal.columnBlue1Value = Integer.Parse(txtColumnsBlue1.Text)
         variablesGlobal.relicBlue1Value = Integer.Parse(txtRelicBlue1.Text)
 
+        If lstPatternBlue1.SelectedItem IsNot "None" Then
+            variablesGlobal.cipherBlue1Value = 1
+        Else
+            variablesGlobal.cipherBlue1Value = 0
+        End If
+
+
         If chkJewelBlue1.Checked Then
             variablesGlobal.jewelTextBlue1 = "Yes"
             variablesGlobal.jewelblue1Value = 1
@@ -336,6 +356,12 @@ Public Class TextExporter
         variablesGlobal.rowBlue2Value = Integer.Parse(txtRowBlue2.Text)
         variablesGlobal.columnBlue2Value = Integer.Parse(txtColumnsBlue2.Text)
         variablesGlobal.relicBlue2Value = Integer.Parse(txtRelicBlue2.Text)
+
+        If lstPatternBlue2.SelectedItem IsNot "None" Then
+            variablesGlobal.cipherBlue2Value = 1
+        Else
+            variablesGlobal.cipherBlue2Value = 0
+        End If
 
         If chkJewelBlue2.Checked Then
             variablesGlobal.jewelTextBlue2 = "Yes"

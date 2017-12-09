@@ -9,19 +9,19 @@
 
     'variables for Red1
     Public Shared glyphAutoRed1Value, jewelRed1Value, safeZoneRed1value, cryptoKeyRed1Value, glyphTeleOpRed1Value As Byte
-    Public Shared rowRed1Value, columnRed1Value, cypherRed1Value, balanceRed1Value, relicRed1Value As Byte
+    Public Shared rowRed1Value, columnRed1Value, cipherRed1Value, balanceRed1Value, relicRed1Value As Byte
 
     'variables for Red2
     Public Shared glyphAutoRed2Value, jewelRed2Value, safeZoneRed2value, cryptoKeyRed2Value, glyphTeleOpRed2Value As Byte
-    Public Shared rowRed2Value, columnRed2Value, cypherRed2Value, balanceRed2Value, relicRed2Value As Byte
+    Public Shared rowRed2Value, columnRed2Value, cipherRed2Value, balanceRed2Value, relicRed2Value As Byte
 
     'variables for Blue1
     Public Shared glyphAutoBlue1Value, jewelblue1Value, safeZoneBlue1value, cryptoKeyBlue1Value, glyphTeleOpBlue1Value As Byte
-    Public Shared rowBlue1Value, columnBlue1Value, cypherBlue1Value, balanceBlue1Value, relicBlue1Value As Byte
+    Public Shared rowBlue1Value, columnBlue1Value, cipherBlue1Value, balanceBlue1Value, relicBlue1Value As Byte
 
     'variables for Blue2
     Public Shared glyphAutoBlue2Value, jewelBlue2Value, safeZoneBlue2value, cryptoKeyBlue2Value, glyphTeleOpBlue2Value As Byte
-    Public Shared rowBlue2Value, columnBlue2Value, cypherBlue2Value, balanceBlue2Value, relicBlue2Value As Byte
+    Public Shared rowBlue2Value, columnBlue2Value, cipherBlue2Value, balanceBlue2Value, relicBlue2Value As Byte
 
     'Math variables
     Public Shared redTeam1AutoScore, redTeam1TeleScore, redTeam1EndScore, redTeam1FinalScore, relicScoreRed1 As Integer

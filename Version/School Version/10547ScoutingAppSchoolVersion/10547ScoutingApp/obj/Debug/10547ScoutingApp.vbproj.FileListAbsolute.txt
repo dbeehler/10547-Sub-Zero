@@ -129,3 +129,21 @@ C:\Users\db138992\Desktop\Git repositories\10547SubZeroPrivate\Version\School Ve
 C:\Users\db138992\Desktop\Git repositories\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.MainMenu.resources
 C:\Users\db138992\Desktop\Git repositories\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Resources.resources
 C:\Users\db138992\Desktop\Git repositories\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.GenerateResource.Cache
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbprojResolveAssemblyReference.cache
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.ResolveComReference.cache
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.ExcelExporter.resources
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.rankingsForm.resources
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.TextExporter.resources
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.MainMenu.resources
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\_10547ScoutingApp.Resources.resources
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.GenerateResource.Cache
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.vbproj.CoreCompileInputs.cache
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.exe
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.xml
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\obj\Debug\10547ScoutingApp.pdb
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\mainData.mdf
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\mainData_log.ldf
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.exe.config
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.exe
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.pdb
+C:\Users\WestFTC10547\Desktop\10547SubZeroPrivate\Version\School Version\10547ScoutingAppSchoolVersion\10547ScoutingApp\bin\Debug\10547ScoutingApp.xml

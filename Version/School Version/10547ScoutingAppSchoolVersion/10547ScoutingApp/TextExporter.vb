@@ -117,7 +117,7 @@ Public Class TextExporter
             variablesGlobal.relicScoreRed1 = 0
         End If
         ' end score
-        variablesGlobal.redTeam1EndScore = variablesGlobal.relicScoreRed1 + (variablesGlobal.balanceRed1Value * 20) + (variablesGlobal.relicRed1Value * 15)
+        variablesGlobal.redTeam1EndScore = variablesGlobal.relicScoreRed1 + (variablesGlobal.balanceRed1Value * 20) + (variablesGlobal.relicBalancedRed1 * 15)
         'final score by adding all other scores
         variablesGlobal.redTeam1FinalScore = variablesGlobal.redTeam1AutoScore + variablesGlobal.redTeam1TeleScore + variablesGlobal.redTeam1EndScore
 
@@ -134,7 +134,7 @@ Public Class TextExporter
         Else
             variablesGlobal.relicScoreRed2 = 0
         End If
-        variablesGlobal.redTeam2EndScore = variablesGlobal.relicScoreRed2 + (variablesGlobal.balanceRed2Value * 20) + (variablesGlobal.relicRed2Value * 15)
+        variablesGlobal.redTeam2EndScore = variablesGlobal.relicScoreRed2 + (variablesGlobal.balanceRed2Value * 20) + (variablesGlobal.relicBalancedRed2 * 15)
         variablesGlobal.redTeam2FinalScore = variablesGlobal.redTeam2AutoScore + variablesGlobal.redTeam2TeleScore + variablesGlobal.redTeam2EndScore
 
         'Blue1
@@ -149,7 +149,7 @@ Public Class TextExporter
         Else
             variablesGlobal.relicScoreBlue1 = 0
         End If
-        variablesGlobal.blueTeam1EndScore = variablesGlobal.relicScoreBlue1 + (variablesGlobal.balanceBlue1Value * 20) + (variablesGlobal.relicBlue1Value * 15)
+        variablesGlobal.blueTeam1EndScore = variablesGlobal.relicScoreBlue1 + (variablesGlobal.balanceBlue1Value * 20) + (variablesGlobal.relicBalancedBlue1 * 15)
         variablesGlobal.blueTeam1FinalScore = variablesGlobal.blueTeam1AutoScore + variablesGlobal.blueTeam1TeleScore + variablesGlobal.blueTeam1EndScore
 
         'Blue2
@@ -164,7 +164,7 @@ Public Class TextExporter
         Else
             variablesGlobal.relicScoreBlue2 = 0
         End If
-        variablesGlobal.blueTeam2EndScore = variablesGlobal.relicScoreBlue2 + (variablesGlobal.balanceBlue2Value * 20) + (variablesGlobal.relicBlue2Value * 15)
+        variablesGlobal.blueTeam2EndScore = variablesGlobal.relicScoreBlue2 + (variablesGlobal.balanceBlue2Value * 20) + (variablesGlobal.relicBalancedBlue2 * 15)
         variablesGlobal.blueTeam2FinalScore = variablesGlobal.blueTeam2AutoScore + variablesGlobal.blueTeam2TeleScore + variablesGlobal.blueTeam2EndScore
 
         'Alliance Score
@@ -221,10 +221,10 @@ Public Class TextExporter
         'same as above
         If chkRelicUprightRed1.Checked Then
             variablesGlobal.relicUprightTextRed1 = "Yes"
-            variablesGlobal.relicRed1Value = 1
+            variablesGlobal.relicBalancedRed1 = 1
         Else
             variablesGlobal.relicUprightTextRed1 = "No"
-            variablesGlobal.relicRed1Value = 0
+            variablesGlobal.relicBalancedRed1 = 0
         End If
 
         'same as above
@@ -278,10 +278,10 @@ Public Class TextExporter
 
         If chkRelicUprightRed2.Checked Then
             variablesGlobal.relicUprightTextRed2 = "Yes"
-            variablesGlobal.relicRed2Value = 1
+            variablesGlobal.relicBalancedRed2 = 1
         Else
             variablesGlobal.relicUprightTextRed2 = "No"
-            variablesGlobal.relicRed2Value = 0
+            variablesGlobal.relicBalancedRed2 = 0
         End If
 
         If chkBalanceRed2.Checked Then
@@ -334,10 +334,10 @@ Public Class TextExporter
 
         If chkRelicUprightBlue1.Checked Then
             variablesGlobal.relicUprightTextBlue1 = "Yes"
-            variablesGlobal.relicBlue1Value = 1
+            variablesGlobal.relicBalancedBlue1 = 1
         Else
             variablesGlobal.relicUprightTextBlue1 = "No"
-            variablesGlobal.relicBlue1Value = 0
+            variablesGlobal.relicBalancedBlue1 = 0
         End If
 
         If chkBalanceBlue1.Checked Then
@@ -389,10 +389,10 @@ Public Class TextExporter
 
         If chkRelicUprightBlue2.Checked Then
             variablesGlobal.relicUprightTextBlue2 = "Yes"
-            variablesGlobal.relicBlue2Value = 1
+            variablesGlobal.relicBalancedBlue2 = 1
         Else
             variablesGlobal.relicUprightTextBlue2 = "No"
-            variablesGlobal.relicBlue2Value = 0
+            variablesGlobal.relicBalancedBlue2 = 0
         End If
 
         If chkBalanceBlue2.Checked Then

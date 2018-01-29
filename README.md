@@ -83,6 +83,9 @@
 ![Rankings](/Images/Rankings.PNG?raw=true "Rankings")
 
 ## Changelog
+* January 27, 2017 (Version 2.1c Hotfix)
+  - Fixed all relic math
+    - Found while at our League Competition and deployed a hotfix there
 * December 9, 2017 (Version 2.1c)
   - Fixed excel exit button
   - Fixed "Cipher Math" for math
